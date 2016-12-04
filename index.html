@@ -13,17 +13,18 @@
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script>
-        function makeDiv(){
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        function makeDiv(colorChoice){
             var divsize = 10;
-            var color = '#000000';
+            var color = colorChoice;
             $newdiv = $('<div/>').css({
                 'width':divsize+'px',
                 'height':divsize+'px',
                 'background-color': color
             });
 
-            var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
-            var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
+            var posx = (Math.random() * ($(document).width())).toFixed();
+            var posy = (Math.random() * ($(document).height())).toFixed();
 
             $newdiv.css({
                 'position':'absolute',
@@ -31,11 +32,11 @@
                 'top':posy+'px',
                 'border-radius':'50%',
                 'display':'none'
-            }).appendTo( 'body' ).addClass('animate').css({'display':'block'},function(){
+            }).appendTo( 'body' ).addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
         };
-        setInterval(makeDiv,500);
+        setInterval(makeDiv,5000);
 
     </script>
 </body>
