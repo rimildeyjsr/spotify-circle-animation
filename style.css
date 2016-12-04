@@ -1,0 +1,25 @@
+html,body {
+    padding : 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 250px auto;
+    -webkit-animation: expand 30s;
+}
+
+@-webkit-keyframes expand {
+    0%{
+        -webkit-transform: scale(0,0);
+    }
+
+    100%{
+        -webkit-transform: scale(3.0,3.0);
+    }
+}
