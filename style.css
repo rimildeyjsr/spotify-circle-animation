@@ -11,6 +11,9 @@ div {
     background-color: aqua;
     border-radius: 50%;
     margin: 250px auto;
+}
+
+.animate {
     -webkit-animation: expand 30s;
 }
 
