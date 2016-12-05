@@ -28,5 +28,6 @@ div {
 
     100%{
         -webkit-transform: scale(100.0,100.0);
+        display: none;
     }
 }
