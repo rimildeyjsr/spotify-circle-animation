@@ -17,6 +17,7 @@
         function makeDiv(colorChoice){
             var divsize = 10;
             var color = colorChoice;
+            console.log(color);
             $newdiv = $('<div/>').css({
                 'width':divsize+'px',
                 'height':divsize+'px',
@@ -35,7 +36,7 @@
                 $(this).remove();
             });
         };
-        setInterval(makeDiv,5000);
+        var id = setInterval(function(){makeDiv('black')},5000);
 
     </script>
 </body>
