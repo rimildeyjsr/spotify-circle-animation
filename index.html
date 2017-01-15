@@ -14,17 +14,18 @@
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
         function makeDiv(colorChoice){
-            var divsize = 10;
+            var divsize = 1000;
             var color = colorChoice;
             console.log(color);
             $newdiv = $('<div/>').css({
                 'width':divsize+'px',
                 'height':divsize+'px',
-                'background-color': color
+                'background-color': color,
+                'transform': 'scale(0)'
             });
 
-            var posx = (Math.random() * ($(document).width())).toFixed();
-            var posy = (Math.random() * ($(document).height())).toFixed();
+            var posx = (Math.random() * ($(document).width()) - (divsize / 2)).toFixed();
+            var posy = (Math.random() * ($(document).height()) - (divsize / 2)).toFixed();
             $newdiv.css({
                 'position':'absolute',
                 'left':posx+'px',
@@ -35,7 +36,7 @@
                 $(this).remove();
             });
         };
-        var id = setInterval(function(){makeDiv('black')},5000);
+        var id = setInterval(function(){makeDiv('black')},3000);
 
     </script>
 </body>
