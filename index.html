@@ -2,30 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Prateek Prasad</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="typed.js-master/main.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <div class="container-wrapper">
+        <div class="main-heading">
+            <span id="main-heading"></span>
+        </div>
+        <span id="welcome-msg">Welcome to my website!</span>
+    </div>
 
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
+    <script src="typed.js-master/js/typed.js"></script>
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        function makeDiv(colorChoice){
+
+        function makeDiv(divColor,bgColor){
             var divsize = 1000;
-            var color = colorChoice;
-            console.log(color);
+            $('body').css({'background-color':bgColor});
             $newdiv = $('<div/>').css({
                 'width':divsize+'px',
                 'height':divsize+'px',
-                'background-color': color,
+                'background-color': divColor,
                 'transform': 'scale(0)'
             });
 
             var posx = (Math.random() * ($(document).width()) - (divsize / 2)).toFixed();
             var posy = (Math.random() * ($(document).height()) - (divsize / 2)).toFixed();
+
             $newdiv.css({
                 'position':'absolute',
                 'left':posx+'px',
@@ -35,8 +46,30 @@
             }).appendTo( 'body' ).addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
-        };
-        var id = setInterval(function(){makeDiv('black')},3000);
+        }
+
+        $(document).ready(function(){
+            $("#main-heading").delay(2000).css("visibility","visible").typed({
+                strings:["^1000Hello","नमस्ते","Bonjour","নমস্কার","Hola","nuqneH","Ola","Hallo","سلام"
+                    ,"Ciao"],
+                typeSpeed: 300,
+                loop: true,
+                showCursor: true,
+                cursorChar: "|",
+                preStringTyped: function(){
+                    $(".main-heading").css("visibility","visible");
+                },
+                onStringTyped: function(){
+                    $('.button-launch').addClass("animated slideInDown").css("visibility","visible")
+                    ;
+                }
+            });
+
+            var colorArray = ['green','red','blue','orange','violet','yellow','pink'];
+            var arrayLength = colorArray.length;
+            var i=0;
+            var id = setInterval(function(){makeDiv(colorArray[i],'white')},3000);
+        });
 
     </script>
 </body>
