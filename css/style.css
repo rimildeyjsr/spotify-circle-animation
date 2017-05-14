@@ -31,7 +31,7 @@ html,body,.container-wrapper {
     display: block;
     margin-top: 5%;
     height:200px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Harmonia Sans', sans-serif;
     font-weight: 700;
 }
 
@@ -41,6 +41,6 @@ html,body,.container-wrapper {
     position: relative;
     text-align: center;
     font-size: 4em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Harmonia Sans', sans-serif;
     font-weight: 700;
 }
