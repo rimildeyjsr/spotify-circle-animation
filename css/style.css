@@ -31,7 +31,8 @@ html,body,.container-wrapper {
     display: block;
     margin-top: 5%;
     height:200px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 #welcome-msg {
@@ -40,5 +41,6 @@ html,body,.container-wrapper {
     position: relative;
     text-align: center;
     font-size: 4em;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
