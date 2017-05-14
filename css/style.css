@@ -5,7 +5,7 @@ html,body,.container-wrapper {
     width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-color: white;
+    background-color: #000080;
 }
 
 .animate {
@@ -31,8 +31,9 @@ html,body,.container-wrapper {
     display: block;
     margin-top: 5%;
     height:200px;
-    font-family: 'Harmonia Sans', sans-serif;
+    font-family:Futura-Heavy, sans-serif;
     font-weight: 700;
+    color: white;
 }
 
 #welcome-msg {
@@ -41,6 +42,7 @@ html,body,.container-wrapper {
     position: relative;
     text-align: center;
     font-size: 4em;
-    font-family: 'Harmonia Sans', sans-serif;
+    font-family:Futura-Heavy,sans-serif;
     font-weight: 700;
+    color: white;
 }
