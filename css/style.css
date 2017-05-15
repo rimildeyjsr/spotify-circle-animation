@@ -36,8 +36,8 @@ html,body,.container-wrapper {
     font-weight: 600;
     letter-spacing: 0.2px;
     color: #ffffff;
-    top: 150px;
-    left: 93px;
+    top: 23%;
+    left: 8%;
 }
 
 #welcome-msg {
@@ -51,8 +51,8 @@ html,body,.container-wrapper {
     height: 198px;
     width: 1138px;
     font-weight: 600;
-    top: 150px;
-    left: 93px;
+    top: 24%;
+    left: 8%;
 }
 
 .button_container {
