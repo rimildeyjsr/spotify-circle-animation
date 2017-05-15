@@ -8,6 +8,17 @@ html,body,.container-wrapper {
     background-color: #24ccdf;
 }
 
+.initial-div {
+    width: 1000px;
+    height: 1000px;
+    transform: scale(0);
+}
+
+.position-div{
+    position: absolute;
+    border-radius: 50%;
+    display: none;
+}
 
 .animate {
     -webkit-animation: expand 2500s;

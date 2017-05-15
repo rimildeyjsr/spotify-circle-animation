@@ -52,22 +52,16 @@
         function makeDiv(divColor,bgColor){
             var divsize = 1000;
             $('body').css({'background-color':bgColor});
-            $newdiv = $('<div/>').css({
-                'width':divsize+'px',
-                'height':divsize+'px',
-                'background-color': divColor,
-                'transform': 'scale(0)'
+            $newdiv = $('<div/>').addClass('initial-div').css({
+                'background-color': divColor
             });
 
             var posx = (Math.random() * ($(document).width()) - (divsize / 2)).toFixed();
             var posy = (Math.random() * ($(document).height()) - (divsize / 2)).toFixed();
 
-            $newdiv.css({
-                'position':'absolute',
+            $newdiv.addClass('position-div').css({
                 'left':posx+'px',
-                'top':posy+'px',
-                'border-radius':'50%',
-                'display':'none'
+                'top':posy+'px'
             }).appendTo( 'body' ).addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
@@ -75,7 +69,7 @@
 
         $(document).ready(function(){
             $("#main-heading").delay(2000).css("visibility","visible").typed({
-                strings:["^1000Hello,","नमस्ते,","Bonjour,","Hola,","nuqneH,","Ola,","Hallo,","سلام"
+                strings:["^1000Hello,","Bonjour,","Hola,","nuqneH,","Ola,","Hallo,","سلام"
                     ,"Ciao,"],
                 typeSpeed: 300,
                 loop: true,
