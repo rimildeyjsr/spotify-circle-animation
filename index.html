@@ -49,9 +49,10 @@
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-        function makeDiv(divColor,bgColor){
+        function makeDiv(divColor){
             var divsize = 1000;
-            $('body').css({'background-color':bgColor});
+            //$('body').css({'background-color':bgColor});
+            console.log(1);
             $newdiv = $('<div/>').addClass('initial-div').css({
                 'background-color': divColor
             });
@@ -93,10 +94,30 @@
                 $('#overlay').toggleClass('open');
             });
 
-            var colorArray = ['green','red','blue','orange','violet','yellow','pink'];
+            var colorArray = ['#11256c','#24ccdf','blue','orange','violet','yellow','pink'];
             var arrayLength = colorArray.length;
-            var i=0;
-            var id = setInterval(function(){makeDiv('#11256c','#24ccdf')},2000);
+            var i= 0,flag=0;
+            function changeColors(){
+                console.log(2);
+                setInterval(change(),10000);
+            }
+
+            function change(){
+                console.log(3);
+                if (flag == 0){
+                    console.log(31);
+                    color='#11256c';
+                    flag=1;
+                }
+                else {
+                    console.log(32);
+                    color='#24ccdf';
+                    flag=0;
+                }
+                setInterval(function(){makeDiv(color)},2000);
+            }
+            changeColors();
+
         });
 
     </script>
