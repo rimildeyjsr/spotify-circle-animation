@@ -49,12 +49,12 @@
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-        function makeDiv(divColor){
+        function makeDiv(color){
             var divsize = 1000;
             //$('body').css({'background-color':bgColor});
             console.log(1);
             $newdiv = $('<div/>').addClass('initial-div').css({
-                'background-color': divColor
+                'background-color': color
             });
 
             var posx = (Math.random() * ($(document).width()) - (divsize / 2)).toFixed();
@@ -94,30 +94,23 @@
                 $('#overlay').toggleClass('open');
             });
 
-            var colorArray = ['#11256c','#24ccdf','blue','orange','violet','yellow','pink'];
-            var arrayLength = colorArray.length;
-            var i= 0,flag=0;
-            function changeColors(){
-                console.log(2);
-                setInterval(change(),10000);
-            }
 
-            function change(){
-                console.log(3);
-                if (flag == 0){
-                    console.log(31);
-                    color='#11256c';
-                    flag=1;
-                }
-                else {
-                    console.log(32);
-                    color='#24ccdf';
+            //var arrayLength = colorArray.length;
+            var colorArray = ['#11256c','#24ccdf'];
+            var i= 0,flag=0;
+            var color = colorArray[i];
+            setInterval(function(){
+                flag++;
+                makeDiv(color);
+                if (flag == 15){
+                    color = colorArray[i];
+                    i++;
+                    if (i == 2) {
+                        i = 0;
+                    }
                     flag=0;
                 }
-                setInterval(function(){makeDiv(color)},2000);
-            }
-            changeColors();
-
+            },2000);
         });
 
     </script>
