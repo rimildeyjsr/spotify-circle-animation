@@ -9,22 +9,38 @@
     <link href="css/jquery-ui.min.css" rel="stylesheet">
     <link href="typed.js-master/main.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
     <style>
         @font-face {
-            font-family: Futura-Heavy;
-            url: ('font/FuturaHeavy.ttf');
+            font-family: Graphik;
+            url: ('font/graphik-semibold.ttf');
         }
     </style>
     <div class="container-wrapper">
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li ><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="main-heading">
             <span id="main-heading"></span>
         </div>
-        <span id="welcome-msg">Welcome to my website!</span>
+        <span id="welcome-msg">Welcome to my website</span>
     </div>
 
     <script src="js/jquery-3.0.0.min.js"></script>
@@ -59,8 +75,8 @@
 
         $(document).ready(function(){
             $("#main-heading").delay(2000).css("visibility","visible").typed({
-                strings:["^1000Hello","नमस्ते","Bonjour","নমস্কার","Hola","nuqneH","Ola","Hallo","سلام"
-                    ,"Ciao"],
+                strings:["^1000Hello,","नमस्ते,","Bonjour,","Hola,","nuqneH,","Ola,","Hallo,","سلام"
+                    ,"Ciao,"],
                 typeSpeed: 300,
                 loop: true,
                 showCursor: true,
@@ -74,10 +90,19 @@
                 }
             });
 
+            $('#toggle').click(function() {
+                $('#toggle').toggleClass('active');
+                $('#overlay').toggleClass('open');
+            });
+            $('#overlay ul li a').click(function() {
+                $('#toggle').toggleClass('active');
+                $('#overlay').toggleClass('open');
+            });
+
             var colorArray = ['green','red','blue','orange','violet','yellow','pink'];
             var arrayLength = colorArray.length;
             var i=0;
-            var id = setInterval(function(){makeDiv('yellow','#000080')},3000);
+            var id = setInterval(function(){makeDiv('#11256c','#24ccdf')},3000);
         });
 
     </script>
