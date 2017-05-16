@@ -182,6 +182,7 @@ html,body,.container-wrapper {
     min-height: 16px;
     position: relative;
     opacity: 0;
+    margin: 1.5% auto;
 }
 .overlay ul li a {
     display: block;
@@ -217,6 +218,6 @@ html,body,.container-wrapper {
 
 .overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
     text-decoration: line-through;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
