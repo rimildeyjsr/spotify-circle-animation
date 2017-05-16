@@ -59,6 +59,18 @@
                 my skills. In my free time I blog about my,<br> learnings or design beautiful things.<br>
                 Scroll along to check out my work. </p>
         </div>
+
+        <div class="section" id="section3">
+            <h1>Projects</h1>
+        </div>
+
+        <div class="section" id="section4">
+            <h1>Blog</h1>
+        </div>
+
+        <div class="section" id="section5">
+            <h1>Contact</h1>
+        </div>
     </div>
 
     <script src="js/jquery-3.0.0.min.js"></script>
@@ -71,7 +83,6 @@
         function makeDiv(color){
             var divsize = 1000;
             //$('body').css({'background-color':bgColor});
-            console.log(1);
             $newdiv = $('<div/>').addClass('initial-div').css({
                 'background-color': color
             });
@@ -89,8 +100,17 @@
 
         $(document).ready(function(){
             $('#fullpage').fullpage({
-                anchors: ['home','about'],
-                fixedElements: '#toggle,#overlay'
+                anchors: ['home','about','projects','blog','contact'],
+                fixedElements: '#toggle,#overlay',
+                afterLoad : function(anchorLink,index) {
+                    if(index == 2 || anchorLink == 'about'){
+                        $('#section2 h1').addClass('come-in').one(animationEnd,function(){
+                            $('#section2 h3').addClass('come-in').one(animationEnd,function(){
+                                $('#section2 p').addClass('come-in');
+                            });
+                        });
+                    }
+                }
             });
 
             $("#main-heading").delay(2000).css("visibility","visible").typed({
