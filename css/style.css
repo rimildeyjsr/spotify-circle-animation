@@ -106,6 +106,7 @@ html,body,.container-wrapper {
     -webkit-transition: all .35s ease;
     transition: all .35s ease;
     cursor: pointer;
+    border-radius: 100px;
 }
 .button_container span:nth-of-type(2) {
     top: 11px;
@@ -134,8 +135,8 @@ html,body,.container-wrapper {
     height: 100%;
 }
 .overlay.open li {
-    -webkit-animation: fadeInRight .5s ease forwards;
-    animation: fadeInRight .5s ease forwards;
+    -webkit-animation: fadeInLeft .5s ease forwards;
+    animation: fadeInLeft .5s ease forwards;
     -webkit-animation-delay: .35s;
     animation-delay: .35s;
 }
@@ -158,7 +159,7 @@ html,body,.container-wrapper {
     right: 6%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-size: 2em;
+    font-size: 2.2em;
     font-family: Graphik, Roboto;
     font-weight: 100;
     letter-spacing: 5px;
@@ -167,16 +168,17 @@ html,body,.container-wrapper {
 .overlay ul {
     list-style: none;
     padding: 0;
-    margin: 0 auto;
+    margin: 3% auto;
     display: inline-block;
     position: relative;
     height: 100%;
-    right: 73%;
+    right: 3.5%;
     text-align: left;
+    width: 85%;
 }
 .overlay ul li {
     display: block;
-    height: 15%;
+    line-height: 2;
     min-height: 16px;
     position: relative;
     opacity: 0;
@@ -186,55 +188,35 @@ html,body,.container-wrapper {
     position: relative;
     color: #FFF;
     overflow: hidden;
-    text-decoration: none !important;
+    text-decoration: none;
     font-weight: normal;
 }
 
 
-@-webkit-keyframes fadeInRight {
+@-webkit-keyframes fadeInLeft {
     0% {
         opacity: 0;
-        left: 20%;
+        right: 20%;
     }
     100% {
         opacity: 1;
-        left: 0;
+        right: 0;
     }
 }
 
-@keyframes fadeInRight {
+@keyframes fadeInLeft {
     0% {
         opacity: 0;
-        left: 20%;
+        right: 20%;
     }
     100% {
         opacity: 1;
-        left: 0;
+        right: 0;
     }
 }
 
 .overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
-    -webkit-animation: space-up 0.5s ease-out forwards;
-    -o-animation:  space-up 0.5s ease-out forwards;
-    -moz-animation: space-up 0.5s ease-out forwards;
-    -ms-animation:space-up 0.5s ease-out forwards;
-    animation:  space-up 0.5s ease-out forwards;
+    text-decoration: line-through;
+    font-size: 1.7em;
 }
 
-
-@keyframes space-up {
-    0% {
-        letter-spacing: 5px;
-        font-weight: normal;
-        color: white;
-        text-decoration: none;
-    }
-
-    100% {
-        letter-spacing: 7px;
-        font-weight: bolder;
-        color: #ffff66;
-        text-decoration: line-through;
-    }
-
-}
