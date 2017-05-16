@@ -21,7 +21,7 @@
         }
     </style>
     <div id="fullpage">
-        <div class="section active" id="section1">
+        <div class="section" id="section1" style="-webkit-transform: translate3d(0px, 0px, 0px);">
             <div class="button_container" id="toggle">
                 <span class="top"></span>
                 <span class="middle"></span>
@@ -71,7 +71,7 @@
             $newdiv.addClass('position-div').css({
                 'left':posx+'px',
                 'top':posy+'px'
-            }).appendTo( 'body' ).addClass('animate').css({'display':'block'}).one(animationEnd,function(){
+            }).appendTo(".section").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
         }
