@@ -20,8 +20,8 @@
             url: ('font/graphik-semibold.ttf');
         }
     </style>
-    <div id="fullpage">
-        <div class="section" id="section1" style="-webkit-transform: translate3d(0px, 0px, 0px);">
+    <div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
+        <div class="section" id="section1">
             <div class="button_container" id="toggle">
                 <span class="top"></span>
                 <span class="middle"></span>
@@ -71,7 +71,7 @@
             $newdiv.addClass('position-div').css({
                 'left':posx+'px',
                 'top':posy+'px'
-            }).appendTo(".section").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
+            }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
         }
