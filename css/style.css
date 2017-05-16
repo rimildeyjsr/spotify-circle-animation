@@ -166,9 +166,9 @@ html,body{
     transform: translateY(-50%);
     font-size: 2.2em;
     font-family: Graphik, Roboto;
-    font-weight: 100;
     letter-spacing: 5px;
     text-align: right;
+    font-weight: 600;
 }
 .overlay ul {
     list-style: none;
@@ -181,6 +181,7 @@ html,body{
     text-align: left;
     width: 85%;
 }
+
 .overlay ul li {
     display: block;
     line-height: 2;
@@ -189,13 +190,14 @@ html,body{
     opacity: 0;
     margin: 1.5% auto;
 }
+
 .overlay ul li a {
     display: block;
     position: relative;
     color: #FFF;
     overflow: hidden;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 
@@ -221,8 +223,29 @@ html,body{
     }
 }
 
-.overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
+/*.overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
     text-decoration: line-through;
     font-size: 1.5em;
 }
+*/
+.overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
+    -webkit-animation: space-up 0.2s ease-out forwards;
+    -o-animation:  space-up 0.2s ease-out forwards;
+    -moz-animation: space-up 0.2s ease-out forwards;
+    -ms-animation:space-up 0.2s ease-out forwards;
+    animation:  space-up 0.2s ease-out forwards;
+}
 
+
+@keyframes space-up {
+    0% {
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+
+    100% {
+        font-size: 1.5em;
+        text-decoration: line-through;
+    }
+
+}
