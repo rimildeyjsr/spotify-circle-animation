@@ -25,7 +25,7 @@ html,body{
 }
 
 .animate {
-    -webkit-animation: expand 60s;
+    -webkit-animation: expand 100s;
 }
 
 @-webkit-keyframes expand {

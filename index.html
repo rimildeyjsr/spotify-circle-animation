@@ -96,16 +96,19 @@
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
+        var circles = [];
         function makeDiv(color){
             var divsize = 1000;
-            //$('body').css({'background-color':bgColor});
             $newdiv = $('<div/>').addClass('initial-div').css({
                 'background-color': color
             });
 
             var posx = (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed();
             var posy = (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed();
-
+            var circle = {
+                x : posx,
+                y : posy
+            };
             $newdiv.addClass('position-div').css({
                 'left':posx+'px',
                 'top':posy+'px'
@@ -163,7 +166,7 @@
                 setInterval(function(){
                     flag++;
                     makeDiv(color);
-                    if (flag == 8){
+                    if (flag == 10){
                         color = colorArray[i];
                         i++;
                         if (i == 2) {
