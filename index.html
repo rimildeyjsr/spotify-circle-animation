@@ -96,7 +96,7 @@
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-        var circles = [];
+        /*var circles = [];
         function makeDiv(color){
             var divsize = 1000;
             $newdiv = $('<div/>').addClass('initial-div').css({
@@ -115,7 +115,25 @@
             }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
+        }*/
+
+        var circles = [];
+
+        function makeDiv(color, index){
+
+            $newdiv = $('<div/>').addClass('initial-div').css({
+                'background-color': color
+            });
+
+            // access the coordinates with index so for each iteration they will be the same
+            $newdiv.addClass('position-div').css({
+                'left':circles[index].x+'px',
+                'top':circles[index].y+'px'
+            }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
+                $(this).remove();
+            });
         }
+
 
         $(document).ready(function(){
             $('#fullpage').fullpage({
@@ -160,7 +178,34 @@
                 $('#overlay').toggleClass('open');
             });
 
-                var colorArray = ['#11256c','#24ccdf'];
+            // populate your circles array with randomm coordinates
+            for (var i = 0; i < 13; i++) {
+                var divsize = 1000;
+                var circle = {
+                    x : (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed(),
+                    y : (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed()
+                };
+                circles.push(circle);
+            }
+
+            var colorArray = ['#11256c','#24ccdf'];
+            var i= 0,flag=0;
+            var color = colorArray[i];
+            setInterval(function(){
+                // pass the index (flag)
+                makeDiv(color, flag);
+                flag++;
+                if (flag == 12){
+                    color = colorArray[i];
+                    i++;
+                    if (i == 2) {
+                        i = 0;
+                    }
+                    flag=0;
+                }
+            },2000);
+
+                /*var colorArray = ['#11256c','#24ccdf'];
                 var i= 0,flag=0;
                 var color = colorArray[i];
                 setInterval(function(){
@@ -174,7 +219,7 @@
                         }
                         flag=0;
                     }
-                },2000);
+                },2000);*/
 
         });
 
