@@ -70,6 +70,21 @@
 
         <div class="section" id="section5">
             <h1>Contact</h1>
+            <div class="group">
+                <div class="left">
+                    <h3>Cheerio !</h3>
+                    <img src="images/smiley.png" alt="smiley with sunglasses" class="smiley">
+                </div>
+                <div class="right">
+                    <p>Hey, thanks for visiting my site.<br>
+                        If you want to get in touch with<br>
+                        me, shoot me an email or a<br>
+                        tweet. I’m fun to talk to <br>
+                        (seriously)
+                    </p>
+                    <img src="images/group.png" alt="social media icons">
+                </div>
+            </div>
         </div>
     </div>
 
@@ -77,6 +92,7 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="typed.js-master/js/typed.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/velocity.js"></script>
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
@@ -87,8 +103,8 @@
                 'background-color': color
             });
 
-            var posx = (Math.random() * ($(document).width()) - (divsize / 2)).toFixed();
-            var posy = (Math.random() * ($(document).height()) - (divsize / 2)).toFixed();
+            var posx = (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed();
+            var posy = (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed();
 
             $newdiv.addClass('position-div').css({
                 'left':posx+'px',
@@ -103,7 +119,10 @@
                 anchors: ['home','about','projects','blog','contact'],
                 fixedElements: '#toggle,#overlay',
                 afterLoad : function(anchorLink,index) {
-                    if(index == 2 || anchorLink == 'about'){
+                    if(index == 1 || anchorLink == 'home'){
+
+                    }
+                     else if(index == 2 || anchorLink == 'about'){
                         $('#section2 h1').addClass('come-in').one(animationEnd,function(){
                             $('#section2 h3').addClass('come-in').one(animationEnd,function(){
                                 $('#section2 p').addClass('come-in');
@@ -138,23 +157,22 @@
                 $('#overlay').toggleClass('open');
             });
 
-
-            //var arrayLength = colorArray.length;
-            var colorArray = ['#11256c','#24ccdf'];
-            var i= 0,flag=0;
-            var color = colorArray[i];
-            setInterval(function(){
-                flag++;
-                makeDiv(color);
-                if (flag == 15){
-                    color = colorArray[i];
-                    i++;
-                    if (i == 2) {
-                        i = 0;
+                var colorArray = ['#11256c','#24ccdf'];
+                var i= 0,flag=0;
+                var color = colorArray[i];
+                setInterval(function(){
+                    flag++;
+                    makeDiv(color);
+                    if (flag == 8){
+                        color = colorArray[i];
+                        i++;
+                        if (i == 2) {
+                            i = 0;
+                        }
+                        flag=0;
                     }
-                    flag=0;
-                }
-            },2000);
+                },2000);
+
         });
 
     </script>

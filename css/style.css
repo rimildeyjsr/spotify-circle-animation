@@ -8,11 +8,6 @@ html,body{
     background-color: #24ccdf;
 }
 
-/*#fullpage {
-    -webkit-transform: none !important;
-    transform: none !important;
-}*/
-
 .initial-div {
     width: 1000px;
     height: 1000px;
@@ -25,8 +20,12 @@ html,body{
     display: none;
 }
 
+.section {
+    overflow-y: hidden;
+}
+
 .animate {
-    -webkit-animation: expand 2500s;
+    -webkit-animation: expand 60s;
 }
 
 @-webkit-keyframes expand {
@@ -35,8 +34,7 @@ html,body{
     }
 
     100%{
-        -webkit-transform: scale(100.0,100.0);
-        display: none;
+        -webkit-transform: scale(1,1);
     }
 }
 
@@ -307,7 +305,7 @@ html,body{
 }
 
 
-#section2 h1, #section2 h3, #section2 p, #section3 h1,#section4 h1, #section5 h1 {
+#section2 h1, #section2 h3, #section2 p, #section3 h1,#section4 h1, #section5 h1,#section5 h3, #section5 p {
     position: relative;
     z-index: 20;
     display: block;
@@ -341,3 +339,51 @@ html,body{
     font-weight: 400;
     line-height: 1.5em;
 }
+
+#section5 h1 {
+    margin: 0;
+    top: 4%;
+    font-family: Graphik, Roboto;
+    font-weight: 600;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#section5 h3 {
+    color: white;
+    font-size: 6em;
+    margin: 15% 0;
+}
+
+#section5 img {
+    position: relative;
+    z-index: 20;
+}
+
+.smiley {
+    height: 160px;
+    width: auto;
+    margin: 0 20%;
+}
+
+#section5 p {
+    color: white;
+    font-size: 1.4em;
+    margin: 15% auto;
+}
+
