@@ -163,7 +163,7 @@ html,body{
     right: 6%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-size: 2.5em;
+    font-size: 3.1em;
     font-family: Graphik, Roboto;
     letter-spacing: 1px;
     text-align: right;
@@ -197,6 +197,7 @@ html,body{
     overflow: hidden;
     text-decoration: none;
     font-weight: 600;
+    opacity: 0.5;
 }
 
 
@@ -239,12 +240,14 @@ html,body{
 @keyframes space-up {
     0% {
         font-size: 1.2em;
-        text-decoration: none;
+        /*text-decoration: none;*/
+        opacity: 0.5;
     }
 
     100% {
         font-size: 1.5em;
-        text-decoration: line-through;
+        /*text-decoration: line-through;*/
+        opacity: 1;
     }
 
 }
@@ -256,11 +259,11 @@ html,body{
     -webkit-transform:translateY(85px);
     transform:translateY(85px);
 
-    -webkit-animation:come-in 1.2s ease-out forwards;
-    -ms-animation:come-in 1.2s ease-out forwards;
-    -o-animation:come-in 1.2s ease-out forwards;
-    -moz-animation:come-in 1.2s ease-out forwards;
-    animation:come-in 1.2s ease-out forwards;
+    -webkit-animation:come-in 0.9s ease-out forwards;
+    -ms-animation:come-in 0.9s ease-out forwards;
+    -o-animation:come-in 0.9s ease-out forwards;
+    -moz-animation:come-in 0.9s ease-out forwards;
+    animation:come-in 0.9s ease-out forwards;
 
     opacity: 0;
 }
@@ -318,30 +321,32 @@ html,body{
 
 #section2 h1, #section2 h3, #section2 p{
     opacity: 0;
+    margin-left: 0.5%;
 }
 
 #section2 h1 {
-    font-size: 5.2em;
+    font-size: 8em;
     font-family: Graphik,Roboto;
     font-weight: 600;
+    margin-top: 0;
 }
 
 #section2 h3 {
-    font-size: 2.4em;
+    font-size: 3.1em;
     font-family: Graphik,Roboto;
     font-weight: 600;
-    top: 2%;
+    top: 0;
 }
 
 #section2 p {
     font-family: Graphik-Regular, Roboto;
-    font-size: 1.45em;
-    margin: 2% 0;
+    font-size: 1.9em;
+    margin-top: 1%;
     font-weight: normal;
     line-height: 1.66666667em;
 }
 
-#section5 {
+#section5,#section2 {
     background-color: #1f3264;
 }
 

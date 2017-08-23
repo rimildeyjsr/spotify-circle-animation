@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="fixed section 5 of the webpage">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/Graphik-Extralight-Web.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/Graphik-Light-Web.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dribbble-logo-preview@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/dribbble-logo-preview@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/emoji.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/git-hub-mark@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/git-hub-mark@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fill-1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shape.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font/graphik-Regular-Web.ttf" afterPath="$PROJECT_DIR$/font/Graphik-Regular-Web.ttf" />
+    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3420">
-              <caret line="228" column="14" lean-forward="false" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
+            <state relative-caret-position="-1965">
+              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -46,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="388" column="19" lean-forward="false" selection-start-line="388" selection-start-column="19" selection-end-line="388" selection-end-column="19" />
+            <state relative-caret-position="286">
+              <caret line="257" column="34" lean-forward="true" selection-start-line="257" selection-start-column="34" selection-end-line="257" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -83,6 +71,7 @@
       <find>translateX</find>
       <find>come</find>
       <find>slideL</find>
+      <find>back</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,8 +83,8 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/css/jquery.fullPage.css" />
         <option value="$PROJECT_DIR$/js/velocity.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -230,12 +219,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480866580067</updated>
-      <workItem from="1503387008204" duration="7910000" />
+      <workItem from="1503387008204" duration="8948000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
+      <created>1503479388349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503479388349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7910000" />
+    <option name="totallyTimeSpent" value="8948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -684,21 +681,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="388" column="19" lean-forward="false" selection-start-line="388" selection-start-column="19" selection-end-line="388" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="228" column="14" lean-forward="false" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
+        <state relative-caret-position="-1965">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="257" column="34" lean-forward="true" selection-start-line="257" selection-start-column="34" selection-end-line="257" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
