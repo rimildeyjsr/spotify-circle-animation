@@ -18,12 +18,16 @@
     <style>
         @font-face {
             font-family: Graphik;
-            url: ('font/graphik-semibold.ttf');
+            src: url('font/graphik-semibold.ttf');
         }
 
         @font-face {
             font-family: Graphik-Regular;
-            url: ('font/graphik-Regular-Web.ttf');
+            src: url('font/Graphik-Regular-Web.ttf');
+        }
+        @font-face {
+            font-family: Graphik-Light;
+            src: url('font/Graphik-Light-Web.ttf');
         }
     </style>
 
@@ -81,16 +85,36 @@
             <div class="group">
                 <div class="left">
                     <h3>Cheerio !</h3>
-                    <img src="images/smiley.png" alt="smiley with sunglasses" class="smiley">
+                    <img src="images/emoji.png" alt="smiley with sunglasses" class="smiley">
                 </div>
                 <div class="right">
-                    <p>Hey, thanks for visiting my site.<br>
-                        If you want to get in touch with<br>
-                        me, shoot me an email or a<br>
-                        tweet. I’m fun to talk to <br>
-                        (seriously)
-                    </p>
-                    <img src="images/group.png" alt="social media icons">
+                    <div class="group">
+                        <div class="left-small">
+                            <div class="rectangle"></div>
+                        </div>
+                        <div class="right-large">
+                            <p>Hey, thanks for visiting my site.<br>
+                                If you want to get in touch with<br>
+                                me, shoot me an email or a<br>
+                                tweet. I’m fun to talk to <br>
+                                (seriously)
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/hackertronix">
+                                    <img src="images/fill-1.svg" class="social-img twitter-img">
+                                </a>
+                                <a href="https://dribbble.com/hackertronix">
+                                    <img src="images/dribbble-logo-preview@3x.png" class="social-img svg-size">
+                                </a>
+                                <a href="https://github.com/hackertronix">
+                                    <img src="images/git-hub-mark@3x.png" class="social-img svg-size">
+                                </a>
+                                <a href="mailto:hello@hackertronix.com">
+                                    <img src="images/shape.svg" class="social-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -158,6 +182,10 @@
                             });
                         });
                     }
+                    else if (index == 5 || anchorLink == 'contact') {
+                         $('.left').addClass('animateRightSlide');
+                         $('.right-large').addClass('animateLeftSlide');
+                    }
                 }
             });
 
@@ -196,9 +224,9 @@
                 circles.push(circle);
             }
 
-            var colorArray = ['#11256c','#24ccdf'];
-            var i= 0,flag=0;
-            var color = colorArray[i];
+            //var colorArray = ['#11256c','#24ccdf'];
+            //var i= 0,flag=0;
+            //var color = colorArray[i];
             /*setInterval(function(){
                 // pass the index (flag)
                 makeDiv(color, flag);

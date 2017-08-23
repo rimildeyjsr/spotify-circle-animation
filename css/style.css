@@ -6,6 +6,7 @@ html,body{
     overflow-y: hidden;
     overflow-x: hidden;
     background-color: #24ccdf;
+    -webkit-font-smoothing: antialiased;
 }
 
 .initial-div {
@@ -162,9 +163,9 @@ html,body{
     right: 6%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-size: 2.2em;
+    font-size: 2.5em;
     font-family: Graphik, Roboto;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     text-align: right;
     font-weight: 600;
 }
@@ -333,16 +334,20 @@ html,body{
 }
 
 #section2 p {
-    font-family: Graphik-Regular,Roboto;
-    font-size: 1.5em;
+    font-family: Graphik-Regular, Roboto;
+    font-size: 1.45em;
     margin: 2% 0;
-    font-weight: 400;
-    line-height: 1.5em;
+    font-weight: normal;
+    line-height: 1.66666667em;
+}
+
+#section5 {
+    background-color: #1f3264;
 }
 
 #section5 h1, #section4 h1, #section3 h1 {
     margin: 0;
-    top: 4%;
+    top: 3.5%;
     font-family: Graphik, Roboto;
     font-weight: 600;
 }
@@ -350,12 +355,56 @@ html,body{
 
 .left {
     float: left;
-    width: 50%;
+    width: 49%;
+    opacity: 0;
 }
 
 .right {
     float: right;
-    width: 50%;
+    width: 51%;
+}
+
+.animateRightSlide {
+    animation: slideRightEase 0.85s ease-out forwards ;
+}
+
+@keyframes slideRightEase {
+    0% {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(5%);
+    }
+
+}
+
+.right-large {
+    float: right;
+    width: 90%;
+    opacity: 0;
+}
+
+.animateLeftSlide {
+    animation: slideLeftEase 0.85s ease-out forwards ;
+}
+
+@keyframes slideLeftEase {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(5%);
+    }
+
+}
+
+.left-small {
+    float: left;
+    width: 10%;
 }
 
 .group:after {
@@ -365,9 +414,10 @@ html,body{
 }
 
 #section5 h3 {
+    font-family: Graphik, Roboto;
     color: white;
     font-size: 6em;
-    margin: 15% 0;
+    margin: 29% 0 7%;
 }
 
 #section5 img {
@@ -376,15 +426,39 @@ html,body{
 }
 
 .smiley {
-    height: 160px;
+    height: 180px;
     width: auto;
-    margin: 0 20%;
+    margin: 0 22%;
 }
 
 #section5 p {
+    font-family: Graphik-Regular, Roboto;
     color: white;
-    font-size: 1.4em;
+    font-size: 2em;
     margin: 15% auto;
+    line-height: 1.55em;
+}
+
+.social-img {
+    height: 4%;
+    width: auto;
+    margin: 0 63px 0 0;
+}
+
+.svg-size {
+    height: 53px;
+}
+
+.twitter-img {
+    margin-left: 8%;
+}
+
+.rectangle {
+    width: 12px;
+    height: 600px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    margin-top: 50%;
 }
 
 .bubbles {
@@ -478,5 +552,16 @@ html,body{
     100% {
         -webkit-transform: translateY(-1700px);
         transform: translateY(-1700px);
+    }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx){
+
+    html,body{
+        -webkit-font-smoothing: subpixel-antialiased;
     }
 }
