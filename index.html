@@ -128,45 +128,6 @@
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-        /*var circles = [];
-        function makeDiv(color){
-            var divsize = 1000;
-            $newdiv = $('<div/>').addClass('initial-div').css({
-                'background-color': color
-            });
-
-            var posx = (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed();
-            var posy = (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed();
-            var circle = {
-                x : posx,
-                y : posy
-            };
-            $newdiv.addClass('position-div').css({
-                'left':posx+'px',
-                'top':posy+'px'
-            }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
-                $(this).remove();
-            });
-        }
-
-        var circles = [];
-
-        function makeDiv(color, index){
-
-            $newdiv = $('<div/>').addClass('initial-div').css({
-                'background-color': color
-            });
-
-            // access the coordinates with index so for each iteration they will be the same
-            $newdiv.addClass('position-div').css({
-                'left':circles[index].x+'px',
-                'top':circles[index].y+'px'
-            }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
-                $(this).remove();
-            });
-        }*/
-
-
         $(document).ready(function(){
             $('#fullpage').fullpage({
                 anchors: ['home','about','projects','blog','contact'],
@@ -204,6 +165,12 @@
                             $('#section1').css('background','#24ccdf');
                         });
                     }
+                    else if (index == 3 && direction == 'up') {
+                        $('#section2').addClass('colors').one(animationEnd,function () {
+                            $('#section2').removeClass('colors');
+                            $('#section2').css('background','#1f3264');
+                        });
+                    }
                 }
             });
 
@@ -231,6 +198,44 @@
                 $('#toggle').toggleClass('active');
                 $('#overlay').toggleClass('open');
             });
+
+            /*var circles = [];
+            function makeDiv(color){
+                var divsize = 1000;
+                $newdiv = $('<div/>').addClass('initial-div').css({
+                    'background-color': color
+                });
+
+                var posx = (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed();
+                var posy = (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed();
+                var circle = {
+                    x : posx,
+                    y : posy
+                };
+                $newdiv.addClass('position-div').css({
+                    'left':posx+'px',
+                    'top':posy+'px'
+                }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
+                    $(this).remove();
+                });
+            }
+
+            var circles = [];
+
+            function makeDiv(color, index){
+
+                $newdiv = $('<div/>').addClass('initial-div').css({
+                    'background-color': color
+                });
+
+                // access the coordinates with index so for each iteration they will be the same
+                $newdiv.addClass('position-div').css({
+                    'left':circles[index].x+'px',
+                    'top':circles[index].y+'px'
+                }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
+                    $(this).remove();
+                });
+            }*/
             // populate your circles array with randomm coordinates
             /*for (var i = 0; i < 13; i++) {
                 var divsize = 1000;
