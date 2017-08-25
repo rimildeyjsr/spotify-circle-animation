@@ -262,7 +262,6 @@ html,body{
     min-height: 16px;
     position: relative;
     opacity: 0;
-    margin: 1.5% auto;
 }
 
 .overlay ul li a {
