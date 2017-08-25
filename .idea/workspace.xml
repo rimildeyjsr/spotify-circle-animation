@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/velocity.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,7 +226,7 @@
       <option name="presentableId" value="Default" />
       <updated>1480866580067</updated>
       <workItem from="1503387008204" duration="10452000" />
-      <workItem from="1503652451267" duration="4112000" />
+      <workItem from="1503652451267" duration="4142000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -245,11 +242,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503480854891</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="for stackoverflow">
+      <created>1503659514912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503659514912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14564000" />
+    <option name="totallyTimeSpent" value="14594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -291,7 +295,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed section 5 of the webpage" />
     <MESSAGE value="fixed fonts animation timings" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed fonts animation timings" />
+    <MESSAGE value="for stackoverflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="for stackoverflow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
