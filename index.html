@@ -125,7 +125,6 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="typed.js-master/js/typed.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
-    <script src="js/velocity.js"></script>
     <script>
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
@@ -178,6 +177,7 @@
                     }
                      else if(index == 2 || anchorLink == 'about'){
                         $('#section2').addClass('colors').one(animationEnd,function () {
+                            $('#section2').removeClass('colors');
                             $('#section2').css('background','#1f3264');
                         });
                         $('#section2 h1').addClass('come-in').one(animationEnd,function(){
@@ -194,11 +194,13 @@
                 onLeave: function(index, nextIndex, direction) {
                     if (index == 1 && direction == 'down') {
                         $('#section2').addClass('colors').one(animationEnd,function () {
+                            $('#section2').removeClass('colors');
                             $('#section2').css('background','#1f3264');
                         });
                     }
                     else if (index == 2 && direction == 'up') {
                         $('#section1').addClass('colors-reverse').one(animationEnd,function () {
+                            $('#section1').removeClass('colors-reverse');
                             $('#section1').css('background','#24ccdf');
                         });
                     }
