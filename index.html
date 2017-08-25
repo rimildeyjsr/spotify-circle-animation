@@ -31,14 +31,15 @@
         }
     </style>
 
-    <div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
-        <!--<ul class="bubbles">
+    <!--<ul class="bubbles">
             <li></li>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
         </ul>-->
+    <div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
+
         <div class="section" id="section1">
             <div class="button_container" id="toggle">
                 <span class="top"></span>
@@ -67,7 +68,7 @@
             <h1>I'm Prateek</h1>
             <h3>Independent Android Developer <br> & Design Consultant</h3>
             <p>I have been working on Android since the past<br> 3 years.
-                I am a tech ethusiast and I like solving<br> problems which affect people’s lives, using<br>
+                I am a tech enthusiast and I like solving<br> problems which affect people’s lives, using<br>
                 my skills. In my free time I blog about my,<br> learnings or design beautiful things.<br>
                 Scroll along to check out my work. </p>
         </div>
@@ -147,7 +148,7 @@
             }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
-        }*/
+        }
 
         var circles = [];
 
@@ -164,7 +165,7 @@
             }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
                 $(this).remove();
             });
-        }
+        }*/
 
 
         $(document).ready(function(){
@@ -176,6 +177,9 @@
 
                     }
                      else if(index == 2 || anchorLink == 'about'){
+                        $('#section2').addClass('colors').one(animationEnd,function () {
+                            $('#section2').css('background','#1f3264');
+                        });
                         $('#section2 h1').addClass('come-in').one(animationEnd,function(){
                             $('#section2 h3').addClass('come-in').one(animationEnd,function(){
                                 $('#section2 p').addClass('come-in');
@@ -185,6 +189,18 @@
                     else if (index == 5 || anchorLink == 'contact') {
                          $('.left').addClass('animateRightSlide');
                          $('.right-large').addClass('animateLeftSlide');
+                    }
+                },
+                onLeave: function(index, nextIndex, direction) {
+                    if (index == 1 && direction == 'down') {
+                        $('#section2').addClass('colors').one(animationEnd,function () {
+                            $('#section2').css('background','#1f3264');
+                        });
+                    }
+                    else if (index == 2 && direction == 'up') {
+                        $('#section1').addClass('colors-reverse').one(animationEnd,function () {
+                            $('#section1').css('background','#24ccdf');
+                        });
                     }
                 }
             });
@@ -213,16 +229,15 @@
                 $('#toggle').toggleClass('active');
                 $('#overlay').toggleClass('open');
             });
-
             // populate your circles array with randomm coordinates
-            for (var i = 0; i < 13; i++) {
+            /*for (var i = 0; i < 13; i++) {
                 var divsize = 1000;
                 var circle = {
                     x : (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed(),
                     y : (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed()
                 };
                 circles.push(circle);
-            }
+            }*/
 
             //var colorArray = ['#11256c','#24ccdf'];
             //var i= 0,flag=0;
