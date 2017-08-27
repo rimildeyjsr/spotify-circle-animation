@@ -109,8 +109,6 @@ html,body{
 
 
 .initial-div {
-    width: 200px;
-    height: 200px;
     transform: scale(0);
 }
 
@@ -124,8 +122,12 @@ html,body{
     overflow-y: hidden;
 }
 
+#circle-layer {
+    overflow-y: hidden;
+}
+
 .animate {
-    -webkit-animation: expand 10s;
+    -webkit-animation: expand 20s;
 }
 
 @-webkit-keyframes expand {

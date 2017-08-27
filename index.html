@@ -41,7 +41,7 @@
 <div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
 
     <div class="section" id="section1">
-        <div class="button_container" id="toggle">
+        <div class="button_container"id="toggle">
             <span class="top"></span>
             <span class="middle"></span>
             <span class="bottom"></span>
@@ -58,10 +58,13 @@
                 </ul>
             </nav>
         </div>
+
         <div class="main-heading">
             <span id="main-heading"></span>
         </div>
+
         <span id="welcome-msg" class="come-in">Welcome to my website</span>
+
     </div>
 
     <div class="section" id="section2">
@@ -123,6 +126,7 @@
 
 <script src="js/jquery-3.0.0.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
+<script src="js/parallax.min.js"></script>
 <script src="typed.js-master/js/typed.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script>
@@ -201,76 +205,60 @@
 
         var circleInfo = [
             {
-                radii:356.5,
-                left: 28.54,
-                top: 24.2,
-                scale: 'scale(3.2)'
+                left: 12.54,
+                top: 0.2,
+                factor: 3.6
             },
             {
-                radii:149.5,
-                left: 1.9,
-                top: 3,
-                scale: 'scale(1.25)'
+                left: 0.1,
+                top: 0,
+                factor: 1.405
             },
             {
-                radii:149.5,
-                left: 18.14,
-                top: 62.34,
-                scale: 'scale(1.20)'
+                left: 23.14,
+                top: 69.34,
+                factor: 1.20
             },
             {
-                radii:122.5,
                 left: 92.78,
                 top: 20.08,
-                scale: 'scale(1)'
+                factor: 1
             },
             {
-                radii:79.5,
-                left: 69,
+                left: 75,
                 top: 42.08,
-                scale: 'scale(0.65)'
+                factor: 0.65
             },
             {
-                radii:120.5,
                 left: 66.28,
                 top: 88.7,
-                scale: 'scale(0.9)'
+                factor: 0.9
             },
             {
-                radii:149.5,
                 left: 1.38,
                 top: 85.75,
-                scale: 'scale(1.2)'
+                factor: 1.2
             }
         ];
 
         function makeDiv(color, index) {
 
             $newdiv = $('<div/>').addClass('initial-div').css({
-                'background-color': color
+                'background-color': color,
+                'width': 200*circleInfo[index].factor + "px",
+                'height': 200*circleInfo[index].factor + "px"
             });
 
             // access the coordinates with index so for each iteration they will be the same
             $newdiv.addClass('position-div').css({
                 'left':circleInfo[index].left+'%',
                 'top':circleInfo[index].top+'%'
-            }).appendTo("#fullpage").animate(function () {
-                $newdiv.css({
-                    '-webkit-transform' : circleInfo[index].scale,
-                    '-moz-transform'    : circleInfo[index].scale,
-                    '-ms-transform'     : circleInfo[index].scale,
-                    '-o-transform'      : circleInfo[index].scale,
-                    'transform'         : circleInfo[index].scale
-                });
-
-            },10000,"ease-out",function(){
-            $newdiv.css({'display':'block','transform':circleInfo[index].scale})
-            });
+            }).appendTo("#section1").addClass('animate').css({'display':'block','transform':'scale(1)'});
         }
 
-        var colorArray = ['#11256c', '#24ccdf'];
+        //var colorArray = ['#11256c', '#24ccdf'];
         var i = 0, flag = 0;
-        var color = colorArray[i];
+        var color = '#1E3264';
 
         var id = setInterval(function () {
             if (flag == 7) {
