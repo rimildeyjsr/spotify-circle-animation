@@ -15,272 +15,281 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
-    <style>
-        @font-face {
-            font-family: Graphik;
-            src: url('font/graphik-semibold.ttf');
-        }
+<style>
+    @font-face {
+        font-family: Graphik;
+        src: url('font/graphik-semibold.ttf');
+    }
 
-        @font-face {
-            font-family: Graphik-Regular;
-            src: url('font/Graphik-Regular-Web.ttf');
-        }
-        @font-face {
-            font-family: Graphik-Light;
-            src: url('font/Graphik-Light-Web.ttf');
-        }
-    </style>
+    @font-face {
+        font-family: Graphik-Regular;
+        src: url('font/Graphik-Regular-Web.ttf');
+    }
+    @font-face {
+        font-family: Graphik-Light;
+        src: url('font/Graphik-Light-Web.ttf');
+    }
+</style>
 
-    <!--<ul class="bubbles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>-->
-    <div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
+<!--<ul class="bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>-->
+<div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
 
-        <div class="section" id="section1">
-            <div class="button_container" id="toggle">
-                <span class="top"></span>
-                <span class="middle"></span>
-                <span class="bottom"></span>
+    <div class="section" id="section1">
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li ><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-heading">
+            <span id="main-heading"></span>
+        </div>
+        <span id="welcome-msg" class="come-in">Welcome to my website</span>
+    </div>
+
+    <div class="section" id="section2">
+        <h1>I'm Prateek</h1>
+        <h3>Independent Android Developer <br> & Design Consultant</h3>
+        <p>I have been working on Android since the past<br> 3 years.
+            I am a tech enthusiast and I like solving<br> problems which affect people’s lives, using<br>
+            my skills. In my free time I blog about my,<br> learnings or design beautiful things.<br>
+            Scroll along to check out my work. </p>
+    </div>
+
+    <div class="section" id="section3">
+        <h1>Projects</h1>
+    </div>
+
+    <div class="section" id="section4">
+        <h1>Blog</h1>
+    </div>
+
+    <div class="section" id="section5">
+        <h1>Contact</h1>
+        <div class="group">
+            <div class="left">
+                <h3>Cheerio !</h3>
+                <img src="images/emoji.png" alt="smiley with sunglasses" class="smiley">
             </div>
-
-            <div class="overlay" id="overlay">
-                <nav class="overlay-menu">
-                    <ul>
-                        <li ><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="main-heading">
-                <span id="main-heading"></span>
-            </div>
-            <span id="welcome-msg" class="come-in">Welcome to my website</span>
-        </div>
-
-        <div class="section" id="section2">
-            <h1>I'm Prateek</h1>
-            <h3>Independent Android Developer <br> & Design Consultant</h3>
-            <p>I have been working on Android since the past<br> 3 years.
-                I am a tech enthusiast and I like solving<br> problems which affect people’s lives, using<br>
-                my skills. In my free time I blog about my,<br> learnings or design beautiful things.<br>
-                Scroll along to check out my work. </p>
-        </div>
-
-        <div class="section" id="section3">
-            <h1>Projects</h1>
-        </div>
-
-        <div class="section" id="section4">
-            <h1>Blog</h1>
-        </div>
-
-        <div class="section" id="section5">
-            <h1>Contact</h1>
-            <div class="group">
-                <div class="left">
-                    <h3>Cheerio !</h3>
-                    <img src="images/emoji.png" alt="smiley with sunglasses" class="smiley">
-                </div>
-                <div class="right">
-                    <div class="group">
-                        <div class="left-small">
-                            <div class="rectangle"></div>
-                        </div>
-                        <div class="right-large">
-                            <p>Hey, thanks for visiting my site.<br>
-                                If you want to get in touch with<br>
-                                me, shoot me an email or a<br>
-                                tweet. I’m fun to talk to <br>
-                                (seriously)
-                            </p>
-                            <div>
-                                <a href="https://twitter.com/hackertronix">
-                                    <img src="images/fill-1.svg" class="social-img twitter-img">
-                                </a>
-                                <a href="https://dribbble.com/hackertronix">
-                                    <img src="images/dribbble-logo-preview@3x.png" class="social-img svg-size">
-                                </a>
-                                <a href="https://github.com/hackertronix">
-                                    <img src="images/git-hub-mark@3x.png" class="social-img svg-size">
-                                </a>
-                                <a href="mailto:hello@hackertronix.com">
-                                    <img src="images/shape.svg" class="social-img">
-                                </a>
-                            </div>
+            <div class="right">
+                <div class="group">
+                    <div class="left-small">
+                        <div class="rectangle"></div>
+                    </div>
+                    <div class="right-large">
+                        <p>Hey, thanks for visiting my site.<br>
+                            If you want to get in touch with<br>
+                            me, shoot me an email or a<br>
+                            tweet. I’m fun to talk to <br>
+                            (seriously)
+                        </p>
+                        <div>
+                            <a href="https://twitter.com/hackertronix">
+                                <img src="images/fill-1.svg" class="social-img twitter-img">
+                            </a>
+                            <a href="https://dribbble.com/hackertronix">
+                                <img src="images/dribbble-logo-preview@3x.png" class="social-img svg-size">
+                            </a>
+                            <a href="https://github.com/hackertronix">
+                                <img src="images/git-hub-mark@3x.png" class="social-img svg-size">
+                            </a>
+                            <a href="mailto:hello@hackertronix.com">
+                                <img src="images/shape.svg" class="social-img">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="typed.js-master/js/typed.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
-    <script>
-        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="typed.js-master/js/typed.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script>
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-        $(document).ready(function(){
-            $('#fullpage').fullpage({
-                anchors: ['home','about','projects','blog','contact'],
-                fixedElements: '#toggle,#overlay',
-                afterLoad : function(anchorLink,index) {
-                    if(index == 1 || anchorLink == 'home'){
+    $(document).ready(function(){
+        $('#fullpage').fullpage({
+            anchors: ['home','about','projects','blog','contact'],
+            fixedElements: '#toggle,#overlay',
+            afterLoad : function(anchorLink,index) {
+                if(index == 1 || anchorLink == 'home'){
 
-                    }
-                     else if(index == 2 || anchorLink == 'about'){
-                        $('#section2').addClass('colors').one(animationEnd,function () {
-                            $('#section2').removeClass('colors');
-                            $('#section2').css('background','#1f3264');
-                        });
-                        $('#section2 h1').addClass('come-in').one(animationEnd,function(){
-                            $('#section2 h3').addClass('come-in').one(animationEnd,function(){
-                                $('#section2 p').addClass('come-in');
-                            });
-                        });
-                    }
-                    else if (index == 5 || anchorLink == 'contact') {
-                         $('.left').addClass('animateRightSlide');
-                         $('.right-large').addClass('animateLeftSlide');
-                    }
-                },
-                onLeave: function(index, nextIndex, direction) {
-                    if (index == 1 && direction == 'down') {
-                        $('#section2').addClass('colors').one(animationEnd,function () {
-                            $('#section2').removeClass('colors');
-                            $('#section2').css('background','#1f3264');
-                        });
-                    }
-                    else if (index == 2 && direction == 'up') {
-                        $('#section1').addClass('colors-reverse').one(animationEnd,function () {
-                            $('#section1').removeClass('colors-reverse');
-                            $('#section1').css('background','#24ccdf');
-                        });
-                    }
-                    else if (index == 3 && direction == 'up') {
-                        $('#section2').addClass('colors').one(animationEnd,function () {
-                            $('#section2').removeClass('colors');
-                            $('#section2').css('background','#1f3264');
-                        });
-                    }
                 }
-            });
-
-            $("#main-heading").delay(2000).css("visibility","visible").typed({
-                strings:["^1000Hello,","Bonjour,","Hola,","nuqneH,","Ola,","Hallo,","سلام"
-                    ,"Ciao,"],
-                typeSpeed: 300,
-                loop: true,
-                showCursor: true,
-                cursorChar: "|",
-                preStringTyped: function(){
-                    $(".main-heading").css("visibility","visible");
-                },
-                onStringTyped: function(){
-                    $('.button-launch').addClass("animated slideInDown").css("visibility","visible")
-                    ;
+                else if(index == 2 || anchorLink == 'about'){
+                    $('#section2').addClass('colors').one(animationEnd,function () {
+                        $('#section2').removeClass('colors');
+                        $('#section2').css('background','#1f3264');
+                    });
+                    $('#section2 h1').addClass('come-in').one(animationEnd,function(){
+                        $('#section2 h3').addClass('come-in').one(animationEnd,function(){
+                            $('#section2 p').addClass('come-in');
+                        });
+                    });
                 }
-            });
-
-            $('#toggle').click(function() {
-                $('#toggle').toggleClass('active');
-                $('#overlay').toggleClass('open');
-            });
-            $('#overlay ul li a').click(function() {
-                $('#toggle').toggleClass('active');
-                $('#overlay').toggleClass('open');
-            });
-
-            /*var circles = [];
-            function makeDiv(color){
-                var divsize = 1000;
-                $newdiv = $('<div/>').addClass('initial-div').css({
-                    'background-color': color
-                });
-
-                var posx = (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed();
-                var posy = (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed();
-                var circle = {
-                    x : posx,
-                    y : posy
-                };
-                $newdiv.addClass('position-div').css({
-                    'left':posx+'px',
-                    'top':posy+'px'
-                }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
-                    $(this).remove();
-                });
+                else if (index == 5 || anchorLink == 'contact') {
+                    $('.left').addClass('animateRightSlide');
+                    $('.right-large').addClass('animateLeftSlide');
+                }
+            },
+            onLeave: function(index, nextIndex, direction) {
+                if (index == 1 && direction == 'down') {
+                    $('#section2').addClass('colors').one(animationEnd,function () {
+                        $('#section2').removeClass('colors');
+                        $('#section2').css('background','#1f3264');
+                    });
+                }
+                else if (index == 2 && direction == 'up') {
+                    $('#section1').addClass('colors-reverse').one(animationEnd,function () {
+                        $('#section1').removeClass('colors-reverse');
+                        $('#section1').css('background','#98d1d9');
+                    });
+                }
+                else if (index == 3 && direction == 'up') {
+                    $('#section2').addClass('colors').one(animationEnd,function () {
+                        $('#section2').removeClass('colors');
+                        $('#section2').css('background','#1f3264');
+                    });
+                }
             }
-
-            var circles = [];
-
-            function makeDiv(color, index){
-
-                $newdiv = $('<div/>').addClass('initial-div').css({
-                    'background-color': color
-                });
-
-                // access the coordinates with index so for each iteration they will be the same
-                $newdiv.addClass('position-div').css({
-                    'left':circles[index].x+'px',
-                    'top':circles[index].y+'px'
-                }).appendTo("#fullpage").addClass('animate').css({'display':'block'}).one(animationEnd,function(){
-                    $(this).remove();
-                });
-            }*/
-            // populate your circles array with randomm coordinates
-            /*for (var i = 0; i < 13; i++) {
-                var divsize = 1000;
-                var circle = {
-                    x : (Math.random() * ($('.section').width()) - (divsize / 2)).toFixed(),
-                    y : (Math.random() * ($('.section').height()) - (divsize / 2)).toFixed()
-                };
-                circles.push(circle);
-            }*/
-
-            //var colorArray = ['#11256c','#24ccdf'];
-            //var i= 0,flag=0;
-            //var color = colorArray[i];
-            /*setInterval(function(){
-                // pass the index (flag)
-                makeDiv(color, flag);
-                flag++;
-                if (flag == 12){
-                    color = colorArray[i];
-                    i++;
-                    if (i == 2) {
-                        i = 0;
-                    }
-                    flag=0;
-                }
-            },2000);
-
-                /*var colorArray = ['#11256c','#24ccdf'];
-                var i= 0,flag=0;
-                var color = colorArray[i];
-                setInterval(function(){
-                    flag++;
-                    makeDiv(color);
-                    if (flag == 10){
-                        color = colorArray[i];
-                        i++;
-                        if (i == 2) {
-                            i = 0;
-                        }
-                        flag=0;
-                    }
-                },2000);*/
-
         });
 
-    </script>
+        $("#main-heading").delay(2000).css("visibility","visible").typed({
+            strings:["^1000Hello,","Bonjour,","Hola,","nuqneH,","Ola,","Hallo,","سلام"
+                ,"Ciao,"],
+            typeSpeed: 300,
+            loop: true,
+            showCursor: true,
+            cursorChar: "|",
+            preStringTyped: function(){
+                $(".main-heading").css("visibility","visible");
+            },
+            onStringTyped: function(){
+                $('.button-launch').addClass("animated slideInDown").css("visibility","visible")
+                ;
+            }
+        });
+
+        $('#toggle').click(function() {
+            $('#toggle').toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+        $('#overlay ul li a').click(function() {
+            $('#toggle').toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+
+        var circleInfo = [
+            {
+                radii:356.5,
+                left: 28.54,
+                top: 24.2,
+                scale: 'scale(3.2)'
+            },
+            {
+                radii:149.5,
+                left: 1.9,
+                top: 3,
+                scale: 'scale(1.25)'
+            },
+            {
+                radii:149.5,
+                left: 18.14,
+                top: 62.34,
+                scale: 'scale(1.20)'
+            },
+            {
+                radii:122.5,
+                left: 92.78,
+                top: 20.08,
+                scale: 'scale(1)'
+            },
+            {
+                radii:79.5,
+                left: 69,
+                top: 42.08,
+                scale: 'scale(0.65)'
+            },
+            {
+                radii:120.5,
+                left: 66.28,
+                top: 88.7,
+                scale: 'scale(0.9)'
+            },
+            {
+                radii:149.5,
+                left: 1.38,
+                top: 85.75,
+                scale: 'scale(1.2)'
+            }
+        ];
+
+        function makeDiv(color, index) {
+
+            $newdiv = $('<div/>').addClass('initial-div').css({
+                'background-color': color
+            });
+
+            // access the coordinates with index so for each iteration they will be the same
+            $newdiv.addClass('position-div').css({
+                'left':circleInfo[index].left+'%',
+                'top':circleInfo[index].top+'%'
+            }).appendTo("#fullpage").animate(function () {
+                $newdiv.css({
+                    '-webkit-transform' : circleInfo[index].scale,
+                    '-moz-transform'    : circleInfo[index].scale,
+                    '-ms-transform'     : circleInfo[index].scale,
+                    '-o-transform'      : circleInfo[index].scale,
+                    'transform'         : circleInfo[index].scale
+                });
+
+            },10000,"ease-out",function(){
+            $newdiv.css({'display':'block','transform':circleInfo[index].scale})
+            });
+        }
+
+        var colorArray = ['#11256c', '#24ccdf'];
+        var i = 0, flag = 0;
+        var color = colorArray[i];
+
+        var id = setInterval(function () {
+            if (flag == 7) {
+                clearInterval(id);
+            }
+            makeDiv(color, flag);
+            flag++;
+            /*if (flag == 12){
+            color = colorArray[i];
+            i++;
+            if (i == 2) {
+                i = 0;
+            }
+            flag=0;
+        }*/
+        }, 2000);
+
+    });
+
+</script>
 </body>
 </html>

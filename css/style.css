@@ -5,7 +5,7 @@ html,body{
     width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-color: #24ccdf;
+    background-color: #98d1d9;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -13,33 +13,52 @@ html,body{
     animation: color-animation 2s linear alternate;
 }
 
+/*
+ 152,209,217
+140,193,205
+128,177,194
+116,161,182
+104,145,170
+92,130,159
+79,114,147
+67,98,135
+55,82,123
+43,66,112
+31,50,100
+
+
+ */
+
 @keyframes color-animation {
     0% {
-        background: rgb(35,204,223);
+        background: rgb(152,209,217);
     }
     10%{
-        background: rgb(35,187,209);
+        background: rgb(140,193,205);
     }
     20%{
-        background: rgb(34,170,196);
+        background: rgb(128,177,194);
     }
     30%{
-        background: rgb(34,153,182);
+        background: rgb(116,161,182);
     }
     40%{
-        background: rgb(33,136,168);
+        background: rgb(104,145,170);
     }
     50%{
-        background: rgb(33,118,155);
+        background: rgb(92,130,159);
     }
     60%{
-        background: rgb(32,101,141);
+        background: rgb(79,114,147);
     }
     70%{
-        background: rgb(32,84,127);
+        background: rgb(67,98,135);
     }
     80%{
-        background: rgb(31,67,114);
+        background: rgb(55,82,123);
+    }
+    90%{
+        background: rgb(43,66,112);
     }
     100%{
         background: rgb(31,50,100);
@@ -56,38 +75,42 @@ html,body{
         background: rgb(31,50,100);
     }
     10%{
-        background: rgb(31,67,114);
+        background: rgb(43,66,112);
     }
     20%{
-        background: rgb(32,84,127);
+        background: rgb(55,82,123);
     }
     30%{
-        background: rgb(32,101,141);
+        background: rgb(67,98,135);
     }
     40%{
-        background: rgb(33,118,155);
+        background: rgb(79,114,147);
     }
     50%{
-        background: rgb(33,136,168);
+        background: rgb(92,130,159);
     }
     60%{
-        background: rgb(34,153,182);
+        background: rgb(104,145,170);
     }
     70%{
-        background: rgb(34,170,196);
+        background: rgb(116,161,182);
     }
     80%{
-        background: rgb(35,187,209);
+        background: rgb(128,177,194);
     }
-    100%{
-        background: rgb(35,204,223);
+    90%{
+        background: rgb(140,193,205);
     }
+    100% {
+        background: rgb(152,209,217);
+    }
+
 }
 
 
 .initial-div {
-    width: 1000px;
-    height: 1000px;
+    width: 200px;
+    height: 200px;
     transform: scale(0);
 }
 
@@ -102,7 +125,7 @@ html,body{
 }
 
 .animate {
-    -webkit-animation: expand 100s;
+    -webkit-animation: expand 10s;
 }
 
 @-webkit-keyframes expand {
