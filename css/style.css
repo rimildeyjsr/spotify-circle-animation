@@ -598,6 +598,19 @@ html,body{
     z-index: 20;
 }
 
+.temp-heading {
+    font-size: 4em;
+    text-align: center;
+    z-index: 20;
+    position: relative;
+    display: block;
+    font-family: Graphik, Roboto;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-top: 15%;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
 only screen and ( min-device-pixel-ratio: 1.25),
 only screen and ( min-resolution: 200dpi),
