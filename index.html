@@ -137,7 +137,7 @@
             fixedElements: '#toggle,#overlay',
             afterLoad : function(anchorLink,index) {
                 if(index === 1 || anchorLink === 'home'){
-                    callMakeDiv('#1f3264','#section1');
+                    callMakeDiv('#1f3264','#section1',1);
                 }
                 else if(index === 2 || anchorLink === 'about'){
                     $('#section2').addClass('colors').one(animationEnd,function () {
@@ -148,15 +148,15 @@
                             $('#section2 p').addClass('come-in');
                         });
                     });
-                    callMakeDiv('#f573a0','#section2');
+                    callMakeDiv('#f573a0','#section2',2);
                 }
                 else if(index === 3 || anchorLink === 'projects'){
-                    callMakeDiv('#1f3264','#section3');
+                    callMakeDiv('#1f3264','#section3',3);
                 }
                 else if (index === 4 || anchorLink === 'contact') {
                     $('.left').addClass('animateRightSlide');
                     $('.right-large').addClass('animateLeftSlide');
-                    callMakeDiv('#f573a0','#section4');
+                    callMakeDiv('#f573a0','#section4',4);
                 }
             },
             onLeave: function(index, nextIndex, direction) {
@@ -214,6 +214,7 @@
         });
 
         var circleInfo = [
+            //section 1
             {
                 left: 12.54,
                 top: 0.2,
@@ -248,15 +249,124 @@
                 left: 1.38,
                 top: 85.75,
                 factor: 1.2
+            },
+            //section 2
+            {
+                left: 12.54,
+                top: -13.8,
+                factor: 3.1
+            },
+            {
+                left: 0.1,
+                top: 0,
+                factor: 1.405
+            },
+            {
+                left: 8.14,
+                top: 58.34,
+                factor: 0.75
+            },
+            {
+                left: 91.78,
+                top: 0.08,
+                factor: 1.1
+            },
+            {
+                left: 66,
+                top: 28.08,
+                factor: 0.9
+            },
+            {
+                left: 71.28,
+                top: 60.7,
+                factor: 2.4
+            },
+            {
+                left: -0.62,
+                top: 78.75,
+                factor: 1.5
+            },
+            //section 3
+            {
+                left:44.54,
+                top:-5.8,
+                factor: 3.25
+            },
+            {
+                left: -1.46,
+                top: 0.2,
+                factor: 1.6
+            },
+            {
+                left:18.14,
+                top:52.34,
+                factor: 1.4
+            },
+            {
+                left:84.78,
+                top:20.08,
+                factor: 1.25
+            },
+            {
+                left: 75,
+                top: 42.08,
+                factor: 0.65
+            },
+            {
+                left: 78.28,
+                top: 59.7,
+                factor: 1.2
+            },
+            {
+                left: -0.62,
+                top: 78.75,
+                factor: 1.5
+            },
+            //section 4
+            {
+                left:72.54,
+                top:-13.8,
+                factor: 3.25
+            },
+            {
+                left:-2.9,
+                top:3,
+                factor: 1.575
+            },
+            {
+                left:19.14,
+                top:50.34,
+                factor: 1.35
+            },
+            {
+                left:86.78,
+                top:59.08,
+                factor: 0.95
+            },
+            {
+                left:48,
+                top:39.08,
+                factor: 0.6
+            },
+            {
+                left:63.28,
+                top:70.7,
+                factor: 1.05
+            },
+            {
+                left:-9.62,
+                top:64.75,
+                factor: 1.25
             }
+
         ];
 
         /*var colorArray = ['#11256c', '#24ccdf'];*/
 
-        function callMakeDiv(color,section) {
+        function callMakeDiv(color,section,secId) {
             var flag=0;
              var id = setInterval(function(){
-                makeDiv(color, flag, section);
+                makeDiv(color, flag, section, secId);
                 flag++;
                  if (flag === 7) {
                      clearInterval(id);
@@ -264,18 +374,17 @@
             },2000);
         }
 
-        function makeDiv(color, index, section) {
-
+        function makeDiv(color, index, section, secId) {
             $newdiv = $('<div/>').addClass('initial-div').css({
                 'background-color': color,
-                'width': (200 * circleInfo[index].factor) + "px",
-                'height': (200 * circleInfo[index].factor)+ "px"
+                'width': (200 * circleInfo[index + (7 * (secId -1)) ].factor) + "px",
+                'height': (200 * circleInfo[index + (7 * (secId -1)) ].factor)+ "px"
             });
 
             // access the coordinates with index so for each iteration they will be the same
             $newdiv.addClass('position-div').css({
-                'left':circleInfo[index].left+'%',
-                'top':circleInfo[index].top+'%'
+                'left':circleInfo[index + (7 * (secId -1)) ].left+'%',
+                'top':circleInfo[index + (7 * (secId -1)) ].top+'%'
             }).appendTo(section).addClass('animate').css({'display':'block','transform':'scale(1)'});
         }
 
