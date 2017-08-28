@@ -160,30 +160,52 @@
                 }
             },
             onLeave: function(index, nextIndex, direction) {
-                if (((index === 1 || index === 3) && direction === 'down') || (index === 3 && direction === 'up')) {
-
-                    $('#section2').addClass('colors').one(animationEnd,function () {
-                        $('#section2').removeClass('colors');
-                        $('#section2').css('background','#1f3264');
-                    });
-
-                    $('#section4').addClass('colors').one(animationEnd,function () {
-                        $('#section4').removeClass('colors');
-                        $('#section4').css('background','#1f3264');
-                    });
+                if (index % 2 !== 0) {
+                    if(index === 1) {
+                        $('#section2').addClass('colors').one(animationEnd,function () {
+                            $('#section2').removeClass('colors');
+                            $('#section2').css('background','#1f3264');
+                        });
+                    }
+                    else if(index === 3){
+                        if (direction === 'up') {
+                            $('#section2').addClass('colors').one(animationEnd,function () {
+                                $('#section2').removeClass('colors');
+                                $('#section2').css('background','#1f3264');
+                            });
+                        }
+                        else if (direction === 'down') {
+                            $('#section4').addClass('colors').one(animationEnd,function () {
+                                $('#section4').removeClass('colors');
+                                $('#section4').css('background','#1f3264');
+                            });
+                        }
+                    }
 
                 }
-                else if (((index === 2 || index === 4) && direction === 'up') || (index === 2 && direction === 'down')) {
+                else if (index % 2 === 0) {
+                    if(index === 4){
+                        $('#section3').addClass('colors-reverse').one(animationEnd,function () {
+                            $('#section3').removeClass('colors-reverse');
+                            $('#section3').css('background','#98d1d9');
+                        });
+                    }
+                    else if (index === 2){
+                        if (direction === 'up') {
+                            $('#section1').addClass('colors-reverse').one(animationEnd,function () {
+                                $('#section1').removeClass('colors-reverse');
+                                $('#section1').css('background','#98d1d9');
+                            });
+                        }
+                        else if (direction === 'down') {
+                            $('#section3').addClass('colors-reverse').one(animationEnd,function () {
+                                $('#section3').removeClass('colors-reverse');
+                                $('#section3').css('background','#98d1d9');
+                            });
+                        }
+                    }
 
-                    $('#section1').addClass('colors-reverse').one(animationEnd,function () {
-                        $('#section1').removeClass('colors-reverse');
-                        $('#section1').css('background','#98d1d9');
-                    });
 
-                    $('#section3').addClass('colors-reverse').one(animationEnd,function () {
-                        $('#section3').removeClass('colors-reverse');
-                        $('#section3').css('background','#98d1d9');
-                    });
                 }
             }
         });
