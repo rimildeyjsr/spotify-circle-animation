@@ -525,11 +525,32 @@ html,body{
 
 .phone-img {
     position: relative;
-    z-index: 20;
+    z-index: 50;
     height: 85%;
     width: auto;
     top: 15%;
-    left: 15%;
+    left: 12%;
+}
+
+.card {
+    background-color: #ffffff;
+    height: 58%;
+    position: absolute;
+    z-index: 50;
+    width: 45%;
+    top: 24.5%;
+    left: 38%;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.github-button {
+    margin-top: 53%;
+    margin-left: 8%;
+    cursor: pointer;
+    height: 18%;
+    width: auto;
 }
 
 #section4 h1,#section3 h1 {
@@ -660,19 +681,6 @@ html,body{
     margin-top: 50%;
     position: relative;
     z-index: 20;
-}
-
-.temp-heading {
-    font-size: 4em;
-    text-align: center;
-    z-index: 20;
-    position: relative;
-    display: block;
-    font-family: Graphik-Semibold, Roboto;
-    font-weight: 600;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-    margin-top: 15%;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
