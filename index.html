@@ -15,98 +15,87 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
-<style>
-    @font-face {
-        font-family: Graphik;
-        src: url('font/graphik-semibold.ttf');
-    }
+    <style>
+        @font-face {
+            font-family: Graphik-Semibold;
+            src: url('font/graphik-semibold.ttf');
+        }
 
-    @font-face {
-        font-family: Graphik-Regular;
-        src: url('font/Graphik-Regular-Web.ttf');
-    }
-    @font-face {
-        font-family: Graphik-Light;
-        src: url('font/Graphik-Light-Web.ttf');
-    }
-</style>
+        @font-face {
+            font-family: Graphik-Regular;
+            src: url('font/Graphik-Regular-Web.ttf');
+        }
+    </style>
 
-<!--<ul class="bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>-->
-<div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
+    <div id="fullpage" style="-webkit-transform: translate3d(0px, 0px, 0px);">
 
-    <div class="section" id="section1">
-        <div class="button_container"id="toggle">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-        </div>
-
-        <div class="overlay" id="overlay">
-            <nav class="overlay-menu">
-                <ul>
-                    <li ><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="layer container-1" data-depth="0.8">
-            <div class="main-heading">
-                <span id="main-heading"></span>
+        <div class="section" id="section1">
+            <div class="button_container"id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
             </div>
 
-            <span id="welcome-msg" class="come-in">Welcome to my website</span>
+            <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <li ><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="layer container-1" data-depth="0.8">
+                <div class="main-heading">
+                    <span id="main-heading"></span>
+                </div>
+
+                <span id="welcome-msg" class="come-in">Welcome to my website</span>
+            </div>
+
+            <div class="layer" id="circle-wrapper-1-1" data-depth="0.6"></div>
+            <div class="layer" id="circle-wrapper-2-1" data-depth="0.5"></div>
+            <div class="layer" id="circle-wrapper-3-1" data-depth="0.4"></div>
+
         </div>
 
-        <div class="layer" id="circle-wrapper-1-1" data-depth="0.6"></div>
-        <div class="layer" id="circle-wrapper-2-1" data-depth="0.5"></div>
-        <div class="layer" id="circle-wrapper-3-1" data-depth="0.4"></div>
+        <div class="section" id="section2">
+            <div class="layer container-2" data-depth="0.8">
+                <h1>I'm Prateek</h1>
+                <h3>Android Developer <br> & Design Consultant</h3>
+                <p>I have been working on Android since the past<br> 3 years.
+                    I am a tech enthusiast and I like solving<br> problems which affect people’s lives, using<br>
+                    my skills. In my free time I blog about my,<br> learnings or design beautiful things.<br>
+                    Scroll along to check out my work. </p>
+            </div>
 
-    </div>
+            <div class="layer" id="circle-wrapper-1-2" data-depth="0.6"></div>
+            <div class="layer" id="circle-wrapper-2-2" data-depth="0.5"></div>
+            <div class="layer" id="circle-wrapper-3-2" data-depth="0.4"></div>
 
-    <div class="section" id="section2">
-        <div class="layer container-2" data-depth="0.8">
-            <h1>I'm Prateek</h1>
-            <h3>Android Developer <br> & Design Consultant</h3>
-            <p>I have been working on Android since the past<br> 3 years.
-                I am a tech enthusiast and I like solving<br> problems which affect people’s lives, using<br>
-                my skills. In my free time I blog about my,<br> learnings or design beautiful things.<br>
-                Scroll along to check out my work. </p>
         </div>
 
-        <div class="layer" id="circle-wrapper-1-2" data-depth="0.6"></div>
-        <div class="layer" id="circle-wrapper-2-2" data-depth="0.5"></div>
-        <div class="layer" id="circle-wrapper-3-2" data-depth="0.4"></div>
+        <div class="section" id="section3">
+            <h1>Projects</h1>
+            <div class="temp-heading">
+                <span id="main-heading-placeholder"></span>
+            </div>
 
-    </div>
-
-    <div class="section" id="section3">
-        <h1>Projects</h1>
-        <div class="temp-heading">
-            <span id="main-heading-placeholder"></span>
+            <div class="layer" id="circle-wrapper-1-3" data-depth="0.6"></div>
+            <div class="layer" id="circle-wrapper-2-3" data-depth="0.5"></div>
+            <div class="layer" id="circle-wrapper-3-3" data-depth="0.4"></div>
         </div>
 
-        <div class="layer" id="circle-wrapper-1-3" data-depth="0.6"></div>
-        <div class="layer" id="circle-wrapper-2-3" data-depth="0.5"></div>
-        <div class="layer" id="circle-wrapper-3-3" data-depth="0.4"></div>
-    </div>
+        <!--<div class="section" id="section4">
+            <h1>Blog</h1>
+        </div>-->
 
-    <!--<div class="section" id="section4">
-        <h1>Blog</h1>
-    </div>-->
+        <div class="section" id="section4">
+            <h1>Contact</h1>
 
-    <div class="section" id="section4">
-        <h1>Contact</h1>
-        <div class="layer container-4" data-depth="0.8">
-            <div class="group">
+            <div class="group layer container-4" data-depth="0.8">
                 <div class="left">
                     <h3>Cheerio !</h3>
                     <img src="images/emoji.png" alt="smiley with sunglasses" class="smiley">
@@ -141,337 +130,300 @@
                     </div>
                 </div>
             </div>
+
+            <div class="layer" id="circle-wrapper-1-4" data-depth="0.6"></div>
+            <div class="layer" id="circle-wrapper-2-4" data-depth="0.5"></div>
+            <div class="layer" id="circle-wrapper-3-4" data-depth="0.4"></div>
         </div>
-        <div class="layer" id="circle-wrapper-1-4" data-depth="0.6"></div>
-        <div class="layer" id="circle-wrapper-2-4" data-depth="0.5"></div>
-        <div class="layer" id="circle-wrapper-3-4" data-depth="0.4"></div>
     </div>
-</div>
 
-<script src="js/jquery-3.0.0.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="typed.js-master/js/typed.js"></script>
-<script src="js/jquery.fullPage.min.js"></script>
-<script>
-    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="typed.js-master/js/typed.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script>
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
-    $(document).ready(function(){
-        const scene = document.getElementById('fullpage');
-        const parallax = new Parallax(scene, {
-            invertX: true,
-            invertY: true,
-            limitX:35,
-            limitY:35,
-        });
-
-        $('#fullpage').fullpage({
-            anchors: ['home','about','projects','contact'],
-            fixedElements: '#toggle,#overlay',
-            afterLoad : function(anchorLink,index) {
-                if(index === 1 || anchorLink === 'home'){
-                    callMakeDiv('#1f3264',1);
-                }
-                else if(index === 2 || anchorLink === 'about'){
-                    $('#section2 h1').addClass('come-in').one(animationEnd,function(){
-                        $('#section2 h3').addClass('come-in').one(animationEnd,function(){
-                            $('#section2 p').addClass('come-in');
-                        });
-                    });
-                    callMakeDiv('#f573a0',2);
-                }
-                else if(index === 3 || anchorLink === 'projects'){
-                    $('#main-heading-placeholder').typed({
-                        strings:['This section is under development'],
-                        typeSpeed: 150,
-                        loop: false,
-                        showCursor: true,
-                        cursorChar: "|"
-                    });
-
-                    callMakeDiv('#1f3264',3);
-                }
-                else if (index === 4 || anchorLink === 'contact') {
-                    $('.left').addClass('animateRightSlide');
-                    $('.right-large').addClass('animateLeftSlide');
-                    callMakeDiv('#f573a0',4);
-                }
-            }/*,
-            onLeave: function(index, nextIndex, direction) {
-                    if(index === 1 && direction === 'down') {
-                        $('#section2').addClass('colors').one(animationEnd,function () {
-                            $('#section2').removeClass('colors');
-                            $('#section2').css('background','#1f3264');
-                        });
-                    }
-                    else if (index === 2){
-                        if (direction === 'up') {
-                            $('#section1').addClass('colors-reverse').one(animationEnd,function () {
-                                $('#section1').removeClass('colors-reverse');
-                                $('#section1').css('background','#98d1d9');
-                            });
-                        }
-                        else if (direction === 'down') {
-                            $('#section3').addClass('colors-reverse').one(animationEnd,function () {
-                                $('#section3').removeClass('colors-reverse');
-                                $('#section3').css('background','#98d1d9');
-                            });
-                        }
-                    }
-                    else if(index === 3){
-                        if (direction === 'up') {
-                            $('#section2').addClass('colors').one(animationEnd,function () {
-                                $('#section2').removeClass('colors');
-                                $('#section2').css('background','#1f3264');
-                            });
-                        }
-                        else if (direction === 'down') {
-                            $('#section4').addClass('colors').one(animationEnd,function () {
-                                $('#section4').removeClass('colors');
-                                $('#section4').css('background','#1f3264');
-                            });
-                        }
-                    }
-
-                    else if(index === 4){
-                        $('#section3').addClass('colors-reverse').one(animationEnd,function () {
-                            $('#section3').removeClass('colors-reverse');
-                            $('#section3').css('background','#98d1d9');
-                        });
-                    }
-                }*/
-
-        });
-
-        $("#main-heading").delay(2000).css("visibility","visible").typed({
-            strings:["^1000Hello,","Bonjour,","Hola,","nuqneH,","Ola,","Hallo,","سلام"
-                ,"Ciao,"],
-            typeSpeed: 300,
-            loop: true,
-            showCursor: true,
-            cursorChar: "|",
-            preStringTyped: function(){
-                $(".main-heading").css("visibility","visible");
-            },
-            onStringTyped: function(){
-                $('.button-launch').addClass("animated slideInDown").css("visibility","visible")
-                ;
-            }
-        });
-
-        $('#toggle').click(function() {
-            $('#toggle').toggleClass('active');
-            $('#overlay').toggleClass('open');
-        });
-        $('#overlay ul li a').click(function() {
-            $('#toggle').toggleClass('active');
-            $('#overlay').toggleClass('open');
-        });
-
-        var circleInfo = [
-            //section 1
-            {
-                left: 12.54,
-                top: 0.2,
-                factor: 3.25,
-                layer: '#circle-wrapper-2-1'
-            },
-            {
-                left: 0.1,
-                top: 0,
-                factor: 1.405,
-                layer: '#circle-wrapper-3-1'
-            },
-            {
-                left: 23.14,
-                top: 69.34,
-                factor: 1.20,
-                layer: '#circle-wrapper-3-1'
-            },
-            {
-                left: 92.78,
-                top: 20.08,
-                factor: 1,
-                layer: '#circle-wrapper-1-1'
-            },
-            {
-                left: 75,
-                top: 42.08,
-                factor: 0.65,
-                layer: '#circle-wrapper-3-1'
-            },
-            {
-                left: 66.28,
-                top: 88.7,
-                factor: 0.9,
-                layer: '#circle-wrapper-1-1'
-            },
-            {
-                left: 1.38,
-                top: 85.75,
-                factor: 1.2,
-                layer: '#circle-wrapper-1-1'
-            },
-            //section 2
-            {
-                left: 12.54,
-                top: -13.8,
-                factor: 3.1,
-                layer:'#circle-wrapper-2-2'
-            },
-            {
-                left: 0.1,
-                top: 0,
-                factor: 1.405,
-                layer:'#circle-wrapper-3-2'
-            },
-            {
-                left: 8.14,
-                top: 58.34,
-                factor: 0.75,
-                layer:'#circle-wrapper-3-2'
-            },
-            {
-                left: 91.78,
-                top: 0.08,
-                factor: 1.1,
-                layer:'#circle-wrapper-1-2'
-            },
-            {
-                left: 66,
-                top: 28.08,
-                factor: 0.9,
-                layer:'#circle-wrapper-3-2'
-            },
-            {
-                left: 71.28,
-                top: 60.7,
-                factor: 2.4,
-                layer:'#circle-wrapper-1-2'
-            },
-            {
-                left: -0.62,
-                top: 78.75,
-                factor: 1.5,
-                layer:'#circle-wrapper-1-2'
-            },
-            //section 3
-            {
-                left:44.54,
-                top:-5.8,
-                factor: 3.25,
-                layer:'#circle-wrapper-2-3'
-            },
-            {
-                left: -1.46,
-                top: 0.2,
-                factor: 1.6,
-                layer:'#circle-wrapper-1-3'
-            },
-            {
-                left:18.14,
-                top:52.34,
-                factor: 1.15,
-                layer:'#circle-wrapper-1-3'
-            },
-            {
-                left:84.78,
-                top:20.08,
-                factor: 1.1,
-                layer:'#circle-wrapper-3-3'
-            },
-            {
-                left: 75,
-                top: 42.08,
-                factor: 0.65,
-                layer:'#circle-wrapper-3-3'
-            },
-            {
-                left: 78.28,
-                top: 59.7,
-                factor: 1.2,
-                layer:'#circle-wrapper-3-3'
-            },
-            {
-                left: -0.62,
-                top: 78.75,
-                factor: 1.5,
-                layer:'#circle-wrapper-1-3'
-            },
-            //section 4
-            {
-                left:72.54,
-                top:-13.8,
-                factor: 3.25,
-                layer:'#circle-wrapper-1-4'
-            },
-            {
-                left:-2.9,
-                top:3,
-                factor: 1.575,
-                layer:'#circle-wrapper-1-4'
-            },
-            {
-                left:19.14,
-                top:50.34,
-                factor: 1.35,
-                layer:'#circle-wrapper-2-4'
-            },
-            {
-                left:86.78,
-                top:59.08,
-                factor: 0.95,
-                layer:'#circle-wrapper-3-4'
-            },
-            {
-                left:48,
-                top:39.08,
-                factor: 0.6,
-                layer:'#circle-wrapper-3-4'
-            },
-            {
-                left:63.28,
-                top:70.7,
-                factor: 1.05,
-                layer:'#circle-wrapper-2-4'
-            },
-            {
-                left:-9.62,
-                top:64.75,
-                factor: 1.25,
-                layer:'#circle-wrapper-2-4'
-            }
-
-        ];
-
-
-        function callMakeDiv(color,secId) {
-            var flag=0;
-             var id = setInterval(function(){
-                makeDiv(color, flag,secId);
-                flag++;
-                 if (flag === 7) {
-                     clearInterval(id);
-                 }
-            },2000);
-        }
-
-        function makeDiv(color, index, secId) {
-            $newdiv = $('<div/>').addClass('initial-div').css({
-                'background-color': color,
-                'width': (200 * circleInfo[index + (7 * (secId -1)) ].factor) + "px",
-                'height': (200 * circleInfo[index + (7 * (secId -1)) ].factor)+ "px"
+        $(document).ready(function(){
+            const scene = document.getElementById('fullpage');
+            const parallax = new Parallax(scene, {
+                invertX: true,
+                invertY: true,
+                limitX:35,
+                limitY:35
             });
 
-            // access the coordinates with index so for each iteration they will be the same
-            $newdiv.addClass('position-div').css({
-                'left':circleInfo[index + (7 * (secId -1)) ].left+'%',
-                'top':circleInfo[index + (7 * (secId -1)) ].top+'%'
-            }).appendTo(circleInfo[index + (7 * (secId -1)) ].layer).addClass('animate');
-        }
+            $('#fullpage').fullpage({
 
-    });
+                anchors: ['home','about','projects','contact'],
 
-</script>
+                fixedElements: '#toggle,#overlay',
+
+                afterLoad : function(anchorLink,index) {
+
+                    if(index === 1 || anchorLink === 'home'){
+                        callMakeDiv('#1f3264',1);
+                    }
+
+                    else if(index === 2 || anchorLink === 'about'){
+                        $('#section2 h1').addClass('come-in').one(animationEnd,function(){
+                            $('#section2 h3').addClass('come-in').one(animationEnd,function(){
+                                $('#section2 p').addClass('come-in');
+                            });
+                        });
+                        callMakeDiv('#f573a0',2);
+                    }
+
+                    else if(index === 3 || anchorLink === 'projects'){
+                        $('#main-heading-placeholder').typed({
+                            strings:['This section is under development'],
+                            typeSpeed: 150,
+                            loop: false,
+                            showCursor: true,
+                            cursorChar: "|"
+                        });
+
+                        callMakeDiv('#1f3264',3);
+                    }
+
+                    else if (index === 4 || anchorLink === 'contact') {
+                        $('.left').addClass('animateRightSlide');
+                        $('.right-large').addClass('animateLeftSlide');
+                        callMakeDiv('#f573a0',4);
+                    }
+                }
+            });
+
+            $("#main-heading").delay(2000).css("visibility","visible").typed({
+                strings:["^1000Hello,","Bonjour,","Hola,","nuqneH,","Ola,","Hallo,","سلام"
+                    ,"Ciao,"],
+                typeSpeed: 300,
+                loop: true,
+                showCursor: true,
+                cursorChar: "|",
+                preStringTyped: function(){
+                    $(".main-heading").css("visibility","visible");
+                },
+                onStringTyped: function(){
+                    $('.button-launch').addClass("animated slideInDown").css("visibility","visible")
+                    ;
+                }
+            });
+
+            $('#toggle').click(function() {
+                $('#toggle').toggleClass('active');
+                $('#overlay').toggleClass('open');
+            });
+
+            $('#overlay ul li a').click(function() {
+                $('#toggle').toggleClass('active');
+                $('#overlay').toggleClass('open');
+            });
+
+            var circleInfo = [
+                //section 1
+                {
+                    left: 12.54,
+                    top: 0.2,
+                    factor: 3.25,
+                    layer: '#circle-wrapper-2-1'
+                },
+                {
+                    left: 0.1,
+                    top: 0,
+                    factor: 1.405,
+                    layer: '#circle-wrapper-3-1'
+                },
+                {
+                    left: 23.14,
+                    top: 69.34,
+                    factor: 1.20,
+                    layer: '#circle-wrapper-3-1'
+                },
+                {
+                    left: 92.78,
+                    top: 20.08,
+                    factor: 1,
+                    layer: '#circle-wrapper-1-1'
+                },
+                {
+                    left: 75,
+                    top: 42.08,
+                    factor: 0.65,
+                    layer: '#circle-wrapper-3-1'
+                },
+                {
+                    left: 66.28,
+                    top: 88.7,
+                    factor: 0.9,
+                    layer: '#circle-wrapper-1-1'
+                },
+                {
+                    left: 1.38,
+                    top: 85.75,
+                    factor: 1.2,
+                    layer: '#circle-wrapper-1-1'
+                },
+                //section 2
+                {
+                    left: 12.54,
+                    top: -13.8,
+                    factor: 3.1,
+                    layer:'#circle-wrapper-2-2'
+                },
+                {
+                    left: 0.1,
+                    top: 0,
+                    factor: 1.405,
+                    layer:'#circle-wrapper-3-2'
+                },
+                {
+                    left: 8.14,
+                    top: 58.34,
+                    factor: 0.75,
+                    layer:'#circle-wrapper-3-2'
+                },
+                {
+                    left: 91.78,
+                    top: 0.08,
+                    factor: 1.1,
+                    layer:'#circle-wrapper-1-2'
+                },
+                {
+                    left: 66,
+                    top: 28.08,
+                    factor: 0.9,
+                    layer:'#circle-wrapper-3-2'
+                },
+                {
+                    left: 71.28,
+                    top: 60.7,
+                    factor: 2.4,
+                    layer:'#circle-wrapper-1-2'
+                },
+                {
+                    left: -0.62,
+                    top: 78.75,
+                    factor: 1.5,
+                    layer:'#circle-wrapper-1-2'
+                },
+                //section 3
+                {
+                    left:44.54,
+                    top:-5.8,
+                    factor: 3.25,
+                    layer:'#circle-wrapper-2-3'
+                },
+                {
+                    left: -1.46,
+                    top: 0.2,
+                    factor: 1.6,
+                    layer:'#circle-wrapper-1-3'
+                },
+                {
+                    left:18.14,
+                    top:52.34,
+                    factor: 1.15,
+                    layer:'#circle-wrapper-1-3'
+                },
+                {
+                    left:84.78,
+                    top:20.08,
+                    factor: 1.1,
+                    layer:'#circle-wrapper-3-3'
+                },
+                {
+                    left: 75,
+                    top: 42.08,
+                    factor: 0.65,
+                    layer:'#circle-wrapper-3-3'
+                },
+                {
+                    left: 78.28,
+                    top: 59.7,
+                    factor: 1.2,
+                    layer:'#circle-wrapper-3-3'
+                },
+                {
+                    left: -0.62,
+                    top: 78.75,
+                    factor: 1.5,
+                    layer:'#circle-wrapper-1-3'
+                },
+                //section 4
+                {
+                    left:72.54,
+                    top:-13.8,
+                    factor: 3.25,
+                    layer:'#circle-wrapper-1-4'
+                },
+                {
+                    left:-2.9,
+                    top:3,
+                    factor: 1.575,
+                    layer:'#circle-wrapper-1-4'
+                },
+                {
+                    left:19.14,
+                    top:50.34,
+                    factor: 1.35,
+                    layer:'#circle-wrapper-2-4'
+                },
+                {
+                    left:86.78,
+                    top:59.08,
+                    factor: 0.95,
+                    layer:'#circle-wrapper-3-4'
+                },
+                {
+                    left:48,
+                    top:39.08,
+                    factor: 0.6,
+                    layer:'#circle-wrapper-3-4'
+                },
+                {
+                    left:63.28,
+                    top:70.7,
+                    factor: 1.05,
+                    layer:'#circle-wrapper-2-4'
+                },
+                {
+                    left:-9.62,
+                    top:64.75,
+                    factor: 1.25,
+                    layer:'#circle-wrapper-2-4'
+                }
+
+            ];
+
+
+            function callMakeDiv(color,secId) {
+                var flag=0;
+                 var id = setInterval(function(){
+                    makeDiv(color, flag, secId);
+                    flag++;
+                     if (flag === 7) {
+                         clearInterval(id);
+                     }
+                },2000);
+            }
+
+            function makeDiv(color, index, secId) {
+                $newdiv = $('<div/>').addClass('initial-div').css({
+                    'background-color': color,
+                    'width': (200 * circleInfo[index + (7 * (secId -1)) ].factor) + "px",
+                    'height': (200 * circleInfo[index + (7 * (secId -1)) ].factor)+ "px"
+                });
+
+                $newdiv.addClass('position-div').css({
+                    'left':circleInfo[index + (7 * (secId -1)) ].left+'%',
+                    'top':circleInfo[index + (7 * (secId -1)) ].top+'%'
+                }).appendTo(circleInfo[index + (7 * (secId -1)) ].layer).addClass('animate');
+            }
+
+        });
+
+    </script>
 </body>
 </html>

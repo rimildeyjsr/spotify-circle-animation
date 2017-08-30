@@ -9,24 +9,13 @@ html,body{
     -webkit-font-smoothing: antialiased;
 }
 
+.layer {
+    pointer-events: auto;
+}
+
 .colors {
     animation: color-animation 2s linear;
 }
-
-/*
- 152,209,217
-140,193,205
-128,177,194
-116,161,182
-104,145,170
-92,130,159
-79,114,147
-67,98,135
-55,82,123
-43,66,112
-31,50,100
-
- */
 
 @keyframes color-animation {
     0% {
@@ -121,10 +110,6 @@ html,body{
     overflow: hidden;
 }
 
-#circle-layer {
-    overflow-y: hidden;
-}
-
 .container-1 {
     position: relative;
     z-index: 50;
@@ -143,7 +128,7 @@ html,body{
 
 .container-4 {
     position: relative;
-    z-index: 50;
+    z-index: 20;
     top: 9% !important;
     left: 0 !important;
     width: 100vw;
@@ -173,7 +158,7 @@ html,body{
     display: block;
     height:228px;
     width:644px;
-    font-family: Graphik, Roboto;
+    font-family: Graphik-Semibold, Roboto;
     font-size: 10em;
     font-weight: 600;
     letter-spacing: 0.2px;
@@ -188,7 +173,7 @@ html,body{
     position: relative;
     text-align: left;
     font-size: 4em;
-    font-family: Graphik,Roboto;
+    font-family: Graphik-Semibold,Roboto;
     color: #ffffff;
     height: 198px;
     width: 1138px;
@@ -300,29 +285,35 @@ html,body{
     overflow: hidden;
     z-index: 50;
 }
+
 .overlay.open {
     opacity: 0.95;
     visibility: visible;
     height: 100%;
 }
+
 .overlay.open li {
     -webkit-animation: fadeInLeft .5s ease forwards;
     animation: fadeInLeft .5s ease forwards;
     -webkit-animation-delay: .35s;
     animation-delay: .35s;
 }
+
 .overlay.open li:nth-of-type(2) {
     -webkit-animation-delay: .4s;
     animation-delay: .4s;
 }
+
 .overlay.open li:nth-of-type(3) {
     -webkit-animation-delay: .45s;
     animation-delay: .45s;
 }
+
 .overlay.open li:nth-of-type(4) {
     -webkit-animation-delay: .50s;
     animation-delay: .50s;
 }
+
 .overlay nav {
     position: relative;
     height: 75%;
@@ -331,11 +322,12 @@ html,body{
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 3.1em;
-    font-family: Graphik, Roboto;
+    font-family: Graphik-Semibold, Roboto;
     letter-spacing: 1px;
     text-align: right;
     font-weight: 600;
 }
+
 .overlay ul {
     list-style: none;
     padding: 0;
@@ -395,12 +387,6 @@ html,body{
     }
 }
 
-/*.overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
-    text-decoration: line-through;
-    font-size: 1.5em;
-}
-*/
-
 .overlay ul li a:hover, .overlay ul li a:focus, .overlay ul li a:active {
     -webkit-animation: hover-animation 0.2s ease-out forwards;
     -o-animation:  hover-animation 0.2s ease-out forwards;
@@ -412,13 +398,11 @@ html,body{
 @keyframes hover-animation {
     0% {
         font-size: 1.2em;
-        /*text-decoration: none;*/
         opacity: 0.5;
     }
 
     100% {
         font-size: 1.5em;
-        /*text-decoration: line-through;*/
         opacity: 1;
     }
 }
@@ -426,13 +410,11 @@ html,body{
 @keyframes remove-hover-animation {
     0% {
         font-size: 1.5em;
-        /*text-decoration: none;*/
         opacity: 1;
     }
 
     100% {
         font-size: 1.2em;
-        /*text-decoration: line-through;*/
         opacity: 0.5;
     }
 }
@@ -511,14 +493,14 @@ html,body{
 
 #section2 h1 {
     font-size: 8em;
-    font-family: Graphik,Roboto;
+    font-family: Graphik-Semibold,Roboto;
     font-weight: 600;
     margin-top: 0;
 }
 
 #section2 h3 {
     font-size: 3.1em;
-    font-family: Graphik,Roboto;
+    font-family: Graphik-Semibold,Roboto;
     font-weight: 600;
     top: 0;
 }
@@ -538,10 +520,9 @@ html,body{
 #section4 h1,#section3 h1 {
     margin: 0;
     top: 3.5%;
-    font-family: Graphik, Roboto;
+    font-family: Graphik-Semibold, Roboto;
     font-weight: 600;
 }
-
 
 .left {
     float: left;
@@ -612,7 +593,7 @@ html,body{
 }
 
 #section4 h3 {
-    font-family: Graphik, Roboto;
+    font-family: Graphik-Semibold, Roboto;
     color: white;
     font-size: 6em;
     margin: 29% 0 7%;
@@ -645,6 +626,7 @@ html,body{
     margin: 0 63px 0 0;
     position: relative;
     z-index: 20;
+    cursor: pointer;
 }
 
 .svg-size {
@@ -671,7 +653,7 @@ html,body{
     z-index: 20;
     position: relative;
     display: block;
-    font-family: Graphik, Roboto;
+    font-family: Graphik-Semibold, Roboto;
     font-weight: 600;
     letter-spacing: 0.2px;
     color: #ffffff;
