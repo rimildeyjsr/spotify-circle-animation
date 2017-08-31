@@ -526,31 +526,34 @@ html,body{
 .phone-img {
     position: relative;
     z-index: 50;
-    height: 85%;
+    height: 148.5%;
     width: auto;
-    top: 15%;
-    left: 12%;
+    top: -17%;
+    left: -46%;
 }
 
 .card {
     background-color: #ffffff;
-    height: 58%;
-    position: absolute;
+    height: 60.5%;
+    position: relative;
     z-index: 50;
-    width: 45%;
-    top: 24.5%;
-    left: 38%;
+    width: 50%;
+    top: 22.5%;
+    left: 35%;
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .github-button {
-    margin-top: 53%;
-    margin-left: 8%;
+    margin-top: 49%;
+    right: 18%;
     cursor: pointer;
     height: 18%;
     width: auto;
+    position: absolute;
+    z-index: 50;
+    margin-right: 25%;
 }
 
 #section4 h1,#section3 h1 {
