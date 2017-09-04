@@ -7,6 +7,7 @@ html,body{
     overflow-x: hidden;
     background-color: #98d1d9;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fp-section.fp-table, .fp-slide.fp-table {
