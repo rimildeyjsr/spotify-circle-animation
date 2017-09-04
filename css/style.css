@@ -562,11 +562,18 @@ html,body{
     margin-left: -46%;
 }
 
+.info-container {
+    position: absolute;
+    top: 5em;
+    right: 9em;
+    z-index: 50;
+}
+
 .github-button {
-    top: 23em;
-    right: 18em;
+    top: 17.5em;
+    right: 10em;
     cursor: pointer;
-    height: 18%;
+    height: 60%;
     width: auto;
     position: absolute;
     z-index: 50;
@@ -715,8 +722,12 @@ only screen and ( min-resolution: 1.25dppx){
 
 /*safari hacks */
 
+_::-webkit-full-page-media, _:future, :root .info-container {
+    right: 4em;
+}
+
 _::-webkit-full-page-media, _:future, :root .github-button {
-    right: 15em;
+    right: 13em;
 }
 
 /* firefox hacks */
@@ -726,8 +737,12 @@ _::-webkit-full-page-media, _:future, :root .github-button {
         top: 4.5%;
     }
 
+    .info-container {
+        right: 7em;
+    }
+
     .github-button {
-        right: 16em;
+        right: 10.5em;
     }
 }
 
