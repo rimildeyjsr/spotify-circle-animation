@@ -573,10 +573,17 @@ html,body{
 }
 
 #section4 h1,#section3 h1 {
-    margin-left: 65%;
-    margin-top: -8%;
+    position: absolute;
+    top: 3.5%;
     font-family: Graphik-Semibold, Roboto;
     font-weight: 600;
+    margin: 0;
+}
+
+@-moz-document url-prefix() {
+    #section4 h1,#section3 h1 {
+        top: 4.5%;
+    }
 }
 
 .left {

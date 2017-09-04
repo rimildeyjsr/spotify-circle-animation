@@ -39,8 +39,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="8655">
+              <caret line="577" column="29" lean-forward="true" selection-start-line="577" selection-start-column="29" selection-end-line="577" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -271,7 +271,7 @@
       <workItem from="1504111576319" duration="1269000" />
       <workItem from="1504113049459" duration="1447000" />
       <workItem from="1504158021985" duration="7178000" />
-      <workItem from="1504496591152" duration="1853000" />
+      <workItem from="1504496591152" duration="2943000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -427,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504503049366</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="firefox font issue fixed">
+      <created>1504504547752</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1504504547752</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68494000" />
+    <option name="totallyTimeSpent" value="69584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -492,7 +499,8 @@
     <MESSAGE value="card added and github button" />
     <MESSAGE value="card and github button and phone image positions changed" />
     <MESSAGE value="firefox bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="firefox bug fixed" />
+    <MESSAGE value="firefox font issue fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="firefox font issue fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -918,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="8655">
+          <caret line="577" column="29" lean-forward="true" selection-start-line="577" selection-start-column="29" selection-end-line="577" selection-end-column="29" />
           <folding />
         </state>
       </provider>
