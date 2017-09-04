@@ -580,12 +580,6 @@ html,body{
     margin: 0;
 }
 
-@-moz-document url-prefix() {
-    #section4 h1,#section3 h1 {
-        top: 4.5%;
-    }
-}
-
 .left {
     float: left;
     width: 49%;
@@ -718,3 +712,22 @@ only screen and ( min-resolution: 1.25dppx){
         -webkit-font-smoothing: subpixel-antialiased;
     }
 }
+
+/*safari hacks */
+
+_::-webkit-full-page-media, _:future, :root .github-button {
+    right: 15em;
+}
+
+/* firefox hacks */
+
+@-moz-document url-prefix() {
+    #section4 h1,#section3 h1 {
+        top: 4.5%;
+    }
+
+    .github-button {
+        right: 16em;
+    }
+}
+
