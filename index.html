@@ -78,29 +78,42 @@
 
             <div class="section" id="section3">
                 <h1>Projects</h1>
-                <div class="layer container-3" data-depth="0.8">
-                    <div class="card">
-                        <img src="images/phone.png" class="phone-img">
-                        <div class="info-container">
-                            <h2>
-                                Cinematic (Project Motion)
-                            </h2>
-                            <h3>
-                                Cinematic is an Android App that fetches details <br>
-                                about popular,upcoming and trending movies and <br>
-                                showcases it to users. The app also contains reviews <br>
-                                for the movie, ratings for the movie, release date<br>
-                                and the trailers which can be watched.
-                            </h3>
-                            <a target="_blank" href="http://github.com/Hackertronix/Project-Motion">
-                                <img src="images/checkOnGithub.png" class="github-button">
-                            </a>
+                <div class="slide" id="slide1" data-anchor="slide1">
+                    <div class="layer container-3" data-depth="0.8">
+                        <div class="card">
+                            <img src="images/phone.png" class="phone-img">
+                            <div class="info-container">
+                                <h2>
+                                    Cinematic (Project Motion)
+                                </h2>
+                                <h3>
+                                    Cinematic is an Android App that fetches details <br>
+                                    about popular,upcoming and trending movies and <br>
+                                    showcases it to users. The app also contains reviews <br>
+                                    for the movie, ratings for the movie, release date<br>
+                                    and the trailers which can be watched.
+                                </h3>
+                                <a target="_blank" href="http://github.com/Hackertronix/Project-Motion">
+                                    <img src="images/checkOnGithub.png" class="github-button">
+                                </a>
+                            </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="slide" id="slide2" data-anchor="slide2">
+
+                </div>
+                <div class="slide" id="slide3" data-anchor="slide3">
+
+                </div>
+                <div class="slide" id="slide4" data-anchor="slide4">
+
                 </div>
                 <div class="layer" id="circle-wrapper-1-3" data-depth="0.6"></div>
                 <div class="layer" id="circle-wrapper-2-3" data-depth="0.5"></div>
                 <div class="layer" id="circle-wrapper-3-3" data-depth="0.4"></div>
+
             </div>
 
             <!--<div class="section" id="section4">
@@ -156,6 +169,7 @@
         <script src="js/jquery-ui.min.js"></script>
         <script src="js/parallax.min.js"></script>
         <script src="typed.js-master/js/typed.js"></script>
+        <script src="js/jquery.slimscroll.min.js"></script>
         <script src="js/jquery.fullPage.min.js"></script>
         <script>
             var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -169,13 +183,22 @@
                     limitY:35
                 });
 
+                var slideIndex = 1, sliding = false;
+
                 $('#fullpage').fullpage({
 
                     anchors: ['home','about','projects','contact'],
 
                     fixedElements: '#toggle,#overlay',
 
-                    afterLoad : function(anchorLink,index) {
+                    slidesNavigation: true,
+
+                    controlArrows: false,
+
+                    slidesNavPosition: 'bottom',
+
+
+                    afterLoad : function(anchorLink, index, direction) {
 
                         if(index === 1 || anchorLink === 'home'){
                             callMakeDiv('#1f3264',1);
@@ -190,8 +213,8 @@
                             callMakeDiv('#f573a0',2);
                         }
 
-                        else if(index === 3 || anchorLink === 'projects'){
-                            callMakeDiv('#1f3264',3);
+                        else if((index === 3 || anchorLink === 'projects') && !sliding) {
+                            callMakeDiv('#1f3264', 3);
                         }
 
                         else if (index === 4 || anchorLink === 'contact') {
@@ -199,6 +222,37 @@
                             $('.right-large').addClass('animateLeftSlide');
                             callMakeDiv('#f573a0',4);
                         }
+                    },
+
+                    onLeave: function(index, nextIndex, direction) {
+
+                        if (index == 3 && !sliding) {
+
+                            if (direction == 'down' && slideIndex < 4) {
+
+                                sliding = true;
+                                $.fn.fullpage.moveSlideRight();
+                                slideIndex++;
+                                return false;
+
+                            } else if (direction == 'up' && slideIndex > 1) {
+
+                                sliding = true;
+                                $.fn.fullpage.moveSlideLeft();
+                                slideIndex--;
+                                return false;
+
+                            }
+
+                        } else if (sliding) {
+
+                            return false;
+
+                        }
+
+                    },
+                    afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+                        sliding = false;
                     }
                 });
 

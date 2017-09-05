@@ -731,6 +731,15 @@ html,body{
     z-index: 20;
 }
 
+.fp-controlArrow, .fp-slidesNav {
+    z-index: 50 !important;
+    pointer-events: auto;
+}
+
+.fp-slides,.slide {
+    z-index: 50;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
 only screen and ( min-device-pixel-ratio: 1.25),
 only screen and ( min-resolution: 200dpi),
