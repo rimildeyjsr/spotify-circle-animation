@@ -4,7 +4,6 @@
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +25,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
+            <state relative-caret-position="192">
               <caret line="83" column="50" lean-forward="false" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="721" column="0" lean-forward="true" selection-start-line="721" selection-start-column="0" selection-end-line="721" selection-end-column="0" />
+            <state relative-caret-position="335">
+              <caret line="749" column="60" lean-forward="true" selection-start-line="749" selection-start-column="60" selection-end-line="749" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -265,7 +264,7 @@
       <workItem from="1504111576319" duration="1269000" />
       <workItem from="1504113049459" duration="1447000" />
       <workItem from="1504158021985" duration="7178000" />
-      <workItem from="1504496591152" duration="7982000" />
+      <workItem from="1504496591152" duration="10939000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -442,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504510414402</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="info container introduced, fixing fonts and stuff now">
+      <created>1504532733576</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1504532733576</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74623000" />
+    <option name="totallyTimeSpent" value="77580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -510,7 +516,8 @@
     <MESSAGE value="firefox font issue fixed" />
     <MESSAGE value="firefox margin for 3rd and 4th section heading fixed" />
     <MESSAGE value="different margins and crap for different browsers" />
-    <option name="LAST_COMMIT_MESSAGE" value="different margins and crap for different browsers" />
+    <MESSAGE value="info container introduced, fixing fonts and stuff now" />
+    <option name="LAST_COMMIT_MESSAGE" value="info container introduced, fixing fonts and stuff now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -984,7 +991,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
+        <state relative-caret-position="192">
           <caret line="83" column="50" lean-forward="false" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -999,8 +1006,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="721" column="0" lean-forward="true" selection-start-line="721" selection-start-column="0" selection-end-line="721" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="749" column="60" lean-forward="true" selection-start-line="749" selection-start-column="60" selection-end-line="749" selection-end-column="60" />
           <folding />
         </state>
       </provider>

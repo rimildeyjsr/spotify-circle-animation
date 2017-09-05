@@ -564,20 +564,41 @@ html,body{
 
 .info-container {
     position: absolute;
-    top: 5em;
-    right: 9em;
+    top: 3em;
+    right: -8em;
     z-index: 50;
+    width: 100%;
+    height: 100%;
+}
+
+.info-container h2, .info-container h3 {
+    color: #1f3264;
+}
+
+.info-container h2 {
+    font-family: Graphik-Semibold, Roboto ;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.info-container h3 {
+    font-family: Graphik-Regular, Roboto;
+    font-size: 1.3em;
+    line-height: 1.57;
+    font-weight: normal;
+    margin-bottom: 30px;
 }
 
 .github-button {
-    top: 17.5em;
-    right: 10em;
+    top: 19.5em;
     cursor: pointer;
-    height: 60%;
+    height: 18%;
     width: auto;
     position: absolute;
     z-index: 50;
+    display: block;
 }
+
 
 #section4 h1,#section3 h1 {
     position: absolute;
@@ -723,26 +744,26 @@ only screen and ( min-resolution: 1.25dppx){
 /*safari hacks */
 
 _::-webkit-full-page-media, _:future, :root .info-container {
-    right: 4em;
+    right: -9em;
 }
 
 _::-webkit-full-page-media, _:future, :root .github-button {
-    right: 13em;
+    height: 17%;
 }
 
 /* firefox hacks */
 
 @-moz-document url-prefix() {
     #section4 h1,#section3 h1 {
-        top: 4.5%;
+        top: 4.6%;
     }
 
     .info-container {
-        right: 7em;
+        right: -9em;
     }
 
     .github-button {
-        right: 10.5em;
+        height: 17%;
     }
 }
 
