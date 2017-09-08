@@ -135,7 +135,7 @@ html,body{
 }
 
 .container-2, .container-3 {
-    position: relative;
+    position: relative !important;
     z-index: 50;
     top: 0 !important;
     left: 0 !important;
