@@ -81,7 +81,7 @@
                 <div class="slide" id="slide1" data-anchor="slideOne">
                     <div class="layer container-3" data-depth="0.8">
                         <div class="card">
-                            <img src="images/frame.png" class="phone-img">
+                            <img src="images/phone.png" class="phone-img">
                             <div class="info-container">
                                 <h2>
                                     Cinematic (Project Motion)
@@ -107,14 +107,13 @@
                             <img src="images/frame.png" class="phone-img">
                             <div class="info-container">
                                 <h2>
-                                    Cinematic (Project Motion)
+                                    Walldo
                                 </h2>
                                 <h3>
-                                    Cinematic is an Android App that fetches details <br>
-                                    about popular,upcoming and trending movies and <br>
-                                    showcases it to users. The app also contains reviews <br>
-                                    for the movie, ratings for the movie, release date<br>
-                                    and the trailers which can be watched.
+                                    Walldo is an Android Wallpaper app that serves<br>
+                                    users beautiful wallpapers from Unsplash. It queries<br>
+                                    the Unsplash API to get the response. Users can set<br>
+                                    an image as Home Screen or Lock Screen Wallpaper
                                 </h3>
                                 <a target="_blank" href="http://github.com/Hackertronix/Project-Motion">
                                     <img src="images/checkOnGithub.png" class="github-button">
@@ -288,7 +287,7 @@
 
                         if(index === 3 && slideIndex === 0 && slideLinkClick === true) {
                             console.log(link);
-                            $.fn.fullpage.moveTo('home');
+                            $.fn.fullpage.moveTo(link);
                             slideLinkClick = false;
                             console.log(slideLinkClick);
                         }

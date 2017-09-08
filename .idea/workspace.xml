@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
+    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="fixed typo">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -25,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+            <state relative-caret-position="67">
+              <caret line="271" column="41" lean-forward="true" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -268,7 +268,7 @@
       <workItem from="1504158021985" duration="7178000" />
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
-      <workItem from="1504755251602" duration="7869000" />
+      <workItem from="1504755251602" duration="8242000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -480,16 +480,24 @@
       <option name="project" value="LOCAL" />
       <updated>1504850941381</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="for stack overflow 1">
+      <created>1504851349549</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1504851349549</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91432000" />
+    <option name="totallyTimeSpent" value="91805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -523,7 +531,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="color transistion fixed" />
     <MESSAGE value="for prateek review" />
     <MESSAGE value="spaced li little bit" />
     <MESSAGE value="animation doubt for stackoverflow" />
@@ -548,7 +555,8 @@
     <MESSAGE value="info container positions, font perfected" />
     <MESSAGE value="links opening in new tabs" />
     <MESSAGE value="for stack overflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="for stack overflow" />
+    <MESSAGE value="for stack overflow 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="for stack overflow 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="67">
+          <caret line="271" column="41" lean-forward="true" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
