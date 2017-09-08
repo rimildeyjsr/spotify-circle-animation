@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="for stack overflow">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/checkOnGithub.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dribbble-logo-preview@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/git-hub-mark@2x.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/dribbble-logo-preview@3x.png" afterPath="$PROJECT_DIR$/images/dribbble-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/fill-1.svg" afterPath="$PROJECT_DIR$/images/twitter-icon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/git-hub-mark@3x.png" afterPath="$PROJECT_DIR$/images/github-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/shape.svg" afterPath="$PROJECT_DIR$/images/mail-icon.svg" />
+    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
@@ -33,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="271" column="0" lean-forward="true" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -276,7 +268,7 @@
       <workItem from="1504158021985" duration="7178000" />
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
-      <workItem from="1504755251602" duration="7726000" />
+      <workItem from="1504755251602" duration="7869000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -481,17 +473,23 @@
       <option name="project" value="LOCAL" />
       <updated>1504601324999</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="for stack overflow">
+      <created>1504850941381</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1504850941381</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91289000" />
+    <option name="totallyTimeSpent" value="91432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -991,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="271" column="0" lean-forward="true" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
