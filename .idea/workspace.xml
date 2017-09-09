@@ -40,8 +40,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="773" column="20" lean-forward="true" selection-start-line="773" selection-start-column="20" selection-end-line="773" selection-end-column="20" />
+            <state relative-caret-position="665">
+              <caret line="800" column="5" lean-forward="false" selection-start-line="800" selection-start-column="4" selection-end-line="800" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -272,7 +272,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="4729000" />
+      <workItem from="1504928873586" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -512,11 +512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504934490864</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="changed most px to em, added a 160em screen size with just font-size change, to add more screens in between">
+      <created>1504940502615</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1504940502615</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97887000" />
+    <option name="totallyTimeSpent" value="98524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -556,7 +563,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="circle animation done" />
     <MESSAGE value="circles replicated on every page, blog section removed, typos fixed" />
     <MESSAGE value="circle changed" />
     <MESSAGE value="different circles for different sections" />
@@ -581,7 +587,8 @@
     <MESSAGE value="fixed typo added content for walldo" />
     <MESSAGE value="responsive on laptop" />
     <MESSAGE value="responsive on my dell" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive on my dell" />
+    <MESSAGE value="changed most px to em, added a 160em screen size with just font-size change, to add more screens in between" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed most px to em, added a 160em screen size with just font-size change, to add more screens in between" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1005,8 +1012,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="773" column="20" lean-forward="true" selection-start-line="773" selection-start-column="20" selection-end-line="773" selection-end-column="20" />
+        <state relative-caret-position="665">
+          <caret line="800" column="5" lean-forward="false" selection-start-line="800" selection-start-column="4" selection-end-line="800" selection-end-column="5" />
           <folding />
         </state>
       </provider>

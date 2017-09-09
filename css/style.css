@@ -777,10 +777,30 @@ _::-webkit-full-page-media, _:future, :root .github-button {
 
 @media screen and (min-width: 160em) {
     html,body {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width: 160em) {
+    html,body {
         font-size: 28px;
     }
 
 }
+
+@media screen and (min-width: 180em) {
+    html,body {
+        font-size: 34px;
+    }
+}
+
+@media screen and (min-width: 200em) {
+    html,body {
+        font-size: 36px;
+    }
+}
+
 
 /*dell values
 
