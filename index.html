@@ -281,16 +281,17 @@
                             link = $(this).attr('data-menuanchor');
                             link= "'"+link+"'";
                             console.log(link);
-                            $.fn.fullpage.moveTo('projects',0);
+                            $.fn.fullpage.moveTo('projects');
                             slideLinkClick = true;
                         });
 
-                        if(index === 3 && slideIndex === 0 && slideLinkClick === true) {
+                        if((index === 3) && (slideIndex === 0) && (slideLinkClick === true)) {
                             console.log(link);
                             $.fn.fullpage.moveTo(link);
                             slideLinkClick = false;
                             console.log(slideLinkClick);
                         }
+
                     }
                 });
 
