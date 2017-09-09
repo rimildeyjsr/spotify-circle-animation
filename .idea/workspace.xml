@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="info">
+    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="819" column="21" lean-forward="false" selection-start-line="819" selection-start-column="21" selection-end-line="819" selection-end-column="21" />
+            <state relative-caret-position="35">
+              <caret line="846" column="14" lean-forward="false" selection-start-line="846" selection-start-column="14" selection-end-line="846" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -82,6 +81,7 @@
       <find>font-sm</find>
       <find>container-</find>
       <find>.info</find>
+      <find>h1</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -271,7 +271,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="1346000" />
+      <workItem from="1504928873586" duration="2714000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -497,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504852112770</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="responsive on laptop">
+      <created>1504932787090</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1504932787090</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94504000" />
+    <option name="totallyTimeSpent" value="95872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -541,7 +548,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spaced li little bit" />
     <MESSAGE value="animation doubt for stackoverflow" />
     <MESSAGE value="circle animation done" />
     <MESSAGE value="circles replicated on every page, blog section removed, typos fixed" />
@@ -566,7 +572,8 @@
     <MESSAGE value="for stack overflow" />
     <MESSAGE value="for stack overflow 1" />
     <MESSAGE value="fixed typo added content for walldo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed typo added content for walldo" />
+    <MESSAGE value="responsive on laptop" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive on laptop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -990,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="819" column="21" lean-forward="false" selection-start-line="819" selection-start-column="21" selection-end-line="819" selection-end-column="21" />
+        <state relative-caret-position="35">
+          <caret line="846" column="14" lean-forward="false" selection-start-line="846" selection-start-column="14" selection-end-line="846" selection-end-column="14" />
           <folding />
         </state>
       </provider>
