@@ -20,88 +20,6 @@ html,body{
     pointer-events: auto;
 }
 
-.colors {
-    animation: color-animation 2s linear;
-}
-
-@keyframes color-animation {
-    0% {
-        background: rgb(152,209,217);
-    }
-    10%{
-        background: rgb(140,193,205);
-    }
-    20%{
-        background: rgb(128,177,194);
-    }
-    30%{
-        background: rgb(116,161,182);
-    }
-    40%{
-        background: rgb(104,145,170);
-    }
-    50%{
-        background: rgb(92,130,159);
-    }
-    60%{
-        background: rgb(79,114,147);
-    }
-    70%{
-        background: rgb(67,98,135);
-    }
-    80%{
-        background: rgb(55,82,123);
-    }
-    90%{
-        background: rgb(43,66,112);
-    }
-    100%{
-        background: rgb(31,50,100);
-    }
-
-}
-
-.colors-reverse {
-    animation: colors-reverse-animation 2s linear;
-}
-
-@keyframes colors-reverse-animation {
-    0% {
-        background: rgb(31,50,100);
-    }
-    10%{
-        background: rgb(43,66,112);
-    }
-    20%{
-        background: rgb(55,82,123);
-    }
-    30%{
-        background: rgb(67,98,135);
-    }
-    40%{
-        background: rgb(79,114,147);
-    }
-    50%{
-        background: rgb(92,130,159);
-    }
-    60%{
-        background: rgb(104,145,170);
-    }
-    70%{
-        background: rgb(116,161,182);
-    }
-    80%{
-        background: rgb(128,177,194);
-    }
-    90%{
-        background: rgb(140,193,205);
-    }
-    100% {
-        background: rgb(152,209,217);
-    }
-
-}
-
 .initial-div {
     transform: scale(0);
 }
@@ -173,15 +91,13 @@ html,body{
     z-index: 50;
     position: relative;
     display: block;
-    height:228px;
-    width:644px;
     font-family: Graphik-Semibold, Roboto;
     font-size: 10em;
     font-weight: 600;
     letter-spacing: 0.2px;
     color: #ffffff;
     top: 23%;
-    left: 8%;
+    left: 18%;
 }
 
 #welcome-msg {
@@ -192,11 +108,9 @@ html,body{
     font-size: 4em;
     font-family: Graphik-Semibold,Roboto;
     color: #ffffff;
-    height: 198px;
-    width: 1138px;
     font-weight: 600;
     top: 24% !important;
-    left: 8% !important;
+    left: 19% !important;
 }
 
 #circle-wrapper-1-1,
@@ -548,8 +462,8 @@ html,body{
     width: 52%;
     margin-top: 12%;
     margin-left: 35%;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
+    border-top-right-radius: 1.125em;
+    border-bottom-right-radius: 1.125em;
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -578,7 +492,7 @@ html,body{
 .info-container h2 {
     font-family: Graphik-Semibold, Roboto ;
     font-size: 2em;
-    margin-bottom: 50px;
+    margin-bottom: 1.55em;
 }
 
 .info-container h3 {
@@ -586,7 +500,7 @@ html,body{
     font-size: 1.3em;
     line-height: 1.57;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: 1.4em;
 }
 
 .github-button {
@@ -689,7 +603,7 @@ html,body{
 }
 
 .smiley {
-    height: 180px;
+    height: 11.25em;
     width: auto;
     margin: 0 22%;
 }
@@ -705,16 +619,16 @@ html,body{
 }
 
 .social-img {
-    height: 4%;
+    height: 3.625em;
     width: auto;
-    margin: 0 63px 0 0;
+    margin: 0 4em 0 0;
     position: relative;
     z-index: 20;
     cursor: pointer;
 }
 
 .svg-size {
-    height: 53px;
+    height: 3.8em;
 }
 
 .twitter-img {
@@ -722,9 +636,9 @@ html,body{
 }
 
 .rectangle {
-    width: 12px;
-    height: 600px;
-    border-radius: 100px;
+    width: 0.8em;
+    height: 40em;
+    border-radius: 8em;
     background-color: #ffffff;
     margin-top: 50%;
     position: relative;
@@ -861,7 +775,14 @@ _::-webkit-full-page-media, _:future, :root .github-button {
     }
 }
 
-@media  screen and (min-width: 95em){
+@media screen and (min-width: 160em) {
+    html,body {
+        font-size: 28px;
+    }
+
+}
+
+/*dell values
 
     #section4 h1, #section3 h1 {
         top: 5%;
@@ -880,7 +801,16 @@ _::-webkit-full-page-media, _:future, :root .github-button {
         top: 16.5em;
     }
 
-}
+}*/
+
+/*
+
+
+
+
+
+
+*/
 
 
 

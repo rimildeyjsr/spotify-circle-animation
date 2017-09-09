@@ -40,8 +40,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="846" column="14" lean-forward="false" selection-start-line="846" selection-start-column="14" selection-end-line="846" selection-end-column="14" />
+            <state relative-caret-position="370">
+              <caret line="773" column="20" lean-forward="true" selection-start-line="773" selection-start-column="20" selection-end-line="773" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -82,6 +82,7 @@
       <find>container-</find>
       <find>.info</find>
       <find>h1</find>
+      <find>px</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -271,7 +272,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="2714000" />
+      <workItem from="1504928873586" duration="4729000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -504,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504932787090</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="responsive on my dell">
+      <created>1504934490864</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1504934490864</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95872000" />
+    <option name="totallyTimeSpent" value="97887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -548,7 +556,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="animation doubt for stackoverflow" />
     <MESSAGE value="circle animation done" />
     <MESSAGE value="circles replicated on every page, blog section removed, typos fixed" />
     <MESSAGE value="circle changed" />
@@ -573,7 +580,8 @@
     <MESSAGE value="for stack overflow 1" />
     <MESSAGE value="fixed typo added content for walldo" />
     <MESSAGE value="responsive on laptop" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive on laptop" />
+    <MESSAGE value="responsive on my dell" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive on my dell" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -997,8 +1005,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="846" column="14" lean-forward="false" selection-start-line="846" selection-start-column="14" selection-end-line="846" selection-end-column="14" />
+        <state relative-caret-position="370">
+          <caret line="773" column="20" lean-forward="true" selection-start-line="773" selection-start-column="20" selection-end-line="773" selection-end-column="20" />
           <folding />
         </state>
       </provider>
