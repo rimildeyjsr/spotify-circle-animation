@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="optimized images">
+    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/phone.png" afterPath="$PROJECT_DIR$/images/cinematic-pixel.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -25,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="117" column="95" lean-forward="false" selection-start-line="117" selection-start-column="95" selection-end-line="117" selection-end-column="95" />
+            <state relative-caret-position="345">
+              <caret line="142" column="30" lean-forward="true" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -274,7 +275,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="16055000" />
+      <workItem from="1504928873586" duration="16475000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -549,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505036008813</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="changed link for walldo">
+      <created>1505037542065</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1505037542065</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109213000" />
+    <option name="totallyTimeSpent" value="109633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -593,7 +601,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="under dev msg" />
     <MESSAGE value=":/" />
     <MESSAGE value="proper :/" />
     <MESSAGE value="parallax added to all sections" />
@@ -618,7 +625,8 @@
     <MESSAGE value="bug fixed probably" />
     <MESSAGE value="removed unnecessary stuff" />
     <MESSAGE value="optimized images" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimized images" />
+    <MESSAGE value="changed link for walldo" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed link for walldo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -974,7 +982,7 @@
     <entry file="file://$PROJECT_DIR$/js/extension.js" />
     <entry file="file://$PROJECT_DIR$/images/really-blue@2x.png" />
     <entry file="file://$PROJECT_DIR$/images/really-blue@3x.png" />
-    <entry file="file://$PROJECT_DIR$/images/phone.png">
+    <entry file="file://$PROJECT_DIR$/images/cinematic-pixel.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1026,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="117" column="95" lean-forward="false" selection-start-line="117" selection-start-column="95" selection-end-line="117" selection-end-column="95" />
+        <state relative-caret-position="345">
+          <caret line="142" column="30" lean-forward="true" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
