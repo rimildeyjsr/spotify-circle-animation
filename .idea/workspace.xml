@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="329" column="54" lean-forward="false" selection-start-line="329" selection-start-column="54" selection-end-line="329" selection-end-column="54" />
+            <state relative-caret-position="14">
+              <caret line="331" column="62" lean-forward="false" selection-start-line="331" selection-start-column="62" selection-end-line="331" selection-end-column="62" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -280,7 +279,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="24844000" />
+      <workItem from="1504928873586" duration="25253000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -618,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505053220172</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="transistion added to mobiles">
+      <created>1505054440631</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1505054440631</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118002000" />
+    <option name="totallyTimeSpent" value="118411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -662,7 +668,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="firefox font issue fixed" />
     <MESSAGE value="firefox margin for 3rd and 4th section heading fixed" />
     <MESSAGE value="different margins and crap for different browsers" />
     <MESSAGE value="info container introduced, fixing fonts and stuff now" />
@@ -687,7 +692,8 @@
     <MESSAGE value="typo fixed" />
     <MESSAGE value="stock hawk pic added" />
     <MESSAGE value="stock hawk pic added optimzed" />
-    <option name="LAST_COMMIT_MESSAGE" value="stock hawk pic added optimzed" />
+    <MESSAGE value="transistion added to mobiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="transistion added to mobiles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1095,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="329" column="54" lean-forward="false" selection-start-line="329" selection-start-column="54" selection-end-line="329" selection-end-column="54" />
+        <state relative-caret-position="14">
+          <caret line="331" column="62" lean-forward="false" selection-start-line="331" selection-start-column="62" selection-end-line="331" selection-end-column="62" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />

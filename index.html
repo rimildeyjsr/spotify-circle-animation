@@ -328,7 +328,10 @@
 
                         if((index === 3 || anchorLink === 'projects') && !sliding) {
                             callMakeDiv('#1f3264', 3);
-                            $('#slide1 .card').addClass('come-in');
+                            $('#slide1 .card').addClass('come-in').one(animationEnd,function (){
+                                $('.card').css('opacity','1');
+                            });
+
                         }
 
 
@@ -382,26 +385,6 @@
                                 $.fn.fullpage.moveTo(link);
                             }
                         });
-
-                        if(index === 3) {
-
-                            if(slideIndex === 1){
-                                $('#slide2 .card').addClass('come-in');
-                            }
-
-                            if(slideIndex === 2){
-                                $('#slide3 .card').addClass('come-in');
-                            }
-
-                            if(slideIndex === 3){
-                                $('#slide4 .card').addClass('come-in');
-                            }
-
-                            if(slideIndex === 4){
-                                $('#slide5 .card').addClass('come-in');
-                            }
-
-                        }
 
                         if((slideIndex === 0)&& (index === 3) && (slideLinkClick === true)) {
                             console.log(link);
