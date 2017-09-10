@@ -4,7 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width">
+
+        <link href="images/trooper.ico" rel="shortcut icon">
+
         <title>Prateek Prasad</title>
+
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/jquery-ui.min.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
@@ -63,7 +67,7 @@
             <div class="section" id="section2">
                 <div class="layer star-wars" data-depth="1">
                     <img src="images/speechBubble.png" class="speech">
-                    <img src="images/stormTrooper.png" class="force animated slideInUp">
+                    <img src="images/stormTrooper.png" class="force">
                 </div>
                 <div class="layer container-2" data-depth="0.8">
                     <h1>I'm Prateek</h1>
@@ -314,7 +318,7 @@
                                 $('#section2 h3').addClass('come-in').one(animationEnd,function(){
                                     $('#section2 p').addClass('come-in').delay(1500).one(animationEnd,function(){
                                         $('.force').addClass('creepy').one(animationEnd,function(){
-                                            $('.speech').addClass('animated jackInTheBox');
+                                            $('.speech').addClass('jackInBox');
                                         });
                                     });
                                 });

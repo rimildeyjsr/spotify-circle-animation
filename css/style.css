@@ -378,6 +378,35 @@ html,body{
     }
 }
 
+@keyframes jackInBox {
+    0% {
+        opacity: 0;
+        transform: scale(0.1) rotate(75deg);
+        transform-origin: center bottom;
+    }
+
+    50% {
+        transform: rotate(-25deg);
+    }
+
+    70% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.jackInBox {
+    -webkit-animation: jackInBox 1.2s  forwards;
+    -ms-animation: jackInBox 1.2s  forwards;
+    -o-animation: jackInBox 1.2s  forwards;
+    -moz-animation: jackInBox 1.2s  forwards;
+    animation: jackInBox 1.2s  forwards;
+}
+
 .come-in {
     -ms-transform:translateY(85px);
     -moz-transform:translateY(85px);
