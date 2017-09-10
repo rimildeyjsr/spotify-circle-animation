@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="typo fixed">
+    <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -25,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+            <state relative-caret-position="219">
+              <caret line="202" column="55" lean-forward="false" selection-start-line="202" selection-start-column="55" selection-end-line="202" selection-end-column="55" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -279,7 +279,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="23630000" />
+      <workItem from="1504928873586" duration="23723000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -596,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505046976658</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="typo fixed">
+      <created>1505052843980</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1505052843980</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116788000" />
+    <option name="totallyTimeSpent" value="116881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -640,7 +647,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="card added and github button" />
     <MESSAGE value="card and github button and phone image positions changed" />
     <MESSAGE value="firefox bug fixed" />
     <MESSAGE value="firefox font issue fixed" />
@@ -665,7 +671,8 @@
     <MESSAGE value="for prateek to play" />
     <MESSAGE value="sorry" />
     <MESSAGE value="favicon added, jack in box animation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="favicon added, jack in box animation added" />
+    <MESSAGE value="typo fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1073,8 +1080,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+        <state relative-caret-position="219">
+          <caret line="202" column="55" lean-forward="false" selection-start-line="202" selection-start-column="55" selection-end-line="202" selection-end-column="55" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
