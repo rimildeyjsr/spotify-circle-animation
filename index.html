@@ -61,6 +61,10 @@
             </div>
 
             <div class="section" id="section2">
+                <div class="layer star-wars" data-depth="1">
+                    <img src="images/speechBubble.png" class="speech">
+                    <img src="images/stormTrooper.png" class="force animated slideInUp">
+                </div>
                 <div class="layer container-2" data-depth="0.8">
                     <h1>I'm Prateek</h1>
                     <h3>Android Developer <br> & Design Consultant</h3>
@@ -308,7 +312,11 @@
                         if(index === 2 || anchorLink === 'about'){
                             $('#section2 h1').addClass('come-in').one(animationEnd,function(){
                                 $('#section2 h3').addClass('come-in').one(animationEnd,function(){
-                                    $('#section2 p').addClass('come-in');
+                                    $('#section2 p').addClass('come-in').delay(1500).one(animationEnd,function(){
+                                        $('.force').addClass('creepy').one(animationEnd,function(){
+                                            $('.speech').addClass('animated jackInTheBox');
+                                        });
+                                    });
                                 });
                             });
                             callMakeDiv('#f573a0',2);
