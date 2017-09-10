@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -280,7 +278,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="22044000" />
+      <workItem from="1504928873586" duration="22168000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -576,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505043092101</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="for prateek to play">
+      <created>1505045609936</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1505045609936</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115202000" />
+    <option name="totallyTimeSpent" value="115326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -620,7 +625,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="parallax added to all sections" />
     <MESSAGE value="link fixed" />
     <MESSAGE value="phone added" />
     <MESSAGE value="card added and github button" />
@@ -645,7 +649,8 @@
     <MESSAGE value="changed link for walldo" />
     <MESSAGE value="added new images" />
     <MESSAGE value="added info for portfolio projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="added info for portfolio projects" />
+    <MESSAGE value="for prateek to play" />
+    <option name="LAST_COMMIT_MESSAGE" value="for prateek to play" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
