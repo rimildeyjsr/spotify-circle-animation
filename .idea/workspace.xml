@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -279,7 +278,7 @@
       <workItem from="1504496591152" duration="15855000" />
       <workItem from="1504601895641" duration="1067000" />
       <workItem from="1504755251602" duration="9595000" />
-      <workItem from="1504928873586" duration="23723000" />
+      <workItem from="1504928873586" duration="23883000" />
     </task>
     <task id="LOCAL-00001" summary="fixed section 5 of the webpage">
       <created>1503479388349</created>
@@ -603,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505052843980</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="stock hawk pic added">
+      <created>1505052942545</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1505052942545</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116881000" />
+    <option name="totallyTimeSpent" value="117041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -647,7 +653,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="card and github button and phone image positions changed" />
     <MESSAGE value="firefox bug fixed" />
     <MESSAGE value="firefox font issue fixed" />
     <MESSAGE value="firefox margin for 3rd and 4th section heading fixed" />
@@ -672,7 +677,8 @@
     <MESSAGE value="sorry" />
     <MESSAGE value="favicon added, jack in box animation added" />
     <MESSAGE value="typo fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo fixed" />
+    <MESSAGE value="stock hawk pic added" />
+    <option name="LAST_COMMIT_MESSAGE" value="stock hawk pic added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
