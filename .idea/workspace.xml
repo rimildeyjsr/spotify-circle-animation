@@ -278,14 +278,7 @@
       <workItem from="1504755251602" duration="9595000" />
       <workItem from="1504928873586" duration="25840000" />
       <workItem from="1505111539524" duration="274000" />
-      <workItem from="1505124973611" duration="2289000" />
-    </task>
-    <task id="LOCAL-00003" summary="for stackoverflow">
-      <created>1503659514912</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1503659514912</updated>
+      <workItem from="1505124973611" duration="2303000" />
     </task>
     <task id="LOCAL-00004" summary="for stackoverflow">
       <created>1503659530388</created>
@@ -623,11 +616,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505134115531</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="darth vader added">
+      <created>1505138892617</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1505138892617</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121561000" />
+    <option name="totallyTimeSpent" value="121575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
