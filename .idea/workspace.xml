@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speechBubble.png" afterPath="$PROJECT_DIR$/images/speechStormTrooper.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +37,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="442">
               <caret line="680" column="14" lean-forward="true" selection-start-line="680" selection-start-column="14" selection-end-line="680" selection-end-column="14" />
               <folding />
             </state>
@@ -281,14 +278,7 @@
       <workItem from="1504755251602" duration="9595000" />
       <workItem from="1504928873586" duration="25840000" />
       <workItem from="1505111539524" duration="274000" />
-      <workItem from="1505124973611" duration="2032000" />
-    </task>
-    <task id="LOCAL-00002" summary="fixed fonts animation timings">
-      <created>1503480854891</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1503480854891</updated>
+      <workItem from="1505124973611" duration="2289000" />
     </task>
     <task id="LOCAL-00003" summary="for stackoverflow">
       <created>1503659514912</created>
@@ -626,11 +616,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505055418096</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="darth vader added">
+      <created>1505134115530</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1505134115531</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121304000" />
+    <option name="totallyTimeSpent" value="121561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +667,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="different margins and crap for different browsers" />
     <MESSAGE value="info container introduced, fixing fonts and stuff now" />
     <MESSAGE value="info container positions, font perfected" />
     <MESSAGE value="links opening in new tabs" />
@@ -695,7 +691,8 @@
     <MESSAGE value="stock hawk pic added optimzed" />
     <MESSAGE value="transistion added to mobiles" />
     <MESSAGE value="transistion removed from other phones" />
-    <option name="LAST_COMMIT_MESSAGE" value="transistion removed from other phones" />
+    <MESSAGE value="darth vader added" />
+    <option name="LAST_COMMIT_MESSAGE" value="darth vader added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,7 +1079,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="442">
           <caret line="680" column="14" lean-forward="true" selection-start-line="680" selection-start-column="14" selection-end-line="680" selection-end-column="14" />
           <folding />
         </state>
