@@ -108,9 +108,7 @@
                                         </a>
                                     </div>
                                     <div class="right-icon">
-                                        <a target="_blank" href="#">
-                                            <img src="images/getOnGooglePlay.png" class="github-googleplay-button googleplay">
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -139,9 +137,7 @@
                                         </a>
                                     </div>
                                     <div class="right-icon">
-                                        <a target="_blank" href="#">
-                                            <img src="images/getOnGooglePlay.png" class="github-googleplay-button googleplay">
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -190,9 +186,17 @@
                                     the Goods and Service Tax rates on several goods imposed by the Government of India.
                                     The app has search functionality and filters to narrow down the search to specific goods.
                                 </h3>
-                                <a target="_blank" href="#">
-                                    <img src="images/getOnGooglePlay.png" class="slide4-googleplay">
-                                </a>
+                                <div class="group">
+                                    <div class="left-icon">
+                                        <a target="_blank" href="#">
+                                            <img src="images/getOnGooglePlay.png" class="github-googleplay-button googleplay shiftLeft">
+                                        </a>
+                                    </div>
+                                    <div class="right-icon">
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -211,9 +215,16 @@
                                     The app has multiple accessibility features like TalkBack to help the differently abled users.
 
                                 </h3>
-                                <a target="_blank" href="#">
-                                    <img src="images/checkOnGithub.png" class="slide4-googleplay">
-                                </a>
+                                <div class="group">
+                                    <div class="left-icon">
+                                        <a target="_blank" href="#">
+                                            <img src="images/checkOnGithub.png" class="github-googleplay-button">
+                                        </a>
+                                    </div>
+                                    <div class="right-icon">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -240,7 +251,7 @@
                             tweet. I’m fun to talk to <br>
                             (seriously)
                         </p>
-                        <div>
+                        <div class="social-img-div">
                             <a target="_blank" href="https://twitter.com/hackertronix">
                                 <img src="images/twitter-icon.svg" class="social-img twitter-img">
                             </a>
@@ -282,7 +293,9 @@
                 });
 
 
-                var slideIndex2 = 1, sliding = false, slideLinkClick = false, link;
+                //var slideIndex2 = 1, sliding = false, slideLinkClick = false, link;
+
+                var indexSlide = 0, sliding = true;
 
                 $('#fullpage').fullpage({
 
@@ -319,11 +332,24 @@
                             callMakeDiv('#f573a0',2);
                         }
 
-                        if((index === 3 || anchorLink === 'projects') && !sliding) {
+                        if((index === 3 || anchorLink === 'projects') /*&& !sliding*/) {
                             callMakeDiv('#1f3264', 3);
                             $('#slide1 .card').addClass('come-in').one(animationEnd,function (){
                                 $('.card').css('opacity','1');
                             });
+
+                            if(sliding){
+                                var id = setInterval(function(){
+                                    $.fn.fullpage.moveSlideRight();
+                                    indexSlide++;
+                                    console.log(indexSlide);
+                                    if (indexSlide === 4) {
+                                        clearInterval(id);
+                                        sliding = false;
+                                    }
+                                },3000);
+
+                            }
 
                         }
 
@@ -331,13 +357,22 @@
                         if (index === 4 || anchorLink === 'contact') {
                             //$('.left').addClass('animateRightSlide');
                             //$('.right-large').addClass('animateLeftSlide');
+                            $('#section4 p').addClass('come-in').one(animationEnd,function() {
+                                $('.social-img-div').addClass('come-in').one(animationEnd,function() {
+                                    $('.darthVader').addClass('creepy-side').one(animationEnd,function(){
+                                        $('.speechDV').addClass('jackInBox');
+                                    });
+                                });
+                            });
+
                             callMakeDiv('#f573a0',4);
+
                         }
                     },
 
                     onLeave: function(index, nextIndex, direction) {
 
-                        if (index === 3 && !sliding && slideLinkClick === false) {
+                        /*if (index === 3 && !sliding && slideLinkClick === false) {
 
                             if (direction === 'down' && slideIndex2 < 5) {
 
@@ -360,11 +395,12 @@
                             //return false;
                             console.log("was here");
 
-                        }
+                        }*/
 
                     },
+
                     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-                        sliding = false;
+                        /*sliding = false;
 
                         $('.menu-link').on('click', function(){
                             link = $(this).attr('data-menuanchor');
@@ -386,7 +422,7 @@
                             console.log(slideLinkClick);
                             console.log(sliding);
                         }
-
+*/
                     }
                 });
 

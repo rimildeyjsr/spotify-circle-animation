@@ -609,6 +609,10 @@ html,body{
     display: block;
 }
 
+.shiftLeft {
+    left: -1em;
+}
+
 .googleplay {
     top: 0.6em;
     height: 6em;
@@ -652,14 +656,36 @@ html,body{
     position: relative;
     height: 30em;
     left: 7em;
-    opacity: 1;
+    opacity: 0;
 }
 
 .darthVader {
     top: -12em;
     right: 8em;
     height: 36em;
-    transform: rotate(12deg);
+    opacity: 0;
+}
+
+.creepy-side {
+    -webkit-animation:creepy-animation-side 3.65s forwards;
+    -ms-animation:creepy-animation-side 3.65s forwards;
+    -o-animation:creepy-animation-side 3.65s forwards;
+    -moz-animation:creepy-animation-side 3.65s forwards;
+    animation:creepy-animation-side 3.65s forwards;
+}
+
+@keyframes creepy-animation-side {
+    0%{
+        -webkit-transform:translateX(-100%) rotate(12deg);
+        transform:translateX(-100%) rotate(12deg);
+        opacity: 0;
+
+    }
+    100%{
+        -webkit-transform:translateX(0) rotate(12deg);
+        transform:translateX(0) rotate(12deg);
+        opacity: 1;
+    }
 }
 
 /*.animateRightSlide {
@@ -741,6 +767,11 @@ html,body{
     line-height: 1.55em;
     position: relative;
     z-index: 20;
+    opacity: 0;
+}
+
+.social-img-div {
+    opacity: 0;
 }
 
 .social-img {
@@ -759,6 +790,7 @@ html,body{
 .twitter-img {
     margin-left: 8%;
 }
+/*
 
 .rectangle {
     width: 0.8em;
@@ -769,6 +801,7 @@ html,body{
     position: relative;
     z-index: 20;
 }
+*/
 
 .fp-controlArrow, .fp-slidesNav {
     z-index: 50 !important;
