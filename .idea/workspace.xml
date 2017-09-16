@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cinematic-pixel.png" afterPath="$PROJECT_DIR$/images/cinematic-pixel.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +24,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5115">
+            <state relative-caret-position="5110">
               <caret line="345" column="0" lean-forward="true" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -282,14 +279,7 @@
       <workItem from="1504928873586" duration="25840000" />
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
-      <workItem from="1505558720909" duration="5574000" />
-    </task>
-    <task id="LOCAL-00007" summary="spaced li little bit">
-      <created>1503672731455</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1503672731455</updated>
+      <workItem from="1505558720909" duration="5660000" />
     </task>
     <task id="LOCAL-00008" summary="animation doubt for stackoverflow">
       <created>1503823843312</created>
@@ -627,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505563670847</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="screen shot changed">
+      <created>1505586457564</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1505586457565</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127296000" />
+    <option name="totallyTimeSpent" value="127382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -671,7 +668,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="links opening in new tabs" />
     <MESSAGE value="for stack overflow" />
     <MESSAGE value="for stack overflow 1" />
     <MESSAGE value="fixed typo added content for walldo" />
@@ -696,7 +692,8 @@
     <MESSAGE value="darth vader added" />
     <MESSAGE value="auto scroll added, horizontal nav removed on slides, auto scroll added for slides, github and googleplay buttons added appropriately" />
     <MESSAGE value="updated links for github and google play" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated links for github and google play" />
+    <MESSAGE value="screen shot changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="screen shot changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1080,7 +1077,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5115">
+        <state relative-caret-position="5110">
           <caret line="345" column="0" lean-forward="true" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
