@@ -122,6 +122,16 @@ html,body{
     left: 19% !important;
 }
 
+.down-arrow {
+    opacity: 0;
+    position: absolute;
+    left: 42em;
+    top: 30em;
+    z-index: 50;
+    height: 8em;
+    width: 8em;
+}
+
 #circle-wrapper-1-1,
 #circle-wrapper-2-1,
 #circle-wrapper-3-1,

@@ -56,6 +56,11 @@
                     </div>
 
                     <span id="welcome-msg" class="come-in">Welcome to my website</span>
+
+                    <a href="#about">
+                        <img src="images/down-arrow.png" class="down-arrow" >
+                    </a>
+
                 </div>
 
                 <div class="layer" id="circle-wrapper-1-1" data-depth="0.6"></div>
@@ -432,8 +437,7 @@
                         $(".main-heading").css("visibility","visible");
                     },
                     onStringTyped: function(){
-                        $('.button-launch').addClass("animated slideInDown").css("visibility","visible")
-                        ;
+                        $('.down-arrow').css("opacity","1").addClass('animated slideInDown');
                     }
                 });
 
