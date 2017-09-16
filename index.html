@@ -301,7 +301,7 @@
 
                     anchors: ['home','about','projects','contact'],
 
-                    loopHorizontal: false,
+                    loopHorizontal: true,
 
                     fixedElements: '#toggle,#overlay',
 
@@ -342,12 +342,7 @@
                                 var id = setInterval(function(){
                                     $.fn.fullpage.moveSlideRight();
                                     indexSlide++;
-                                    console.log(indexSlide);
-                                    if (indexSlide === 4) {
-                                        clearInterval(id);
-                                        sliding = false;
-                                    }
-                                },3000);
+                                },5000);
 
                             }
 
