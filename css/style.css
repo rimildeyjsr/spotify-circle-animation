@@ -97,6 +97,7 @@ html,body{
 
 .main-heading{
     text-align:left;
+    height: 1.4em;
     z-index: 50;
     position: relative;
     display: block;
