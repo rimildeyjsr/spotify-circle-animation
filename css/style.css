@@ -10,6 +10,11 @@ html,body{
     -moz-osx-font-smoothing: grayscale;
 }
 
+.no_transition {
+    transition: none !important;
+}
+
+
 .fp-section.fp-table, .fp-slide.fp-table {
     display: block;
     table-layout: fixed;
