@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5205">
-              <caret line="351" column="29" lean-forward="true" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
+            <state relative-caret-position="-5152">
+              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="166">
+              <caret line="545" column="1" lean-forward="true" selection-start-line="545" selection-start-column="1" selection-end-line="545" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -57,12 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>section</find>
-      <find>section4</find>
-      <find>section5</find>
-      <find>come-in</find>
-      <find>section2</find>
-      <find>heading-</find>
       <find>Graphik,</find>
       <find>Graphik-</find>
       <find>#circle-l</find>
@@ -71,7 +65,6 @@
       <find>container-</find>
       <find>.info</find>
       <find>h1</find>
-      <find>px</find>
       <find>group</find>
       <find>.git</find>
       <find>h3</find>
@@ -87,6 +80,13 @@
       <find>creepy-</find>
       <find>googlepl</find>
       <find>-4</find>
+      <find>button</find>
+      <find>slide</find>
+      <find>slide</find>
+      <find>card</find>
+      <find>px</find>
+      <find>-1</find>
+      <find>force</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/js/extension.js" />
         <option value="$PROJECT_DIR$/js/extension 2.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -282,14 +282,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="515000" />
-    </task>
-    <task id="LOCAL-00011" summary="circle changed">
-      <created>1503932719124</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1503932719125</updated>
+      <workItem from="1505637996960" duration="8122000" />
     </task>
     <task id="LOCAL-00012" summary="different circles for different sections">
       <created>1503945572504</created>
@@ -627,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505588994732</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="80% of slider problem fixed">
+      <created>1505638564731</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1505638564732</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129554000" />
+    <option name="totallyTimeSpent" value="137161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -671,7 +671,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed typo added content for walldo" />
     <MESSAGE value="responsive on laptop" />
     <MESSAGE value="responsive on my dell" />
     <MESSAGE value="changed most px to em, added a 160em screen size with just font-size change, to add more screens in between" />
@@ -696,7 +695,8 @@
     <MESSAGE value="screen shot changed" />
     <MESSAGE value="down arrow added" />
     <MESSAGE value="fixed height thingy" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed height thingy" />
+    <MESSAGE value="80% of slider problem fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="80% of slider problem fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1070,22 +1070,22 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5205">
-          <caret line="351" column="29" lean-forward="true" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
+        <state relative-caret-position="-5152">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="545" column="1" lean-forward="true" selection-start-line="545" selection-start-column="1" selection-end-line="545" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
