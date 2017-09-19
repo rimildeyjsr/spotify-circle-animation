@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-460">
+            <state relative-caret-position="474">
               <caret line="947" column="13" lean-forward="true" selection-start-line="947" selection-start-column="13" selection-end-line="947" selection-end-column="13" />
               <folding />
             </state>
@@ -281,14 +280,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="18888000" />
-    </task>
-    <task id="LOCAL-00017" summary="parallax added to all sections">
-      <created>1504000945092</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1504000945092</updated>
+      <workItem from="1505637996960" duration="19070000" />
     </task>
     <task id="LOCAL-00018" summary="link fixed">
       <created>1504067850827</created>
@@ -626,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505818630045</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="check 3">
+      <created>1505818840052</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1505818840053</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147927000" />
+    <option name="totallyTimeSpent" value="148109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +669,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed unnecessary stuff" />
     <MESSAGE value="optimized images" />
     <MESSAGE value="changed link for walldo" />
     <MESSAGE value="added new images" />
@@ -695,7 +693,8 @@
     <MESSAGE value="fixed ipad pro" />
     <MESSAGE value="to check" />
     <MESSAGE value="check 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="check 2" />
+    <MESSAGE value="check 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="check 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,7 +1081,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
+        <state relative-caret-position="474">
           <caret line="947" column="13" lean-forward="true" selection-start-line="947" selection-start-column="13" selection-end-line="947" selection-end-column="13" />
           <folding />
         </state>
