@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="479">
+              <caret line="950" column="21" lean-forward="false" selection-start-line="950" selection-start-column="21" selection-end-line="950" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -82,10 +82,10 @@
       <find>section3</find>
       <find>section3 h1</find>
       <find>button_con</find>
-      <find>force</find>
       <find>speec</find>
       <find>#section2 h1</find>
       <find>#section2 h3</find>
+      <find>force</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -109,8 +109,8 @@
         <option value="$PROJECT_DIR$/js/extension.js" />
         <option value="$PROJECT_DIR$/js/extension 2.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -281,14 +281,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="19572000" />
-    </task>
-    <task id="LOCAL-00022" summary="firefox bug fixed">
-      <created>1504503049366</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1504503049366</updated>
+      <workItem from="1505637996960" duration="19974000" />
     </task>
     <task id="LOCAL-00023" summary="firefox font issue fixed">
       <created>1504504547752</created>
@@ -626,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505826758534</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="updated code">
+      <created>1505826833229</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1505826833229</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148611000" />
+    <option name="totallyTimeSpent" value="149013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -692,10 +692,10 @@
     <MESSAGE value="to check" />
     <MESSAGE value="check 2" />
     <MESSAGE value="check 3" />
-    <MESSAGE value="updated code" />
     <MESSAGE value="updated code 1" />
     <MESSAGE value="updated code 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated code 2" />
+    <MESSAGE value="updated code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1069,14 +1069,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1085,6 +1077,14 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="950" column="21" lean-forward="false" selection-start-line="950" selection-start-column="21" selection-end-line="950" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
