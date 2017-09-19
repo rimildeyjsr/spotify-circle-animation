@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -282,14 +280,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="24054000" />
-    </task>
-    <task id="LOCAL-00025" summary="different margins and crap for different browsers">
-      <created>1504510414401</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1504510414402</updated>
+      <workItem from="1505637996960" duration="24166000" />
     </task>
     <task id="LOCAL-00026" summary="info container introduced, fixing fonts and stuff now">
       <created>1504532733576</created>
@@ -627,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505828369146</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="3rd section done">
+      <created>1505834069835</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1505834069835</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153093000" />
+    <option name="totallyTimeSpent" value="153205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -671,7 +669,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sorry" />
     <MESSAGE value="favicon added, jack in box animation added" />
     <MESSAGE value="typo fixed" />
     <MESSAGE value="stock hawk pic added" />
@@ -696,7 +693,8 @@
     <MESSAGE value="updated code" />
     <MESSAGE value="for opo" />
     <MESSAGE value="check" />
-    <option name="LAST_COMMIT_MESSAGE" value="check" />
+    <MESSAGE value="3rd section done" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd section done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
