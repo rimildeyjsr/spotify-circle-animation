@@ -1016,7 +1016,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:64em) {
     /* big landscape tablets, laptops, and desktops */
     html,body {
-        font-size: 8px;
+        font-size: 13px;
     }
 
    /* .main-heading{

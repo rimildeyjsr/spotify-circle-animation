@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="1018" column="20" lean-forward="false" selection-start-line="1018" selection-start-column="20" selection-end-line="1018" selection-end-column="20" />
+              <caret line="1018" column="21" lean-forward="false" selection-start-line="1018" selection-start-column="21" selection-end-line="1018" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -281,14 +281,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="18563000" />
-    </task>
-    <task id="LOCAL-00015" summary=":/">
-      <created>1503949246375</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1503949246375</updated>
+      <workItem from="1505637996960" duration="18769000" />
     </task>
     <task id="LOCAL-00016" summary="proper :/">
       <created>1503949412501</created>
@@ -626,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505817661888</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="to check">
+      <created>1505818124300</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1505818124300</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147602000" />
+    <option name="totallyTimeSpent" value="147808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="120 em to 200 em perfected" />
     <MESSAGE value="bug fixed probably" />
     <MESSAGE value="removed unnecessary stuff" />
     <MESSAGE value="optimized images" />
@@ -695,7 +694,8 @@
     <MESSAGE value="on the path to responsive design" />
     <MESSAGE value="responsive first two screens" />
     <MESSAGE value="fixed ipad pro" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed ipad pro" />
+    <MESSAGE value="to check" />
+    <option name="LAST_COMMIT_MESSAGE" value="to check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1083,7 +1083,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="1018" column="20" lean-forward="false" selection-start-line="1018" selection-start-column="20" selection-end-line="1018" selection-end-column="20" />
+          <caret line="1018" column="21" lean-forward="false" selection-start-line="1018" selection-start-column="21" selection-end-line="1018" selection-end-column="21" />
           <folding />
         </state>
       </provider>
