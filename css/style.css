@@ -832,6 +832,56 @@ html,body{
     z-index: 50;
 }
 
+.mobile-phone-img {
+    display: block;
+    margin: 14% auto 0;
+    width: 89.1%
+}
+
+.mobile-card h2 {
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    margin-top: 25%;
+    font-weight: normal;
+    font-family: Graphik-Medium, Roboto;
+}
+
+.mobile-button {
+    width: 50%;
+    margin: 4% auto 0;
+    display: block;
+}
+
+.mobile-left-icon {
+    float: left;
+    width: 50%;
+    position: relative;
+    z-index: 50;
+}
+
+.mobile-right-icon {
+    float: right;
+    width: 50%;
+    position: relative;
+    z-index: 50;
+}
+.mobile-left-button {
+    width: 93%;
+    margin: 2% 15%;
+    display: block;
+}
+
+.mobile-right-button {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.special-margin {
+    margin: 17% auto 0;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
 only screen and ( min-device-pixel-ratio: 1.25),
 only screen and ( min-resolution: 200dpi),
@@ -951,6 +1001,24 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         height: 26em;
     }
 
+    .fp-slidesNav {
+        display: none;
+    }
+
+    .mobile-card {
+        display: block;
+    }
+
+    .card {
+        display: none;
+    }
+
+    #section3 h1, #section4 h1 {
+        font-size: 3em;
+        top: 1.5em;
+        left: 4em;
+    }
+
 }
 
 @media screen and (min-width:22.5em)  {
@@ -982,7 +1050,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:37.5em)  {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     html,body {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -1119,6 +1187,24 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         top: 25em;
         left: 46em;
         height: 31em;
+    }
+
+    .fp-slidesNav {
+        display: block;
+    }
+
+    .mobile-card {
+        display: none;
+    }
+
+    .card {
+        display: block;
+    }
+
+    #section3 h1, #section4 h1 {
+        font-size: 2em;
+        top: 0.8em;
+        left: 3em;
     }
 
 }
