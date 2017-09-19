@@ -1016,10 +1016,10 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:64em) {
     /* big landscape tablets, laptops, and desktops */
     html,body {
-        font-size: 15px;
+        font-size: 13px;
     }
 
-    .main-heading{
+   /* .main-heading{
         top: 2.2em;
         font-size: 12em;
         left: 0.4em;
@@ -1033,12 +1033,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     .down-arrow {
         top: 60em;
     }
-
-    .overlay nav {
-        font-size: 3.1em;
-        letter-spacing: 0.0625em;
-        right: 6%;
-    }
+*/
 
 
 }
@@ -1092,6 +1087,12 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     .button_container.active .top {
         -webkit-transform: translateY(0.6875em) translateX(0) rotate(45deg);
         transform: translateY(0.6875em) translateX(0) rotate(45deg);
+    }
+
+    .overlay nav {
+        font-size: 3.1em;
+        letter-spacing: 0.0625em;
+        right: 6%;
     }
 
     #section2 h1, #section2 h3, #section2 p {
