@@ -113,8 +113,8 @@ html,body{
     font-weight: 600;
     letter-spacing: 0.0125em;
     color: #ffffff;
-    top: 1.2em;
-    left: 0.7em;
+    top: 24%;
+    left: 8%;
 }
 
 #welcome-msg {
@@ -126,18 +126,20 @@ html,body{
     font-family: Graphik-Semibold,Roboto;
     color: #ffffff;
     font-weight: 600;
-    top: 3em!important;
-    left: 2em !important;
+    top: 24% !important;
+    left: 9% !important;
 }
 
 .down-arrow {
     opacity: 0;
-    position: relative;
-    top: 23em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 83%;
     z-index: 50;
     height: 8em;
     width: 8em;
-    margin: 0 auto;
     display: block;
 }
 
@@ -844,7 +846,7 @@ html,body{
     text-align: center;
     margin-top: 25%;
     font-weight: normal;
-    font-family: Graphik-Medium, Roboto;
+    font-family: Graphik-Semibold, Roboto;
 }
 
 .mobile-button {
@@ -927,18 +929,14 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     }
 
     .main-heading{
-        top: 3.2em;
+        top: 28%;
         font-size: 12em;
-        left: 0.4em;
+        left: 9%;
     }
 
     #welcome-msg {
-        top: 10em!important;
-        left: 1.4em !important;
-    }
-
-    .down-arrow {
-        top: 70em;
+        top: 28%!important;
+        left: 10% !important;
     }
 
     .button_container {
@@ -1067,10 +1065,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     #welcome-msg {
         top: 7em !important;
     }
-
-    .down-arrow {
-        top: 54em;
-    }
 }
 
 @media screen and (min-width:50em)  {
@@ -1086,23 +1080,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     html,body {
         font-size: 13px;
     }
-
-   /* .main-heading{
-        top: 2.2em;
-        font-size: 12em;
-        left: 0.4em;
-    }
-
-    #welcome-msg {
-        top: 7em!important;
-        left: 1.4em !important;
-    }
-
-    .down-arrow {
-        top: 60em;
-    }
-*/
-
 
 }
 
@@ -1120,18 +1097,14 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     }
 
     .main-heading{
-        top: 1.2em;
+        top: 24%;
         font-size: 10em;
-        left: 0.7em;
+        left: 9%;
     }
 
     #welcome-msg {
-        top: 3em!important;
-        left: 2em !important;
-    }
-
-    .down-arrow {
-        top: 23em;
+        top: 24%!important;
+        left: 9% !important;
     }
 
     .button_container {

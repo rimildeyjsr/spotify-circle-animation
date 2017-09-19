@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="1049" column="25" lean-forward="false" selection-start-line="1049" selection-start-column="25" selection-end-line="1049" selection-end-column="25" />
+            <state relative-caret-position="1268">
+              <caret line="1108" column="4" lean-forward="false" selection-start-line="1108" selection-start-column="4" selection-end-line="1108" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -55,7 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>creepy-</find>
       <find>googlepl</find>
       <find>-4</find>
       <find>slide</find>
@@ -85,6 +85,7 @@
       <find>left-icon</find>
       <find>section3 h1</find>
       <find>mobile-card</find>
+      <find>down</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -280,14 +281,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="24166000" />
-    </task>
-    <task id="LOCAL-00026" summary="info container introduced, fixing fonts and stuff now">
-      <created>1504532733576</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1504532733576</updated>
+      <workItem from="1505637996960" duration="25407000" />
     </task>
     <task id="LOCAL-00027" summary="info container positions, font perfected">
       <created>1504586774435</created>
@@ -625,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505834069835</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="add github white button and new font">
+      <created>1505834318125</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1505834318125</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153205000" />
+    <option name="totallyTimeSpent" value="154446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -669,7 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="favicon added, jack in box animation added" />
     <MESSAGE value="typo fixed" />
     <MESSAGE value="stock hawk pic added" />
     <MESSAGE value="stock hawk pic added optimzed" />
@@ -694,7 +694,8 @@
     <MESSAGE value="for opo" />
     <MESSAGE value="check" />
     <MESSAGE value="3rd section done" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd section done" />
+    <MESSAGE value="add github white button and new font" />
+    <option name="LAST_COMMIT_MESSAGE" value="add github white button and new font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,14 +704,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery.fullPage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1079,10 +1072,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/github-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="1049" column="25" lean-forward="false" selection-start-line="1049" selection-start-column="25" selection-end-line="1049" selection-end-column="25" />
+        <state relative-caret-position="1268">
+          <caret line="1108" column="4" lean-forward="false" selection-start-line="1108" selection-start-column="4" selection-end-line="1108" selection-end-column="4" />
           <folding />
         </state>
       </provider>
