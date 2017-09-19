@@ -87,7 +87,7 @@ html,body{
 }
 
 .animate {
-    -webkit-animation: expand 20s ease-out;
+    -webkit-animation: expand 1s ease-out;
     display:block;
     transform:scale(1);
 }
@@ -133,7 +133,7 @@ html,body{
 .down-arrow {
     opacity: 0;
     position: relative;
-    top: 20em;
+    top: 23em;
     z-index: 50;
     height: 8em;
     width: 8em;
@@ -872,40 +872,267 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 
 @media screen and (min-width:20em)  {
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    html,body {
+        font-size: 5.5px;
+    }
+
+    .main-heading{
+        top: 3.2em;
+        font-size: 12em;
+        left: 0.4em;
+    }
+
+    #welcome-msg {
+        top: 10em!important;
+        left: 1.4em !important;
+    }
+
+    .down-arrow {
+        top: 70em;
+    }
+
+    .button_container {
+        width: 5.1875em;
+        height: 3.6875em;
+        left: 6% !important;
+    }
+
+    .button_container span {
+        height: 0.5em;
+    }
+
+    .button_container span:nth-of-type(2) {
+        top: 1.2em;
+    }
+
+    .button_container span:nth-of-type(3) {
+        top: 2.5em;
+    }
+
+    .button_container.active .top {
+        -webkit-transform: translateY(1.6875em) translateX(0) rotate(45deg);
+        transform: translateY(1.6875em) translateX(0) rotate(45deg);
+    }
+
+    .overlay nav {
+        font-size: 6.1em;
+        letter-spacing: 0em;
+        right: 0;
+    }
+
+    #section2 h1, #section2 h3, #section2 p {
+        margin-left: -1.5rem;
+    }
+
+    #section2 h1 {
+        margin-top: 0.5em;
+        font-size: 10em;
+    }
+
+    #section2 h3 {
+        margin-top: 2em;
+        font-size: 4.1em;
+    }
+
+
+    #section2 p {
+        font-size: 2.3em;
+    }
+
+    .force {
+        top: 77em;
+        left: -9em;
+        height: 36em;
+    }
+
+    .speech {
+        top: 66em;
+        left: 12em;
+        height: 26em;
+    }
+
 }
+
+@media screen and (min-width:22.5em)  {
+    /* smartphones, Android phones, landscape iPhone */
+    html,body {
+        font-size: 6px;
+    }
+
+}
+
+@media screen and (min-width:25.75em)  {
+    /* smartphones, Android phones, landscape iPhone */
+    html,body {
+        font-size: 6.8px;
+    }
+
+}
+
 
 
 @media screen and (min-width:30em)  {
     /* smartphones, Android phones, landscape iPhone */
+    html,body {
+        font-size: 7.7px;
+    }
 }
 
 
 @media screen and (min-width:37.5em)  {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    html,body {
+        font-size: 10px;
+    }
 }
 
 
-@media screen and (min-width:50.0625em)  {
+@media screen and (min-width:48em) {
+    html,body {
+        font-size: 9.8px;
+    }
+
+    .main-heading {
+        top: 2.2em;
+    }
+
+    #welcome-msg {
+        top: 7em !important;
+    }
+
+    .down-arrow {
+        top: 54em;
+    }
+}
+
+@media screen and (min-width:50em)  {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
+    html, body {
+        font-size: 12px;
+    }
 }
 
 
-@media screen and (min-width:64.0625em) {
+@media screen and (min-width:64em) {
     /* big landscape tablets, laptops, and desktops */
+    html,body {
+        font-size: 15px;
+    }
+
+    .main-heading{
+        top: 2.2em;
+        font-size: 12em;
+        left: 0.4em;
+    }
+
+    #welcome-msg {
+        top: 7em!important;
+        left: 1.4em !important;
+    }
+
+    .down-arrow {
+        top: 60em;
+    }
+
+    .overlay nav {
+        font-size: 3.1em;
+        letter-spacing: 0.0625em;
+        right: 6%;
+    }
+
 
 }
 
 
-@media screen and (min-width:80.0625em) {
-    /* hi-res laptops and desktops */
+@media screen and (min-width:80em) {
+   /*********defaukts******/
+    html,body {
+        font-size: 15px;
+    }
 
+    .speech {
+        left: 60em;
+        top: 14em;
+        height: 22em;
+    }
+
+    .main-heading{
+        top: 1.2em;
+        font-size: 10em;
+        left: 0.7em;
+    }
+
+    #welcome-msg {
+        top: 3em!important;
+        left: 2em !important;
+    }
+
+    .down-arrow {
+        top: 23em;
+    }
+
+    .button_container {
+        width: 2.1875em;
+        height: 1.6875em;
+        left: 3% !important;
+    }
+
+    .button_container span {
+        height: 0.3125em;
+    }
+
+    .button_container span:nth-of-type(2) {
+        top: 0.6875em;
+    }
+
+    .button_container span:nth-of-type(3) {
+        top: 1.375em;
+    }
+
+    .button_container.active .top {
+        -webkit-transform: translateY(0.6875em) translateX(0) rotate(45deg);
+        transform: translateY(0.6875em) translateX(0) rotate(45deg);
+    }
+
+    #section2 h1, #section2 h3, #section2 p {
+        margin-left: 0.5rem;
+    }
+
+    #section2 h1{
+        font-size: 8em;
+    }
+
+    #section2 h3{
+        font-size: 3.1em;
+    }
+
+    #section2 h1,#section2 h3 {
+        margin-top: 0em;
+    }
+
+    #section2 p {
+        font-size: 1.9em;
+    }
+
+    .force {
+        top: 25em;
+        left: 46em;
+        height: 31em;
+    }
 
 }
 
 @media screen and (min-width: 85.375em) {
     html,body {
-        font-size: 13px;
+        font-size: 15px;
     }
+
+    .speech {
+        left: 65em;
+        top: 14em;
+        height: 22em;
+    }
+
 }
 
 @media screen and (min-width: 90em) {
@@ -919,16 +1146,38 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 
 }
 
+@media screen and (min-width: 105em) {
+    html, body {
+        font-size: 20px;
+    }
+}
+
 @media screen and (min-width: 120em) {
     html,body {
         font-size: 22px;
+    }
+
+    .speech {
+        left: 59em;
+    }
+
+    #section2 h1, #section2 h3, #section2 p {
+        margin-left: 0;
     }
 
 }
 
 @media screen and (min-width: 160em) {
     html,body {
-        font-size: 28px;
+        font-size: 30px;
+    }
+
+    .speech {
+        left: 60em;
+    }
+
+    #section2 h1, #section2 h3, #section2 p {
+        margin-left: 0.5rem;
     }
 
 }
@@ -937,12 +1186,20 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     html,body {
         font-size: 34px;
     }
+
 }
 
 @media screen and (min-width: 200em) {
     html,body {
         font-size: 36px;
     }
+}
+
+@media screen and (min-width: 240em) {
+    html,body {
+        font-size: 44px;
+    }
+
 }
 
 

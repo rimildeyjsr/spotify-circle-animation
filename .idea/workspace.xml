@@ -26,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5152">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="445">
+              <caret line="71" column="47" lean-forward="false" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="545" column="1" lean-forward="true" selection-start-line="545" selection-start-column="1" selection-end-line="545" selection-end-column="1" />
+            <state relative-caret-position="-575">
+              <caret line="970" column="0" lean-forward="true" selection-start-line="970" selection-start-column="0" selection-end-line="970" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,36 +57,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Graphik,</find>
-      <find>Graphik-</find>
-      <find>#circle-l</find>
-      <find>phon</find>
-      <find>font-sm</find>
-      <find>container-</find>
-      <find>.info</find>
-      <find>h1</find>
-      <find>group</find>
-      <find>.git</find>
-      <find>h3</find>
-      <find>spee</find>
-      <find>jackInBox</find>
-      <find>.card</find>
-      <find>anim</find>
-      <find>creepy</find>
-      <find>container-4</find>
-      <find>dart</find>
       <find>creep</find>
       <find>darth</find>
       <find>creepy-</find>
       <find>googlepl</find>
       <find>-4</find>
-      <find>button</find>
       <find>slide</find>
       <find>slide</find>
       <find>card</find>
       <find>px</find>
       <find>-1</find>
+      <find>spee</find>
+      <find>main</find>
+      <find>we</find>
+      <find>welcom</find>
+      <find>dow</find>
+      <find>button</find>
+      <find>button_c</find>
+      <find>.button_container span</find>
+      <find>.button_container span:nth-of-type(2)</find>
+      <find>.button_container span:nth-of-type(3)</find>
+      <find>.bottom</find>
+      <find>#welcome-msg {</find>
+      <find>.over</find>
+      <find>section3</find>
+      <find>section3 h1</find>
+      <find>button_con</find>
       <find>force</find>
+      <find>speec</find>
+      <find>#section2 h1</find>
+      <find>#section2 h3</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -282,14 +282,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="8122000" />
-    </task>
-    <task id="LOCAL-00012" summary="different circles for different sections">
-      <created>1503945572504</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1503945572505</updated>
+      <workItem from="1505637996960" duration="17943000" />
     </task>
     <task id="LOCAL-00013" summary="flash bug solved?">
       <created>1503947044790</created>
@@ -627,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505638564732</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="on the path to responsive design">
+      <created>1505765929270</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1505765929271</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137161000" />
+    <option name="totallyTimeSpent" value="146982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -671,7 +671,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="responsive on laptop" />
     <MESSAGE value="responsive on my dell" />
     <MESSAGE value="changed most px to em, added a 160em screen size with just font-size change, to add more screens in between" />
     <MESSAGE value="120 em to 200 em perfected" />
@@ -696,7 +695,8 @@
     <MESSAGE value="down arrow added" />
     <MESSAGE value="fixed height thingy" />
     <MESSAGE value="80% of slider problem fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="80% of slider problem fixed" />
+    <MESSAGE value="on the path to responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="on the path to responsive design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1072,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5152">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="445">
+          <caret line="71" column="47" lean-forward="false" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1083,8 +1083,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="545" column="1" lean-forward="true" selection-start-line="545" selection-start-column="1" selection-end-line="545" selection-end-column="1" />
+        <state relative-caret-position="-575">
+          <caret line="970" column="0" lean-forward="true" selection-start-line="970" selection-start-column="0" selection-end-line="970" selection-end-column="0" />
           <folding />
         </state>
       </provider>
