@@ -38,8 +38,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="1018" column="21" lean-forward="false" selection-start-line="1018" selection-start-column="21" selection-end-line="1018" selection-end-column="21" />
+            <state relative-caret-position="-460">
+              <caret line="947" column="13" lean-forward="true" selection-start-line="947" selection-start-column="13" selection-end-line="947" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -281,14 +281,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="18769000" />
-    </task>
-    <task id="LOCAL-00016" summary="proper :/">
-      <created>1503949412501</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1503949412501</updated>
+      <workItem from="1505637996960" duration="18888000" />
     </task>
     <task id="LOCAL-00017" summary="parallax added to all sections">
       <created>1504000945092</created>
@@ -626,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505818124300</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="check 2">
+      <created>1505818630045</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1505818630045</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147808000" />
+    <option name="totallyTimeSpent" value="147927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bug fixed probably" />
     <MESSAGE value="removed unnecessary stuff" />
     <MESSAGE value="optimized images" />
     <MESSAGE value="changed link for walldo" />
@@ -695,7 +694,8 @@
     <MESSAGE value="responsive first two screens" />
     <MESSAGE value="fixed ipad pro" />
     <MESSAGE value="to check" />
-    <option name="LAST_COMMIT_MESSAGE" value="to check" />
+    <MESSAGE value="check 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="check 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,8 +1082,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="1018" column="21" lean-forward="false" selection-start-line="1018" selection-start-column="21" selection-end-line="1018" selection-end-column="21" />
+        <state relative-caret-position="-460">
+          <caret line="947" column="13" lean-forward="true" selection-start-line="947" selection-start-column="13" selection-end-line="947" selection-end-column="13" />
           <folding />
         </state>
       </provider>
