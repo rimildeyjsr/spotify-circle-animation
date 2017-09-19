@@ -536,22 +536,24 @@ html,body{
 
 .star-wars {
     z-index: 60;
+    width: 100vw;
+    height: 100vh;
 }
 
 .speech {
     position: absolute;
-    top: 14em;
-    left: 65em;
-    height: 22em;
+    left: 70%;
+    top: 30%;
+    height: 41%;
     opacity: 0;
 }
 
 .force {
     position: absolute;
-    top: 25em;
-    left: 46em;
     opacity: 0;
-    height: 31em;
+    top: 57%;
+    left: 52%;
+    height: 58%;
 }
 
 .card {
@@ -987,15 +989,15 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     }
 
     .force {
-        top: 68em;
-        left: -9em;
-        height: 36em;
+        height: 35%;
+        top: 63%;
+        left: -12%;
     }
 
     .speech {
-        top: 60em;
-        left: 16em;
-        height: 26em;
+        height: 17%;
+        left: 33%;
+        top: 63%;
     }
 
     .fp-slidesNav {
@@ -1029,7 +1031,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:25.75em)  {
     /* smartphones, Android phones, landscape iPhone */
     html,body {
-        font-size: 6.8px;
+        font-size: 6.5px;
     }
 
 }
@@ -1039,7 +1041,19 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:30em)  {
     /* smartphones, Android phones, landscape iPhone */
     html,body {
-        font-size: 7.7px;
+        font-size: 6.8px;
+    }
+
+    .force {
+        height: 38%;
+        top: 63%;
+        left: -12%;
+    }
+
+    .speech {
+        height: 20%;
+        left: 28%;
+        top: 63%;
     }
 }
 
@@ -1047,14 +1061,27 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:37.5em)  {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     html,body {
-        font-size: 9px;
+        font-size: 7.5px;
     }
+
+    .force {
+        height: 40%;
+        top: 60%;
+        left: 52%;
+    }
+
+    .speech {
+        height: 28%;
+        left: 68%;
+        top: 40%;
+    }
+
 }
 
 
 @media screen and (min-width:48em) {
     html,body {
-        font-size: 9.8px;
+        font-size: 8px;
     }
 
 }
@@ -1062,15 +1089,48 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:50em)  {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
     html, body {
-        font-size: 12px;
+        font-size: 9px;
     }
+
+    .force {
+
+        top: 60%;
+        left: 52%;
+    }
+
+    .speech {
+
+        left: 70%;
+        top: 48%;
+    }
+
 }
 
 
 @media screen and (min-width:64em) {
     /* big landscape tablets, laptops, and desktops */
     html,body {
-        font-size: 13px;
+        font-size: 10.5px;
+    }
+
+    .force {
+        height: 48%;
+        top: 57%;
+        left: 52%;
+    }
+
+    .speech {
+        height: 35%;
+        left: 70%;
+        top: 30%;
+    }
+
+}
+
+@media screen and (min-width:70em) {
+    /* big landscape tablets, laptops, and desktops */
+    html,body {
+        font-size: 10.8px;
     }
 
 }
@@ -1083,9 +1143,9 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     }
 
     .speech {
-        left: 60em;
-        top: 14em;
-        height: 22em;
+        left: 70%;
+        top: 30%;
+        height: 41%;
     }
 
     .main-heading{
@@ -1149,10 +1209,11 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     }
 
     .force {
-        top: 25em;
-        left: 46em;
-        height: 31em;
+        top: 57%;
+        left: 52%;
+        height: 58%;
     }
+
 
     .fp-slidesNav {
         display: block;
@@ -1178,13 +1239,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     html,body {
         font-size: 15px;
     }
-
-    .speech {
-        left: 65em;
-        top: 14em;
-        height: 22em;
-    }
-
 }
 
 @media screen and (min-width: 90em) {
@@ -1209,10 +1263,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         font-size: 22px;
     }
 
-    .speech {
-        left: 59em;
-    }
-
     #section2 h1, #section2 h3, #section2 p {
         margin-left: 0;
     }
@@ -1222,10 +1272,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width: 160em) {
     html,body {
         font-size: 30px;
-    }
-
-    .speech {
-        left: 60em;
     }
 
     #section2 h1, #section2 h3, #section2 p {

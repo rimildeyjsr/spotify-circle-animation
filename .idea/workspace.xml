@@ -38,8 +38,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-104">
-              <caret line="986" column="5" lean-forward="true" selection-start-line="986" selection-start-column="5" selection-end-line="986" selection-end-column="5" />
+            <state relative-caret-position="-111">
+              <caret line="1054" column="16" lean-forward="false" selection-start-line="1054" selection-start-column="16" selection-end-line="1054" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>googlepl</find>
-      <find>-4</find>
       <find>slide</find>
       <find>slide</find>
       <find>card</find>
@@ -86,6 +84,8 @@
       <find>section3 h1</find>
       <find>mobile-card</find>
       <find>down</find>
+      <find>.speec</find>
+      <find>.for</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -281,14 +281,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="25924000" />
-    </task>
-    <task id="LOCAL-00028" summary="links opening in new tabs">
-      <created>1504587015249</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1504587015249</updated>
+      <workItem from="1505637996960" duration="29622000" />
     </task>
     <task id="LOCAL-00029" summary="for stack overflow">
       <created>1504601324999</created>
@@ -626,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505841550172</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="section 1 refactored 2">
+      <created>1505842547901</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1505842547901</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154963000" />
+    <option name="totallyTimeSpent" value="158661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stock hawk pic added" />
     <MESSAGE value="stock hawk pic added optimzed" />
     <MESSAGE value="transistion added to mobiles" />
     <MESSAGE value="transistion removed from other phones" />
@@ -695,7 +694,8 @@
     <MESSAGE value="3rd section done" />
     <MESSAGE value="add github white button and new font" />
     <MESSAGE value="section 1 refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="section 1 refactored" />
+    <MESSAGE value="section 1 refactored 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 1 refactored 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1079,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="986" column="5" lean-forward="true" selection-start-line="986" selection-start-column="5" selection-end-line="986" selection-end-column="5" />
+        <state relative-caret-position="-111">
+          <caret line="1054" column="16" lean-forward="false" selection-start-line="1054" selection-start-column="16" selection-end-line="1054" selection-end-column="16" />
           <folding />
         </state>
       </provider>
