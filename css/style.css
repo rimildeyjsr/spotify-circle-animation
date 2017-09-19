@@ -138,8 +138,7 @@ html,body{
     position: absolute;
     top: 83%;
     z-index: 50;
-    height: 8em;
-    width: 8em;
+    height: 12%;
     display: block;
 }
 
@@ -925,7 +924,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:20em)  {
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
     html,body {
-        font-size: 5.5px;
+        font-size: 6px;
     }
 
     .main-heading{
@@ -935,7 +934,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     }
 
     #welcome-msg {
-        top: 28%!important;
+        top: 30%!important;
         left: 10% !important;
     }
 
@@ -1022,7 +1021,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 @media screen and (min-width:22.5em)  {
     /* smartphones, Android phones, landscape iPhone */
     html,body {
-        font-size: 5.3px;
+        font-size: 6.2px;
     }
 
 }
@@ -1058,13 +1057,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         font-size: 9.8px;
     }
 
-    .main-heading {
-        top: 2.2em;
-    }
-
-    #welcome-msg {
-        top: 7em !important;
-    }
 }
 
 @media screen and (min-width:50em)  {
