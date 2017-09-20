@@ -281,14 +281,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="41726000" />
-    </task>
-    <task id="LOCAL-00036" summary="120 em to 200 em perfected">
-      <created>1504941227312</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1504941227312</updated>
+      <workItem from="1505637996960" duration="41815000" />
     </task>
     <task id="LOCAL-00037" summary="bug fixed probably">
       <created>1505028807341</created>
@@ -626,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505940279505</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="refactored for mobile 3">
+      <created>1505940586975</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1505940586975</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170765000" />
+    <option name="totallyTimeSpent" value="170854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="down arrow added" />
     <MESSAGE value="fixed height thingy" />
     <MESSAGE value="80% of slider problem fixed" />
     <MESSAGE value="on the path to responsive design" />
@@ -695,7 +694,8 @@
     <MESSAGE value="section4 refactored" />
     <MESSAGE value="refactored for mobile" />
     <MESSAGE value="refactored for mobile 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored for mobile 2" />
+    <MESSAGE value="refactored for mobile 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored for mobile 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
