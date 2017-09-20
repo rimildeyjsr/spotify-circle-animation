@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/darth-vader.png" afterPath="$PROJECT_DIR$/images/darth-vader.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/github-white.png" afterPath="$PROJECT_DIR$/images/github-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/speechDarthVader.png" afterPath="$PROJECT_DIR$/images/speechDarthVader.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stormTrooper.png" afterPath="$PROJECT_DIR$/images/stormTrooper.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +38,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="1018" column="0" lean-forward="true" selection-start-line="1018" selection-start-column="0" selection-end-line="1018" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="960" column="22" lean-forward="false" selection-start-line="960" selection-start-column="22" selection-end-line="960" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -286,14 +281,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="40656000" />
-    </task>
-    <task id="LOCAL-00033" summary="responsive on laptop">
-      <created>1504932787090</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1504932787090</updated>
+      <workItem from="1505637996960" duration="41009000" />
     </task>
     <task id="LOCAL-00034" summary="responsive on my dell">
       <created>1504934490864</created>
@@ -631,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505885203604</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="section4 refactored">
+      <created>1505939218227</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1505939218227</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169695000" />
+    <option name="totallyTimeSpent" value="170048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -675,7 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="auto scroll added, horizontal nav removed on slides, auto scroll added for slides, github and googleplay buttons added appropriately" />
     <MESSAGE value="updated links for github and google play" />
     <MESSAGE value="screen shot changed" />
     <MESSAGE value="down arrow added" />
@@ -700,7 +694,8 @@
     <MESSAGE value="section 3 refactored desktop refactored" />
     <MESSAGE value="section 3 refactored desktop refactored 1" />
     <MESSAGE value="github button put right" />
-    <option name="LAST_COMMIT_MESSAGE" value="github button put right" />
+    <MESSAGE value="section4 refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="section4 refactored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1073,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="1018" column="0" lean-forward="true" selection-start-line="1018" selection-start-column="0" selection-end-line="1018" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="960" column="22" lean-forward="false" selection-start-line="960" selection-start-column="22" selection-end-line="960" selection-end-column="22" />
           <folding />
         </state>
       </provider>
