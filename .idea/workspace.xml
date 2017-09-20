@@ -4,6 +4,7 @@
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="258" column="38" lean-forward="false" selection-start-line="258" selection-start-column="38" selection-end-line="258" selection-end-column="38" />
+            <state relative-caret-position="241">
+              <caret line="231" column="45" lean-forward="false" selection-start-line="231" selection-start-column="45" selection-end-line="231" selection-end-column="45" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="1054" column="16" lean-forward="false" selection-start-line="1054" selection-start-column="16" selection-end-line="1054" selection-end-column="16" />
+            <state relative-caret-position="2950">
+              <caret line="1252" column="1" lean-forward="false" selection-start-line="1252" selection-start-column="1" selection-end-line="1252" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -56,11 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slide</find>
-      <find>slide</find>
-      <find>card</find>
-      <find>px</find>
-      <find>-1</find>
       <find>spee</find>
       <find>main</find>
       <find>we</find>
@@ -86,6 +82,11 @@
       <find>down</find>
       <find>.speec</find>
       <find>.for</find>
+      <find>info-con</find>
+      <find>slide4-</find>
+      <find>.card</find>
+      <find>slide4-g</find>
+      <find>.info</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -281,14 +282,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="29622000" />
-    </task>
-    <task id="LOCAL-00029" summary="for stack overflow">
-      <created>1504601324999</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1504601324999</updated>
+      <workItem from="1505637996960" duration="32572000" />
     </task>
     <task id="LOCAL-00030" summary="for stack overflow">
       <created>1504850941381</created>
@@ -626,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505842547901</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="section 2 refactored">
+      <created>1505847290406</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1505847290406</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158661000" />
+    <option name="totallyTimeSpent" value="161611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +671,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stock hawk pic added optimzed" />
     <MESSAGE value="transistion added to mobiles" />
     <MESSAGE value="transistion removed from other phones" />
     <MESSAGE value="darth vader added" />
@@ -695,7 +695,8 @@
     <MESSAGE value="add github white button and new font" />
     <MESSAGE value="section 1 refactored" />
     <MESSAGE value="section 1 refactored 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="section 1 refactored 2" />
+    <MESSAGE value="section 2 refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 2 refactored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,10 +1062,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/github-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="258" column="38" lean-forward="false" selection-start-line="258" selection-start-column="38" selection-end-line="258" selection-end-column="38" />
+        <state relative-caret-position="241">
+          <caret line="231" column="45" lean-forward="false" selection-start-line="231" selection-start-column="45" selection-end-line="231" selection-end-column="45" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1072,15 +1078,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/github-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="1054" column="16" lean-forward="false" selection-start-line="1054" selection-start-column="16" selection-end-line="1054" selection-end-column="16" />
+        <state relative-caret-position="2950">
+          <caret line="1252" column="1" lean-forward="false" selection-start-line="1252" selection-start-column="1" selection-end-line="1252" selection-end-column="1" />
           <folding />
         </state>
       </provider>
