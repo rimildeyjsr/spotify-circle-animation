@@ -80,9 +80,6 @@ html,body{
 .container-5 {
     position: relative;
     z-index: 50;
-    top: 9% !important;
-    left: 0 !important;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -493,7 +490,7 @@ html,body{
 }
 
 
-#section2 h1, #section2 h3, #section2 p, #section3 h1,#section4 h1,#section4 h3, #section4 p {
+#section2 h1, #section2 h3, #section2 p, #section3 h1,#section4 h1, #section4 p {
     position: relative;
     z-index: 20;
     display: block;
@@ -661,7 +658,6 @@ html,body{
     width: 49%;
     opacity: 1;
     position: relative;
-    z-index: 20;
 }
 
 .right {
@@ -673,15 +669,16 @@ html,body{
 
 .speechDV {
     position: relative;
-    height: 30em;
-    left: 7em;
+    height: 52%;
     opacity: 0;
+    margin-left: 27%;
+    margin-top: 17%;
 }
 
 .darthVader {
-    top: -12em;
-    right: 8em;
-    height: 36em;
+    margin-top: -18%;
+    margin-left: -18%;
+    height: 67%;
     opacity: 0;
 }
 
@@ -713,13 +710,6 @@ html,body{
     clear: both;
 }
 
-#section4 h3 {
-    font-family: Graphik-Semibold, Roboto;
-    color: white;
-    font-size: 6em;
-    margin: 29% 0 7%;
-}
-
 #section4 img {
     position: relative;
     z-index: 20;
@@ -734,7 +724,7 @@ html,body{
 #section4 p {
     font-family: Graphik-Regular, Roboto;
     color: white;
-    font-size: 2em;
+    font-size: 2.3em;
     margin: 15% auto;
     line-height: 1.55em;
     position: relative;
@@ -749,7 +739,7 @@ html,body{
 .social-img {
     height: 3.625em;
     width: auto;
-    margin: 0 4em 0 0;
+    margin: 0 9% 0 0;
     position: relative;
     z-index: 20;
     cursor: pointer;
@@ -955,6 +945,56 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         left: 4em;
     }
 
+
+    .left,
+    .right {
+        float: none;
+        width: 100%;
+    }
+
+    .container-4 {
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    #section4 p {
+        margin: 13% 16%;
+        font-size: 3em;
+    }
+
+    .social-img-div {
+        margin: 14% 19%;
+    }
+
+    .social-img {
+        height: 4.625em;
+        margin: 0 8.5% 0 0;
+    }
+
+    .twitter-img {
+        margin-left: 12%;
+    }
+
+    .svg-size {
+        height: 4.8em;
+    }
+
+    .container-5 {
+        width: 50%;
+    }
+
+    .darthVader {
+        margin-top: -48%;
+        margin-left: -18%;
+        height: 38%;
+    }
+
+    .speechDV {
+        height: 28%;
+        margin-left: 39%;
+        margin-top: 130%;
+    }
+
 }
 
 @media screen and (min-width:22.5em)  {
@@ -963,12 +1003,40 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         font-size: 6.2px;
     }
 
+    #section4 p {
+        margin: 13% 16%;
+        font-size: 3em;
+    }
+
+    .social-img {
+        height: 4.625em;
+        margin: 0 8.5% 0 0;
+    }
+
+    .twitter-img {
+        margin-left: 12%;
+    }
+
 }
 
 @media screen and (min-width:25.75em)  {
     /* smartphones, Android phones, landscape iPhone */
     html,body {
         font-size: 6.5px;
+    }
+
+    #section4 p {
+        margin: 13% 14%;
+        font-size: 3em;
+    }
+
+    .social-img {
+        height: 4.625em;
+        margin: 0 8% 0 0;
+    }
+
+    .twitter-img {
+        margin-left: 12%;
     }
 
 }
@@ -992,6 +1060,20 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         left: 28%;
         top: 63%;
     }
+
+    #section4 p {
+        margin: 13% 22%;
+        font-size: 3em;
+    }
+
+    .social-img {
+        height: 4.625em;
+        margin: 0 8.5% 0 0;
+    }
+
+    .twitter-img {
+        margin-left: 17%;
+    }
 }
 
 
@@ -1013,12 +1095,106 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         top: 40%;
     }
 
+    .darthVader {
+        margin-top: -48%;
+        margin-left: -18%;
+        height: 44%;
+    }
+
+    .speechDV {
+        height: 32%;
+        margin-left: 39%;
+        margin-top: 106%;
+    }
+
+    #section4 p {
+        font-size: 3em;
+        margin: 8% 22%;
+    }
+
+    .social-img {
+        height: 4.625em;
+        margin: 0 9.5% 0 0;
+    }
+
+    .twitter-img {
+        margin-left: 17%;
+    }
+
+}
+
+@media screen and (min-width: 42em) {
+    .social-img {
+        margin: 0 11% 0 0;
+    }
+
+    .twitter-img {
+        margin-left: 17%;
+    }
+
+    #section4 p {
+        font-size: 3.5em;
+    }
+
 }
 
 
 @media screen and (min-width:48em) {
     html,body {
         font-size: 8px;
+    }
+
+    #section4 p {
+        font-size: 2.8em;
+        margin: 15% auto;
+    }
+
+    .speechDV {
+        height: 40%;
+        margin-left: 27%;
+        margin-top: 50%;
+    }
+
+    .darthVader {
+        margin-top: -5%;
+        margin-left: -18%;
+        height: 50%;
+    }
+
+    .container-4 {
+        top: 9% !important;
+        left: 53% !important;
+    }
+
+    .container-5 {
+        width: 100%;
+    }
+
+    .left {
+        width: 49%;
+        float: left;
+    }
+
+    .right {
+        width: 51%;
+        float: right;
+    }
+
+    .social-img-div {
+        margin: 0;
+    }
+
+    .social-img {
+        height: 3.625em;
+        margin: 0 9% 0 0;
+    }
+
+    .svg-size {
+        height: 3.8em;
+    }
+
+    .twitter-img {
+        margin-left: 8%;
     }
 
 }
@@ -1037,6 +1213,22 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     .speech {
         left: 70%;
         top: 48%;
+    }
+
+    .speechDV {
+        height: 45%;
+        margin-left: 27%;
+        margin-top: 32%;
+    }
+
+    .darthVader {
+        margin-top: -13%;
+        margin-left: -18%;
+        height: 55%;
+    }
+
+    #section4 p {
+        font-size: 2.7em;
     }
 
 }
@@ -1081,12 +1273,33 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         font-size: 1.7em;
     }
 
+    #section4 p {
+        font-size: 2.4em;
+    }
+
+    .speechDV {
+        height: 52%;
+        margin-left: 27%;
+        margin-top: 17%;
+    }
+
+    .darthVader {
+        margin-top: -18%;
+        margin-left: -18%;
+        height: 67%;
+    }
+
+
 }
 
 @media screen and (min-width:70em) {
     /* big landscape tablets, laptops, and desktops */
     html,body {
         font-size: 10.8px;
+    }
+
+    #section4 p {
+        font-size: 2.6em;
     }
 
 
@@ -1183,6 +1396,10 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 
     .info-container h3 {
         font-size: 1.3em;
+    }
+
+    #section4 p {
+        font-size: 2.3em;
     }
 
 }

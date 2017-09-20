@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/github-white.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/darth-vader.png" afterPath="$PROJECT_DIR$/images/darth-vader.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/github-white.png" afterPath="$PROJECT_DIR$/images/github-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/speechDarthVader.png" afterPath="$PROJECT_DIR$/images/speechDarthVader.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/stormTrooper.png" afterPath="$PROJECT_DIR$/images/stormTrooper.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5976">
-              <caret line="423" column="26" lean-forward="false" selection-start-line="423" selection-start-column="26" selection-end-line="423" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="334" column="39" lean-forward="false" selection-start-line="334" selection-start-column="39" selection-end-line="334" selection-end-column="39" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2950">
-              <caret line="1252" column="1" lean-forward="false" selection-start-line="1252" selection-start-column="1" selection-end-line="1252" selection-end-column="1" />
+            <state relative-caret-position="341">
+              <caret line="1018" column="0" lean-forward="true" selection-start-line="1018" selection-start-column="0" selection-end-line="1018" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,16 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spee</find>
-      <find>main</find>
-      <find>we</find>
-      <find>welcom</find>
-      <find>dow</find>
-      <find>button</find>
-      <find>button_c</find>
-      <find>.button_container span</find>
-      <find>.button_container span:nth-of-type(2)</find>
-      <find>.button_container span:nth-of-type(3)</find>
       <find>.bottom</find>
       <find>#welcome-msg {</find>
       <find>.over</find>
@@ -86,6 +81,16 @@
       <find>.card</find>
       <find>slide4-g</find>
       <find>.info</find>
+      <find>section4 h3</find>
+      <find>-5</find>
+      <find>DV</find>
+      <find>.left</find>
+      <find>#section4 p</find>
+      <find>.twitter-im</find>
+      <find>.svg-size</find>
+      <find>.social-img</find>
+      <find>.twitter-img</find>
+      <find>#section4 p</find>
     </findStrings>
     <replaceStrings>
       <replace>circleInfo[index].scale</replace>
@@ -109,8 +114,8 @@
         <option value="$PROJECT_DIR$/js/extension.js" />
         <option value="$PROJECT_DIR$/js/extension 2.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -281,14 +286,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="32921000" />
-    </task>
-    <task id="LOCAL-00032" summary="fixed typo added content for walldo">
-      <created>1504852112770</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1504852112770</updated>
+      <workItem from="1505637996960" duration="40656000" />
     </task>
     <task id="LOCAL-00033" summary="responsive on laptop">
       <created>1504932787090</created>
@@ -626,16 +624,24 @@
       <option name="project" value="LOCAL" />
       <updated>1505884952457</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="github button put right">
+      <created>1505885203604</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1505885203604</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161960000" />
+    <option name="totallyTimeSpent" value="169695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -669,7 +675,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="darth vader added" />
     <MESSAGE value="auto scroll added, horizontal nav removed on slides, auto scroll added for slides, github and googleplay buttons added appropriately" />
     <MESSAGE value="updated links for github and google play" />
     <MESSAGE value="screen shot changed" />
@@ -694,7 +699,8 @@
     <MESSAGE value="section 2 refactored" />
     <MESSAGE value="section 3 refactored desktop refactored" />
     <MESSAGE value="section 3 refactored desktop refactored 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="section 3 refactored desktop refactored 1" />
+    <MESSAGE value="github button put right" />
+    <option name="LAST_COMMIT_MESSAGE" value="github button put right" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,14 +1040,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2950">
-          <caret line="1252" column="1" lean-forward="false" selection-start-line="1252" selection-start-column="1" selection-end-line="1252" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/group-3.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1057,10 +1055,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/github-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5976">
-          <caret line="423" column="26" lean-forward="false" selection-start-line="423" selection-start-column="26" selection-end-line="423" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="334" column="39" lean-forward="false" selection-start-line="334" selection-start-column="39" selection-end-line="334" selection-end-column="39" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1068,9 +1071,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/github-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="1018" column="0" lean-forward="true" selection-start-line="1018" selection-start-column="0" selection-end-line="1018" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
