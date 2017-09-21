@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e8f354-3a57-4c38-a402-ff90f89bee15" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="prateek webpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -281,14 +280,7 @@
       <workItem from="1505111539524" duration="274000" />
       <workItem from="1505124973611" duration="2450000" />
       <workItem from="1505558720909" duration="7317000" />
-      <workItem from="1505637996960" duration="47521000" />
-    </task>
-    <task id="LOCAL-00039" summary="optimized images">
-      <created>1505036008813</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1505036008813</updated>
+      <workItem from="1505637996960" duration="47539000" />
     </task>
     <task id="LOCAL-00040" summary="changed link for walldo">
       <created>1505037542065</created>
@@ -626,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505986607436</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="section 3 refactored 2">
+      <created>1505987472627</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1505987472627</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176560000" />
+    <option name="totallyTimeSpent" value="176578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -670,7 +669,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="on the path to responsive design" />
     <MESSAGE value="responsive first two screens" />
     <MESSAGE value="fixed ipad pro" />
     <MESSAGE value="to check" />
@@ -695,7 +693,8 @@
     <MESSAGE value="refactored for mobile 3" />
     <MESSAGE value="refactored for mobile 4" />
     <MESSAGE value="section 3 refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="section 3 refactored" />
+    <MESSAGE value="section 3 refactored 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 3 refactored 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
