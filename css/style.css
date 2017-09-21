@@ -1069,7 +1069,7 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 
     .mobile-phone-img {
         margin: 11.5% auto 0;
-        width: 90%;
+        width: 80%;
     }
 
 }
@@ -1112,8 +1112,22 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
         margin-left: 17%;
     }
 
-}
+    .mobile-card h2 {
+        font-size: 6em;
+        margin-top: 20%;
+    }
 
+    .mobile-button {
+        width: 43%;
+        margin: 1% auto 0;
+    }
+
+    .mobile-phone-img {
+        margin: 11.5% auto 0;
+        width: 60%;
+    }
+
+}
 
 @media screen and (min-width:37.5em)  {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -1165,13 +1179,13 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     }
 
     .mobile-button {
-        width: 30%;
+        width: 40%;
         margin: 1% auto 0;
     }
 
     .mobile-phone-img {
         margin: 2.5% auto 0;
-        width: 50%;
+        width: 65%;
     }
 
 
@@ -1188,6 +1202,21 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 
     #section4 p {
         font-size: 3.5em;
+    }
+
+    .mobile-card h2 {
+        font-size: 5em;
+        margin-top: 11%;
+    }
+
+    .mobile-button {
+        width: 30%;
+        margin: 1% auto 0;
+    }
+
+    .mobile-phone-img {
+        margin: 2.5% auto 0;
+        width: 55%;
     }
 
 }
@@ -1250,6 +1279,14 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     .twitter-img {
         margin-left: 8%;
     }
+
+
+    .mobile-phone-img {
+        margin: 2.5% auto 0;
+        width: 50%;
+    }
+
+
 
 }
 
