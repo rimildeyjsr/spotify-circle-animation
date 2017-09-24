@@ -97,6 +97,7 @@
 
             <div class="section" id="section3">
                 <h1>Projects</h1>
+
                 <div class="slide" id="slide1" data-anchor="slideOne">
                     <div class="layer container-3" data-depth="0.8">
                         <div class="card">
@@ -137,7 +138,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="slide" id="slide2" data-anchor="slideTwo">
                     <div class="layer container-3" data-depth="0.8">
                         <div class="card">
@@ -313,6 +313,8 @@
                     </div>
                 </div>
 
+
+
                 <div class="layer" id="circle-wrapper-1-3" data-depth="0.6"></div>
                 <div class="layer" id="circle-wrapper-2-3" data-depth="0.5"></div>
                 <div class="layer" id="circle-wrapper-3-3" data-depth="0.4"></div>
@@ -364,19 +366,27 @@
         <script src="js/jquery.slimscroll.min.js"></script>
         <script src="js/jquery.fullPage.min.js"></script>
         <script>
+
             var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
             $(document).ready(function(){
                 const scene = document.getElementById('fullpage');
-                const parallax = new Parallax(scene, {
-                    invertX: true,
-                    invertY: true,
-                    limitX:35,
-                    limitY:35
-                });
-
-
-                //var slideIndex2 = 1, sliding = false, slideLinkClick = false, link;
+                if(window.innerWidth < 600){
+                    const parallax = new Parallax(scene, {
+                        invertX: true,
+                        invertY: true,
+                        limitX:15,
+                        limitY:15
+                    });
+                }
+                else {
+                    const parallax = new Parallax(scene, {
+                        invertX: true,
+                        invertY: true,
+                        limitX:35,
+                        limitY:35
+                    });
+                }
 
                 var indexSlide = 0, sliding = true;
 
@@ -421,12 +431,22 @@
                                 $('.card').css('opacity','1');
                             });
 
-                         /* if(sliding) {
+                            $('#slide1 .mobile-card h2').addClass('come-in').one(animationEnd, function () {
+                                $('#slide1 .mobile-button').addClass('come-in').one(animationEnd,function () {
+                                    $('#slide1 .mobile-phone-img').addClass('come-in').one(animationEnd,function () {
+                                        $('.mobile-button').css('opacity','1');
+                                        $('.mobile-card h2').css('opacity','1');
+                                        $('.mobile-phone-img').css('opacity','1');
+                                    })
+                                })
+                            });
+                          if(sliding) {
                               var id = setInterval(function () {
                                   $.fn.fullpage.moveSlideRight();
                                   indexSlide++;
                               }, 5000);
                           }
+
 
                           /*  var slides = $('.card');
 
@@ -475,7 +495,7 @@
                         }
                     },
 
-                    onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
+                   onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
                         var isFirst = direction === 'right' && nextSlideIndex > slideIndex + 1;
                         var isLast = direction === 'left' && slideIndex > nextSlideIndex + 1;
                         $(this).parent().toggleClass('no_transition', isFirst || isLast);
@@ -708,6 +728,8 @@
                         'left':circleInfo[index + (7 * (secId -1)) ].left+'%',
                         'top':circleInfo[index + (7 * (secId -1)) ].top+'%'
                     }).appendTo(circleInfo[index + (7 * (secId -1)) ].layer).addClass('animate');
+
+                    console.log(circleInfo[index + (7 * (secId -1)) ].layer);
                 }
 
             });
@@ -715,3 +737,57 @@
         </script>
     </body>
 </html>
+
+<!--
+//section 1
+circle wrapper 1-1
+width: 80px;
+    height: 80px;
+    t: 92.78%;
+    top: 29.08%;
+    left: 8%;
+
+
+    width: 120px;
+    height: 120px;
+    left: 76.28%;
+    top: 88.7%;
+
+    width: 240px;
+    height: 240px;
+    left: -16.62%;
+    top: 63.75%;
+
+circle wrapper 2-1
+width: 250px;
+    height: 250px;
+    left: 49.54%;
+    top: 17.2%;
+
+circle wrapper 3-1
+
+    width: 135px;
+    height: 135px;
+    left: -5.9%;
+    top: 0%;
+
+        width: 40px;
+    height: 40px;
+    left: 53.14%;
+    top: 3%;
+
+    width: 50px;
+    height: 50px;
+    left: 64%;
+    t: 75%;
+    top: 67.08%;
+
+    //section 2
+
+    cir wr 1-2
+
+
+
+
+
+-->

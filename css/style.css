@@ -44,7 +44,7 @@ html,body{
     }
 }
 
-.section {
+.section, .slick-carousel {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
@@ -495,7 +495,7 @@ html,body{
     z-index: 20;
     display: block;
     text-align: left;
-    top: 5%;
+    top: 3.7%;
     left: 8%;
     color: #FFFFFF;
 }
@@ -647,7 +647,6 @@ html,body{
 
 #section4 h1,#section3 h1 {
     position: absolute;
-    top: 0.8em;
     font-family: Graphik-Semibold, Roboto;
     font-weight: 600;
     margin: 0;
@@ -764,8 +763,9 @@ html,body{
 
 .mobile-phone-img {
     display: block;
-    margin: 14% auto 0;
-    width: 88%;
+    margin: 3% auto 0;
+    width: 77%;
+    opacity: 0;
 }
 
 .mobile-card h2 {
@@ -775,12 +775,14 @@ html,body{
     margin-top: 30%;
     font-weight: normal;
     font-family: Graphik-Semibold, Roboto;
+    opacity: 0;
 }
 
 .mobile-button {
     width: 50%;
     margin: 4% auto 0;
     display: block;
+    opacity: 0;
 }
 
 .mobile-left-icon {
@@ -809,7 +811,7 @@ html,body{
 }
 
 .special-margin {
-    margin: 17% auto 0;
+    margin: 6% auto 0;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
@@ -941,7 +943,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 
     #section3 h1, #section4 h1 {
         font-size: 3em;
-        top: 1.5em;
         left: 4em;
     }
 
@@ -1521,7 +1522,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
 
     #section3 h1, #section4 h1 {
         font-size: 2em;
-        top: 0.8em;
         left: 3em;
     }
 
@@ -1549,11 +1549,6 @@ _::-webkit-full-page-media, _:future, :root .github-googleplay-button {
     html,body {
         font-size: 16px;
     }
-
-    #section4 h1,#section3 h1 {
-        top: 1em;
-    }
-
 }
 
 @media screen and (min-width: 105em) {
