@@ -369,7 +369,15 @@
 
             var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
+            $('#section3 h1').css('visibility','hidden');
+            $('#section4 h1').css('visibility','hidden');
+            $('#welcome-msg').css('visibility','hidden');
+
             $(document).ready(function(){
+                $('#section3 h1').css('visibility','visible');
+                $('#section4 h1').css('visibility','visible');
+                $('#welcome-msg').css('visibility','visible');
+
                 const scene = document.getElementById('fullpage');
                 if(window.innerWidth < 600){
                     const parallax = new Parallax(scene, {
@@ -388,7 +396,7 @@
                     });
                 }
 
-                var indexSlide = 0, sliding = true;
+                var indexSlide = 0, sliding = true,id;
 
                 $('#fullpage').fullpage({
 
@@ -440,41 +448,13 @@
                                     })
                                 })
                             });
-                          if(sliding) {
-                              var id = setInterval(function () {
-                                  $.fn.fullpage.moveSlideRight();
-                                  indexSlide++;
-                              }, 5000);
-                          }
 
-
-                          /*  var slides = $('.card');
-
-                            slides.first().before(slides.last());
-
-                            $('button').on('click', function() {
-
-                                slides = $('.card');
-
-                                var button = $(this);
-
-                                var activeSlide = $('.active');
-
-                                if (button.attr('id') == 'next') {
-
-                                    slides.last().after(slides.first());
-
-                                    activeSlide.removeClass('active').next('.card').addClass('active');
-                                }
-
-
-                                if (button.attr('id') == 'previous') {
-
-                                    slides.first().before(slides.last());
-                                    // Move active class to the left
-                                    activeSlide.removeClass('active').prev('.card').addClass('active');
-                                }
-                            });*/
+                            if(sliding) {
+                                id = setInterval(function () {
+                                    $.fn.fullpage.moveSlideRight();
+                                    indexSlide++;
+                                }, 5000);
+                            }
 
                         }
 
@@ -495,12 +475,16 @@
                         }
                     },
 
-                   onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
+                    onLeave: function(index, nextIndex, direction){
+                       clearInterval(id);
+                    },
+
+                    onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
                         var isFirst = direction === 'right' && nextSlideIndex > slideIndex + 1;
                         var isLast = direction === 'left' && slideIndex > nextSlideIndex + 1;
                         $(this).parent().toggleClass('no_transition', isFirst || isLast);
-                    },
-
+                        $(this).parent().toggleClass('no_transition', isFirst || isLast);
+                    }
 
                 });
 
